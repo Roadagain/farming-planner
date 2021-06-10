@@ -26,7 +26,7 @@ const maps: FarmingMap[] = [
   }
 ]
 
-test('周回計画ツール', () => {
+describe('周回計画ツール', () => {
   it('アイテムが1つの場合は最高効率のマップを返す', () => {
     const requiredItems: RequiredItem[] = [{
       name: 'alpha',
@@ -49,7 +49,7 @@ test('周回計画ツール', () => {
       },
       {
         name: 'beta',
-        count: 2,
+        count: 1,
       }
     ]
 
