@@ -5,3 +5,8 @@ export type FarmingMap = {
     [K: string]: number
   }
 }
+
+export type Efficency = {
+  farmingMap: FarmingMap
+  cost: number
+}
