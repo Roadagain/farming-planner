@@ -5,6 +5,9 @@
   "repository": "https://github.com/Roadagain/farming-planner.git",
   "author": "Roadagain <ringoh72@gmail.com>",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "jest": "^27.0.4",
