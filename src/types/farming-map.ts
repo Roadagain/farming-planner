@@ -1,12 +1,7 @@
 export type FarmingMap = {
   name: string
   cost: number
-  itemDrop: {
+  itemDrops: {
     [K: string]: number
   }
-}
-
-export type Efficency = {
-  farmingMap: FarmingMap
-  cost: number
 }

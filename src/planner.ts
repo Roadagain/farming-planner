@@ -1,26 +1,8 @@
-import { FarmingMap, Efficency, RequiredItem, FarmingPlan } from './types'
-
-export const calcMaxEfficencies = (farmingMaps: FarmingMap[]): Map<string, Efficency> => {
-  const maxEfficencies: Map<string, Efficency> = new Map()
-  farmingMaps.forEach(farmingMap => {
-    const { itemDrop, cost } = farmingMap
-    Object.entries(itemDrop).forEach(([name, percentage]) => {
-      const currentMaxEfficency = maxEfficencies.get(name)
-      const currentEfficencyCost = cost / percentage
-      if (!currentMaxEfficency || currentEfficencyCost < currentMaxEfficency.cost) {
-        maxEfficencies.set(name, {
-          farmingMap,
-          cost: currentEfficencyCost
-        })
-      }
-    })
-  })
-
-  return maxEfficencies
-}
+import { calcMaxItemFarmingEfficencies } from './farming-efficiency-calculator'
+import { FarmingMap, RequiredItem, FarmingPlan } from './types'
 
 export const planFarming = (farmingMaps: FarmingMap[], requiredItems: RequiredItem[]): FarmingPlan => {
-  const maxEfficencies = calcMaxEfficencies(farmingMaps)
+  const maxEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
   return requiredItems.map(requiredItem => {
     const { name, count } = requiredItem
     const efficency = maxEfficencies.get(name)
@@ -33,7 +15,7 @@ export const planFarming = (farmingMaps: FarmingMap[], requiredItems: RequiredIt
     }
     return {
       name: efficency.farmingMap.name,
-      count: Math.floor(count / efficency.farmingMap.itemDrop[name])
+      count: Math.floor(count / efficency.farmingMap.itemDrops[name])
     }
   })
 }

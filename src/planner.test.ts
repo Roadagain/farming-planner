@@ -5,21 +5,21 @@ const maps: FarmingMap[] = [
   {
     name: 'Aries',
     cost: 10,
-    itemDrop: {
+    itemDrops: {
       'alpha': 0.5,
     }
   },
   {
     name: 'Taurus',
     cost: 10,
-    itemDrop: {
+    itemDrops: {
       'beta': 0.5,
     }
   },
   {
     name: 'Gemini',
     cost: 8,
-    itemDrop: {
+    itemDrops: {
       'alpha': 0.25,
       'beta': 0.25
     }
