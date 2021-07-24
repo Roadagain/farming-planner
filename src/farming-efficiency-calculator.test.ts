@@ -59,6 +59,7 @@ describe('周回効率計算', () => {
           count: 1,
         }
       ]
+      const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
       const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
         {
           farmingMap: ariesMap,
@@ -73,7 +74,7 @@ describe('周回効率計算', () => {
           score: 16
         }
       ]
-      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems)
+      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems, maxItemFarmingEfficencies)
       expect(mapFarmingEfficiencies).toMatchObject(expectedMapFarmingEfficiencies)
     })
 
@@ -85,6 +86,7 @@ describe('周回効率計算', () => {
           count: 1,
         }
       ]
+      const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
       const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
         {
           farmingMap: ariesMap,
@@ -99,7 +101,7 @@ describe('周回効率計算', () => {
           score: 8
         }
       ]
-      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems)
+      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems, maxItemFarmingEfficencies)
       expect(mapFarmingEfficiencies).toMatchObject(expectedMapFarmingEfficiencies)
     })
   })

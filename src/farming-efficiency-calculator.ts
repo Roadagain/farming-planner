@@ -20,8 +20,7 @@ export const calcMaxItemFarmingEfficencies = (farmingMaps: FarmingMap[]): Map<st
   return maxEfficencies
 }
 
-export const calcMapFarmingEfficiencies = (farmingMaps: FarmingMap[], requiredItems: RequiredItem[]): MapFarmingEfficiency[] => {
-  const maxItemFarmingEfficiencies = calcMaxItemFarmingEfficencies(farmingMaps)
+export const calcMapFarmingEfficiencies = (farmingMaps: FarmingMap[], requiredItems: RequiredItem[], maxItemFarmingEfficiencies: Map<string, ItemFarmingEfficiency>): MapFarmingEfficiency[] => {
   const requiredItemNames = requiredItems.map(({ name }) => name)
   return farmingMaps.map(farmingMap => {
     const { cost, itemDrops } = farmingMap
