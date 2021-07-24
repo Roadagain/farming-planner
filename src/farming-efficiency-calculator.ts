@@ -20,11 +20,15 @@ export const calcMaxItemFarmingEfficencies = (farmingMaps: FarmingMap[]): Map<st
   return maxEfficencies
 }
 
-export const calcMapFarmingEfficiencies = (farmingMaps: FarmingMap[]): MapFarmingEfficiency[] => {
+export const calcMapFarmingEfficiencies = (farmingMaps: FarmingMap[], requiredItems: RequiredItem[]): MapFarmingEfficiency[] => {
   const maxItemFarmingEfficiencies = calcMaxItemFarmingEfficencies(farmingMaps)
+  const requiredItemNames = requiredItems.map(({ name }) => name)
   return farmingMaps.map(farmingMap => {
     const { cost, itemDrops } = farmingMap
     const itemCosts = Object.entries(itemDrops).map(([name, probability]) => {
+      if (!requiredItemNames.includes(name)) {
+        return 0
+      }
       const maxEfficientCost = maxItemFarmingEfficiencies.get(name)?.cost || Infinity
       const currentEfficencyCost = cost / probability
       return cost * maxEfficientCost / currentEfficencyCost

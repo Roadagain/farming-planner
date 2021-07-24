@@ -49,6 +49,16 @@ describe('周回効率計算', () => {
   describe('マップごとの効率計算', () => {
     it('各アイテムの最高効率に基づいた各マップごとのスタミナ効率が返る', () => {
       const farmingMaps = [ariesMap, taurusMap, geminiMap]
+      const requiredItems = [
+        {
+          name: 'alpha',
+          count: 1,
+        },
+        {
+          name: 'beta',
+          count: 1,
+        }
+      ]
       const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
         {
           farmingMap: ariesMap,
@@ -63,7 +73,33 @@ describe('周回効率計算', () => {
           score: 16
         }
       ]
-      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps)
+      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems)
+      expect(mapFarmingEfficiencies).toMatchObject(expectedMapFarmingEfficiencies)
+    })
+
+    it('不要なアイテムはマップ効率の計算に含まれない', () => {
+      const farmingMaps = [ariesMap, taurusMap, geminiMap]
+      const requiredItems = [
+        {
+          name: 'alpha',
+          count: 1,
+        }
+      ]
+      const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
+        {
+          farmingMap: ariesMap,
+          score: 10
+        },
+        {
+          farmingMap: taurusMap,
+          score: 0
+        },
+        {
+          farmingMap: geminiMap,
+          score: 8
+        }
+      ]
+      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems)
       expect(mapFarmingEfficiencies).toMatchObject(expectedMapFarmingEfficiencies)
     })
   })
