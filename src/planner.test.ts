@@ -73,4 +73,13 @@ describe('周回計画ツール', () => {
     ]
     expect(plan).toMatchObject(expected)
   })
+
+  it('周回でドロップしないアイテムが必要な場合Errorをthrowする', () => {
+    const farmingMaps = [ariesMap, taurusMap, geminiMap]
+    const requiredItems: RequiredItem[] = [{
+      name: 'gamma',
+      count: 100
+    }]
+    expect(() => planFarming(farmingMaps, requiredItems)).toThrowError('周回では収集不可能')
+  })
 })
