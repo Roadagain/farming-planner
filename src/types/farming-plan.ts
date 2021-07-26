@@ -1,5 +1,7 @@
+import { FarmingMap } from "./farming-map"
+
 export type FarmCount = {
-  name: string
+  farmingMap: FarmingMap
   count: number
 }
 
