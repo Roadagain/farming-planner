@@ -5,13 +5,13 @@ export const calcMaxItemFarmingEfficencies = (farmingMaps: FarmingMap[]): Map<st
   farmingMaps.forEach(farmingMap => {
     const { itemDrops: itemDrop, cost } = farmingMap
     Object.entries(itemDrop).forEach(([name, percentage]) => {
-      const currentMaxEfficency = maxEfficencies.get(name)
-      const currentEfficencyCost = cost / percentage
-      if (!currentMaxEfficency || currentEfficencyCost < currentMaxEfficency.cost) {
+      const mostEfficientMapCost = maxEfficencies.get(name)?.cost || Infinity
+      const currentEfficiencyCost = cost / percentage
+      if (currentEfficiencyCost < mostEfficientMapCost) {
         maxEfficencies.set(name, {
           name,
           farmingMap,
-          cost: currentEfficencyCost
+          cost: currentEfficiencyCost
         })
       }
     })
@@ -24,15 +24,14 @@ export const calcMapFarmingEfficiencies = (farmingMaps: FarmingMap[], requiredIt
   const requiredItemNames = requiredItems.map(({ name }) => name)
   return farmingMaps.map(farmingMap => {
     const { cost, itemDrops } = farmingMap
-    const itemCosts = Object.entries(itemDrops).map(([name, probability]) => {
+    const itemEfficiencyCosts = Object.entries(itemDrops).map(([name, probability]) => {
       if (!requiredItemNames.includes(name)) {
         return 0
       }
-      const maxEfficientCost = maxItemFarmingEfficiencies.get(name)?.cost || Infinity
-      const currentEfficencyCost = cost / probability
-      return cost * maxEfficientCost / currentEfficencyCost
+      const maxEfficientCost = maxItemFarmingEfficiencies.get(name)?.cost || 0
+      return maxEfficientCost * probability
     })
-    const score = itemCosts.reduce((a, b) => a + b)
+    const score = itemEfficiencyCosts.reduce((a, b) => a + b) / cost
 
     return {
       farmingMap,

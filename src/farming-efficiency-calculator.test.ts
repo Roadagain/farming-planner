@@ -17,10 +17,10 @@ const taurusMap: FarmingMap = {
 }
 const geminiMap: FarmingMap = {
   name: 'Gemini',
-  cost: 10,
+  cost: 8,
   itemDrops: {
-    'alpha': 0.8,
-    'beta': 0.8,
+    'alpha': 0.5,
+    'beta': 0.5,
   }
 }
 
@@ -63,15 +63,15 @@ describe('周回効率計算', () => {
       const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
         {
           farmingMap: ariesMap,
-          score: 10
+          score: 1
         },
         {
           farmingMap: taurusMap,
-          score: 10
+          score: 1
         },
         {
           farmingMap: geminiMap,
-          score: 16
+          score: 1.25
         }
       ]
       const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems, maxItemFarmingEfficencies)
@@ -90,7 +90,7 @@ describe('周回効率計算', () => {
       const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
         {
           farmingMap: ariesMap,
-          score: 10
+          score: 1
         },
         {
           farmingMap: taurusMap,
@@ -98,7 +98,7 @@ describe('周回効率計算', () => {
         },
         {
           farmingMap: geminiMap,
-          score: 8
+          score: 0.625
         }
       ]
       const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems, maxItemFarmingEfficencies)
