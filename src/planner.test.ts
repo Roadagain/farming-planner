@@ -26,60 +26,62 @@ const geminiMap = {
 
 const maps: FarmingMap[] = [ariesMap, taurusMap, geminiMap]
 
-describe('周回計画ツール', () => {
-  it('必要アイテムがない場合は空の周回計画を返す', () => {
-    const requiredItems: RequiredItem[] = []
-    const plan = planFarming(maps, requiredItems)
-    const expected: FarmingPlan = []
-    expect(plan).toMatchObject(expected)
-  })
+describe('周回計画立案', () => {
+  describe('計画立案', () => {
+    it('必要アイテムがない場合は空の周回計画を返す', () => {
+      const requiredItems: RequiredItem[] = []
+      const plan = planFarming(maps, requiredItems)
+      const expected: FarmingPlan = []
+      expect(plan).toMatchObject(expected)
+    })
 
-  it('アイテムが1つの場合は最高効率のマップを返す', () => {
-    const requiredItems: RequiredItem[] = [{
-      name: 'alpha',
-      count: 1,
-    }]
-
-    const plan = planFarming(maps, requiredItems)
-    const expected: FarmingPlan = [{
-      farmingMap: ariesMap,
-      count: 2
-    }]
-    expect(plan).toMatchObject(expected)
-  })
-
-  it('アイテムが2つ以上の場合は累計コストが最小の計画を立てる', () => {
-    const requiredItems: RequiredItem[] = [
-      {
+    it('アイテムが1つの場合は最高効率のマップを返す', () => {
+      const requiredItems: RequiredItem[] = [{
         name: 'alpha',
-        count: 2,
-      },
-      {
-        name: 'beta',
         count: 1,
-      }
-    ]
+      }]
 
-    const plan = planFarming(maps, requiredItems)
-    const expected: FarmingPlan = [
-      {
-        farmingMap: geminiMap,
-        count: 4
-      },
-      {
+      const plan = planFarming(maps, requiredItems)
+      const expected: FarmingPlan = [{
         farmingMap: ariesMap,
-        count: 2,
-      }
-    ]
-    expect(plan).toMatchObject(expected)
-  })
+        count: 2
+      }]
+      expect(plan).toMatchObject(expected)
+    })
 
-  it('周回でドロップしないアイテムが必要な場合Errorをthrowする', () => {
-    const farmingMaps = [ariesMap, taurusMap, geminiMap]
-    const requiredItems: RequiredItem[] = [{
-      name: 'gamma',
-      count: 100
-    }]
-    expect(() => planFarming(farmingMaps, requiredItems)).toThrowError('周回では収集不可能')
+    it('アイテムが2つ以上の場合は累計コストが最小の計画を立てる', () => {
+      const requiredItems: RequiredItem[] = [
+        {
+          name: 'alpha',
+          count: 2,
+        },
+        {
+          name: 'beta',
+          count: 1,
+        }
+      ]
+
+      const plan = planFarming(maps, requiredItems)
+      const expected: FarmingPlan = [
+        {
+          farmingMap: geminiMap,
+          count: 4
+        },
+        {
+          farmingMap: ariesMap,
+          count: 2,
+        }
+      ]
+      expect(plan).toMatchObject(expected)
+    })
+
+    it('周回でドロップしないアイテムが必要な場合Errorをthrowする', () => {
+      const farmingMaps = [ariesMap, taurusMap, geminiMap]
+      const requiredItems: RequiredItem[] = [{
+        name: 'gamma',
+        count: 100
+      }]
+      expect(() => planFarming(farmingMaps, requiredItems)).toThrowError('周回では収集不可能')
+    })
   })
 })
