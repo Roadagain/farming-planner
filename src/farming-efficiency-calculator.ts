@@ -1,8 +1,8 @@
-import { ItemFarmingEfficiency, FarmingMap, RequiredItem, MapFarmingEfficiency } from "./types"
+import { ItemFarmingEfficiency, FarmingMap, RequiredItem, MapFarmingEfficiency } from './types'
 
 export const calcMaxItemFarmingEfficencies = (farmingMaps: FarmingMap[]): Map<string, ItemFarmingEfficiency> => {
   const maxEfficencies: Map<string, ItemFarmingEfficiency> = new Map()
-  farmingMaps.forEach(farmingMap => {
+  farmingMaps.forEach((farmingMap) => {
     const { itemDrops: itemDrop, cost } = farmingMap
     Object.entries(itemDrop).forEach(([name, percentage]) => {
       const mostEfficientMapCost = maxEfficencies.get(name)?.cost || Infinity
@@ -11,7 +11,7 @@ export const calcMaxItemFarmingEfficencies = (farmingMaps: FarmingMap[]): Map<st
         maxEfficencies.set(name, {
           name,
           farmingMap,
-          cost: currentEfficiencyCost
+          cost: currentEfficiencyCost,
         })
       }
     })
@@ -20,9 +20,13 @@ export const calcMaxItemFarmingEfficencies = (farmingMaps: FarmingMap[]): Map<st
   return maxEfficencies
 }
 
-export const calcMapFarmingEfficiencies = (farmingMaps: FarmingMap[], requiredItems: RequiredItem[], maxItemFarmingEfficiencies: Map<string, ItemFarmingEfficiency>): MapFarmingEfficiency[] => {
+export const calcMapFarmingEfficiencies = (
+  farmingMaps: FarmingMap[],
+  requiredItems: RequiredItem[],
+  maxItemFarmingEfficiencies: Map<string, ItemFarmingEfficiency>,
+): MapFarmingEfficiency[] => {
   const requiredItemNames = requiredItems.map(({ name }) => name)
-  return farmingMaps.map(farmingMap => {
+  return farmingMaps.map((farmingMap) => {
     const { cost, itemDrops } = farmingMap
     const itemEfficiencyCosts = Object.entries(itemDrops).map(([name, probability]) => {
       if (!requiredItemNames.includes(name)) {
@@ -35,7 +39,7 @@ export const calcMapFarmingEfficiencies = (farmingMaps: FarmingMap[], requiredIt
 
     return {
       farmingMap,
-      score
+      score,
     }
   })
 }
