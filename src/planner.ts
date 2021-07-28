@@ -16,8 +16,8 @@ export const planFarming = (farmingMaps: FarmingMap[], requiredItems: RequiredIt
     const maxEfficientFarmingMap = mapFarmingEfficiencies.reduce((a, b) => (a.score >= b.score ? a : b)).farmingMap
 
     // どれか1つが要求数0になるまでの周回数を計算
-    const farmingCounts = Object.entries(maxEfficientFarmingMap.itemDrops)
-      .map(([name, probability]) => {
+    const farmingCounts = maxEfficientFarmingMap.itemDrops
+      .map(({ name, probability }) => {
         const requiredCount = remainRequiredItems.get(name) || 0
         return Math.ceil(requiredCount / probability)
       })
@@ -32,7 +32,7 @@ export const planFarming = (farmingMaps: FarmingMap[], requiredItems: RequiredIt
     })
 
     // 計算した周回数で出てくる分だけ必要アイテムを減らす
-    Object.entries(maxEfficientFarmingMap.itemDrops).forEach(([name, probability]) => {
+    maxEfficientFarmingMap.itemDrops.forEach(({ name, probability }) => {
       const requiredCount = remainRequiredItems.get(name)
       const remainRequiredCount = requiredCount ? requiredCount - Math.floor(minFarmingCount * probability) : 0
       if (remainRequiredCount === 0) {

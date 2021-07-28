@@ -1,27 +1,39 @@
 import { FarmCount, FarmingMap, RequiredItem } from './types'
 import { planFarming } from './planner'
 
-const ariesMap = {
+const ariesMap: FarmingMap = {
   name: 'Aries',
   cost: 10,
-  itemDrops: {
-    alpha: 0.5,
-  },
+  itemDrops: [
+    {
+      name: 'alpha',
+      probability: 0.5,
+    },
+  ],
 }
-const taurusMap = {
+const taurusMap: FarmingMap = {
   name: 'Taurus',
   cost: 10,
-  itemDrops: {
-    beta: 0.5,
-  },
+  itemDrops: [
+    {
+      name: 'beta',
+      probability: 0.5,
+    },
+  ],
 }
-const geminiMap = {
+const geminiMap: FarmingMap = {
   name: 'Gemini',
   cost: 8,
-  itemDrops: {
-    alpha: 0.25,
-    beta: 0.25,
-  },
+  itemDrops: [
+    {
+      name: 'alpha',
+      probability: 0.25,
+    },
+    {
+      name: 'beta',
+      probability: 0.25,
+    },
+  ],
 }
 
 const maps: FarmingMap[] = [ariesMap, taurusMap, geminiMap]

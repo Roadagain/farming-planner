@@ -4,24 +4,36 @@ import { ItemFarmingEfficiency, FarmingMap, MapFarmingEfficiency } from './types
 const ariesMap: FarmingMap = {
   name: 'Aries',
   cost: 10,
-  itemDrops: {
-    alpha: 1,
-  },
+  itemDrops: [
+    {
+      name: 'alpha',
+      probability: 1,
+    },
+  ],
 }
 const taurusMap: FarmingMap = {
   name: 'Taurus',
   cost: 10,
-  itemDrops: {
-    beta: 1,
-  },
+  itemDrops: [
+    {
+      name: 'beta',
+      probability: 1,
+    },
+  ],
 }
 const geminiMap: FarmingMap = {
   name: 'Gemini',
   cost: 8,
-  itemDrops: {
-    alpha: 0.5,
-    beta: 0.5,
-  },
+  itemDrops: [
+    {
+      name: 'alpha',
+      probability: 0.5,
+    },
+    {
+      name: 'beta',
+      probability: 0.5,
+    },
+  ],
 }
 
 describe('周回効率計算', () => {
