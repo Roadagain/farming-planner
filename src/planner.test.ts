@@ -1,4 +1,4 @@
-import { FarmingMap, RequiredItem, FarmingPlan } from './types'
+import { FarmCount, FarmingMap, RequiredItem } from './types'
 import { planFarming } from './planner'
 
 const ariesMap = {
@@ -31,7 +31,7 @@ describe('周回計画立案', () => {
     it('必要アイテムがない場合は空の周回計画を返す', () => {
       const requiredItems: RequiredItem[] = []
       const plan = planFarming(maps, requiredItems)
-      const expected: FarmingPlan = []
+      const expected: FarmCount[] = []
       expect(plan).toMatchObject(expected)
     })
 
@@ -42,7 +42,7 @@ describe('周回計画立案', () => {
       }]
 
       const plan = planFarming(maps, requiredItems)
-      const expected: FarmingPlan = [{
+      const expected: FarmCount[] = [{
         farmingMap: ariesMap,
         count: 2
       }]
@@ -62,7 +62,7 @@ describe('周回計画立案', () => {
       ]
 
       const plan = planFarming(maps, requiredItems)
-      const expected: FarmingPlan = [
+      const expected: FarmCount[] = [
         {
           farmingMap: geminiMap,
           count: 4

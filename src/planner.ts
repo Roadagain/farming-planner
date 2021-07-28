@@ -1,10 +1,10 @@
 import { calcMapFarmingEfficiencies, calcMaxItemFarmingEfficencies } from './farming-efficiency-calculator'
-import { FarmingMap, RequiredItem, FarmingPlan } from './types'
+import { FarmCount, FarmingMap, RequiredItem } from './types'
 
-export const planFarming = (farmingMaps: FarmingMap[], requiredItems: RequiredItem[]): FarmingPlan => {
+export const planFarming = (farmingMaps: FarmingMap[], requiredItems: RequiredItem[]): FarmCount[] => {
   const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
 
-  const farmingPlan: FarmingPlan = []
+  const farmingPlan: FarmCount[] = []
   const remainRequiredItems = new Map<string, number>(requiredItems.map(({ name, count }) => [name, count]))
   while (remainRequiredItems.size > 0) {
     // 現時点での最高効率マップを計算
