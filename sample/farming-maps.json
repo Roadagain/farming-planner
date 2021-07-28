@@ -1,0 +1,38 @@
+{
+  "farmingMaps": [
+    {
+      "name": "Aries",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "alpha",
+          "probability": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Taurus",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "beta",
+          "probability": 1.2
+        }
+      ]
+    },
+    {
+      "name": "Aries",
+      "cost": 30,
+      "itemDrops": [
+        {
+          "name": "alpha",
+          "probability": 0.8
+        },
+        {
+          "name": "beta",
+          "probability": 0.8
+        }
+      ]
+    }
+  ]
+}
