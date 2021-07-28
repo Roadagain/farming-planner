@@ -1,5 +1,5 @@
 import { calcMapFarmingEfficiencies, calcMaxItemFarmingEfficencies } from "./farming-efficiency-calculator"
-import { ItemFarmingEfficiency, FarmingMap, RequiredItem, MapFarmingEfficiency } from "./types"
+import { ItemFarmingEfficiency, FarmingMap, MapFarmingEfficiency } from "./types"
 
 const ariesMap: FarmingMap = {
   name: 'Aries',
