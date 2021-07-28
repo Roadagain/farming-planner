@@ -15,7 +15,9 @@ jobs:
           cache: 'yarn'
       - name: Install packages
         run: yarn --frozen-lockfile
-      - name: eslint
+      - name: Run test
+        run: yarn test
+      - name: Run eslint
         run: yarn lint:eslint
-      - name: prettier
+      - name: Run prettier
         run: yarn lint:prettier
