@@ -8,13 +8,13 @@ type Props = {
 }
 
 const FileLoader: React.FC<Props> = ({ text }) => {
-  const [file, setFile] = React.useState<File>()
+  const [fileName, setFileName] = React.useState<string>('')
   const { setFarmingMaps } = React.useContext(FarmingContext)
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
     if (!e.target.files) {
       return
     }
-    setFile(e.target.files[0])
+    setFileName(e.target.files[0].name)
     setFarmingMaps(await loadFarmingMapsFromJson(await e.target.files[0].text()))
   }
   return (
@@ -23,7 +23,7 @@ const FileLoader: React.FC<Props> = ({ text }) => {
         {text}
         <input type="file" hidden onChange={onLoadFile} />
       </Button>
-      {file?.name}
+      {fileName}
     </Card>
   )
 }
