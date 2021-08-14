@@ -9,7 +9,7 @@ type Props = {
 
 const FileLoader: React.FC<Props> = ({ text }) => {
   const [fileName, setFileName] = React.useState<string>('')
-  const { setFarmingMaps, setRequiredItems } = React.useContext(FarmingContext)
+  const { setFarmingMaps, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
     if (!e.target.files) {
       return
@@ -27,6 +27,7 @@ const FileLoader: React.FC<Props> = ({ text }) => {
         count: 0
       }
     }))
+    setFarmingPlan(null)
   }
   return (
     <Card>
