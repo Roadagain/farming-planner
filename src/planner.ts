@@ -35,7 +35,7 @@ export const planFarming = (farmingMaps: FarmingMap[], requiredItems: RequiredIt
     maxEfficientFarmingMap.itemDrops.forEach(({ name, probability }) => {
       const requiredCount = remainRequiredItems.get(name)
       const remainRequiredCount = requiredCount ? requiredCount - Math.floor(minFarmingCount * probability) : 0
-      if (remainRequiredCount === 0) {
+      if (remainRequiredCount <= 0) {
         remainRequiredItems.delete(name)
         return
       }
