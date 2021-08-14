@@ -22,6 +22,6 @@ module.exports = {
     },
   },
   rules: {
-    "react/prop-types": "off"
-  }
+    'react/prop-types': 'off',
+  },
 }

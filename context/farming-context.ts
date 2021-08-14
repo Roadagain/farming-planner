@@ -1,5 +1,5 @@
-import { createContext } from "react";
-import { FarmingMap } from "../src/types";
+import { createContext } from 'react'
+import { FarmingMap } from '../src/types'
 
 export type FarmingContextValue = {
   farmingMaps: FarmingMap[] | null
@@ -10,7 +10,7 @@ const FarmingContext = createContext<FarmingContextValue>({
   farmingMaps: null,
   setFarmingMaps() {
     return
-  }
+  },
 })
 
 export default FarmingContext

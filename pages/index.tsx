@@ -7,15 +7,17 @@ const index: React.FC = () => {
   const [farmingMaps, setFarmingMaps] = React.useState<FarmingMap[] | null>(null)
   const farmingContextValue = {
     farmingMaps,
-    setFarmingMaps
+    setFarmingMaps,
   }
 
-  return <main>
-    周回計画計算機
-    <FarmingContext.Provider value={farmingContextValue}>
-      <FileLoader text="Upload file" />
-    </FarmingContext.Provider>
-  </main>
+  return (
+    <main>
+      周回計画計算機
+      <FarmingContext.Provider value={farmingContextValue}>
+        <FileLoader text="Upload file" />
+      </FarmingContext.Provider>
+    </main>
+  )
 }
 
 export default index
