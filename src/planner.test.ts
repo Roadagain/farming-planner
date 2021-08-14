@@ -91,6 +91,28 @@ describe('周回計画立案', () => {
       expect(plan).toMatchObject(expected)
     })
 
+    it('要求数が0のアイテムは無視する', () => {
+      const requiredItems: RequiredItem[] = [
+        {
+          name: 'alpha',
+          count: 1,
+        },
+        {
+          name: 'beta',
+          count: 0,
+        }
+      ]
+
+      const plan = planFarming(maps, requiredItems)
+      const expected: FarmCount[] = [
+        {
+          farmingMap: ariesMap,
+          count: 2,
+        },
+      ]
+      expect(plan).toMatchObject(expected)
+    })
+
     it('周回でドロップしないアイテムが必要な場合Errorをthrowする', () => {
       const farmingMaps = [ariesMap, taurusMap, geminiMap]
       const requiredItems: RequiredItem[] = [

@@ -25,7 +25,7 @@ export const calcMapFarmingEfficiencies = (
   requiredItems: RequiredItem[],
   maxItemFarmingEfficiencies: Map<string, ItemFarmingEfficiency>,
 ): MapFarmingEfficiency[] => {
-  const requiredItemNames = requiredItems.map(({ name }) => name)
+  const requiredItemNames = requiredItems.filter(({ count }) => count).map(({ name }) => name)
   return farmingMaps.map((farmingMap) => {
     const { cost, itemDrops } = farmingMap
     const itemEfficiencyCosts = itemDrops.map(({ name, probability }) => {

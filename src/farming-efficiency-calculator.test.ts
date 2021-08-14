@@ -92,13 +92,44 @@ describe('周回効率計算', () => {
       expect(mapFarmingEfficiencies).toMatchObject(expectedMapFarmingEfficiencies)
     })
 
-    it('不要なアイテムはマップ効率の計算に含まれない', () => {
+    it('要求外のドロップはマップ効率の計算に含まれない', () => {
       const farmingMaps = [ariesMap, taurusMap, geminiMap]
       const requiredItems = [
         {
           name: 'alpha',
           count: 1,
         },
+      ]
+      const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
+      const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
+        {
+          farmingMap: ariesMap,
+          score: 1,
+        },
+        {
+          farmingMap: taurusMap,
+          score: 0,
+        },
+        {
+          farmingMap: geminiMap,
+          score: 0.625,
+        },
+      ]
+      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems, maxItemFarmingEfficencies)
+      expect(mapFarmingEfficiencies).toMatchObject(expectedMapFarmingEfficiencies)
+    })
+
+    it('要求数が0のアイテムはマップ効率の計算に含まれない', () => {
+      const farmingMaps = [ariesMap, taurusMap, geminiMap]
+      const requiredItems = [
+        {
+          name: 'alpha',
+          count: 1,
+        },
+        {
+          name: 'beta',
+          count: 0,
+        }
       ]
       const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
       const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
