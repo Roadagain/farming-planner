@@ -1,5 +1,6 @@
 import React from 'react'
 import FileLoader from '../components/file-loader'
+import RequiredItemsExplorer from '../components/required-items-explorer'
 import FarmingContext from '../context/farming-context'
 import { FarmingMap, RequiredItem } from '../src/types'
 
@@ -18,6 +19,7 @@ const index: React.FC = () => {
       周回計画計算機
       <FarmingContext.Provider value={farmingContextValue}>
         <FileLoader text="Upload file" />
+        <RequiredItemsExplorer />
       </FarmingContext.Provider>
     </main>
   )
