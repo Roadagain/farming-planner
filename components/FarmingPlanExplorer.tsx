@@ -11,7 +11,7 @@ const FarmingPlanExplorer: React.FC = () => {
       {farmingPlan?.map((farmCount) => {
         return (
           <Grid item md={3} key={farmCount.farmingMap.name}>
-            <FarmingPlanItem name={farmCount.farmingMap.name} count={farmCount.count} />
+            <FarmingPlanItem {...farmCount} />
           </Grid>
         )
       })}
