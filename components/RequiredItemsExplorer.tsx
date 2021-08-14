@@ -25,7 +25,7 @@ const RequiredItemsExplorer: React.FC = () => {
   }))
   const columns: GridColDef[] = [
     { field: 'name', headerName: 'アイテム名', width: 150 },
-    { field: 'count', headerName: '必要数', editable: true, width: 150 },
+    { field: 'count', headerName: '必要数', align: 'right', editable: true, width: 150 },
   ]
 
   return (

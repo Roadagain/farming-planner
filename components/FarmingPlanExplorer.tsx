@@ -29,11 +29,12 @@ const FarmingPlanExplorer: React.FC = () => {
   })
   const columns: GridColDef[] = [
     { field: 'name', headerName: '周回場所', width: 150 },
-    { field: 'count', headerName: '回数', width: 150 },
-    { field: 'totalCost', headerName: '総コスト', width: 150 },
+    { field: 'count', headerName: '回数', align: 'right', width: 150 },
+    { field: 'totalCost', headerName: '総コスト', align: 'right', width: 150 },
     ...Array.from(dropItemNameSet).map(itemName => ({
       field: itemName,
       headerName: itemName,
+      align: 'right' as const,
       width: 150,
     }))
   ]
