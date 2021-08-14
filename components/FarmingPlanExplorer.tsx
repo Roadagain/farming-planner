@@ -1,21 +1,47 @@
-import { Grid } from '@material-ui/core'
+import { DataGrid, GridColDef, GridRowsProp } from '@material-ui/data-grid'
 import React from 'react'
 import FarmingContext from '../context/farming-context'
-import FarmingPlanItem from './FarmingPlanItem'
 
 const FarmingPlanExplorer: React.FC = () => {
   const { farmingPlan } = React.useContext(FarmingContext)
+  if (!farmingPlan) {
+    return null
+  }
+
+  const rows: GridRowsProp = farmingPlan.map(({ farmingMap, count }, index) => {
+    const totalCost = farmingMap.cost * count
+    const itemDropCounts = Object.fromEntries(farmingMap.itemDrops.map(({ name, probability }) => {
+      const dropCount = Math.floor(probability * count)
+      return [name, dropCount]
+    }))
+
+    return {
+      id: index,
+      name: farmingMap.name,
+      count: count,
+      totalCost,
+      ...itemDropCounts,
+    }
+  })
+  const dropItemNameSet = new Set<string>();
+  farmingPlan.forEach(({ farmingMap }) => {
+    farmingMap.itemDrops.forEach(({ name }) => dropItemNameSet.add(name))
+  })
+  const columns: GridColDef[] = [
+    { field: 'name', headerName: '周回場所', width: 150 },
+    { field: 'count', headerName: '回数', width: 150 },
+    { field: 'totalCost', headerName: '総コスト', width: 150 },
+    ...Array.from(dropItemNameSet).map(itemName => ({
+      field: itemName,
+      headerName: itemName,
+      width: 150,
+    }))
+  ]
 
   return (
-    <Grid container>
-      {farmingPlan?.map((farmCount) => {
-        return (
-          <Grid item md={3} key={farmCount.farmingMap.name}>
-            <FarmingPlanItem {...farmCount} />
-          </Grid>
-        )
-      })}
-    </Grid>
+    <div style={{ height: 300 }}>
+      <DataGrid rows={rows} columns={columns} />
+    </div>
   )
 }
 
