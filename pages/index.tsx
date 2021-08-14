@@ -1,8 +1,8 @@
 import React from 'react'
-import FarmingPlanExplorer from '../components/farming-plan-explorer'
-import FileLoader from '../components/file-loader'
-import GenerateFarmingPlanButton from '../components/generate-farming-plan-button'
-import RequiredItemsExplorer from '../components/required-items-explorer'
+import FarmingPlanExplorer from '../components/FarmingPlanExplorer'
+import FileLoader from '../components/FileLoader'
+import GenerateFarmingPlanButton from '../components/GenerateFarmingPlanButton'
+import RequiredItemsExplorer from '../components/RequiredItemsExplorer'
 import FarmingContext from '../context/farming-context'
 import { FarmCount, FarmingMap, RequiredItem } from '../src/types'
 

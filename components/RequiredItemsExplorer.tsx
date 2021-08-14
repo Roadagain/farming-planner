@@ -2,7 +2,7 @@ import { Grid } from '@material-ui/core'
 import React from 'react'
 import FarmingContext from '../context/farming-context'
 import { RequiredItem } from '../src/types'
-import RequiredItemForm from './required-item-form'
+import RequiredItemForm from './RequiredItemForm'
 
 const RequiredItemsExplorer: React.FC = () => {
   const { requiredItems, setRequiredItems } = React.useContext(FarmingContext)

@@ -1,7 +1,7 @@
 import { Grid } from '@material-ui/core'
 import React from 'react'
 import FarmingContext from '../context/farming-context'
-import FarmingPlanItem from './farming-plan-item'
+import FarmingPlanItem from './FarmingPlanItem'
 
 const FarmingPlanExplorer: React.FC = () => {
   const { farmingPlan } = React.useContext(FarmingContext)
