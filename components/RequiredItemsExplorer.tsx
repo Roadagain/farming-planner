@@ -1,36 +1,37 @@
-import { Grid } from '@material-ui/core'
+import { DataGrid, GridCellEditCommitParams, GridColDef, GridRowsProp } from '@material-ui/data-grid'
 import React from 'react'
 import FarmingContext from '../context/farming-context'
-import { RequiredItem } from '../src/types'
-import RequiredItemForm from './RequiredItemForm'
 
 const RequiredItemsExplorer: React.FC = () => {
   const { requiredItems, setRequiredItems } = React.useContext(FarmingContext)
-  const onChange = (newRequiredItem: RequiredItem, changedIndex: number) => {
-    if (!requiredItems) {
-      return
-    }
-    setRequiredItems(
-      requiredItems.map((requiredItem, index) => {
-        if (index === changedIndex) {
-          return newRequiredItem
-        }
-        return requiredItem
-      }),
-    )
+  if (!requiredItems) {
+    return null
   }
 
+  const onEditRequiredItemCount = (params: GridCellEditCommitParams) => {
+    const editedIndex: number = parseInt(params.id.toString())
+    const newCount: number = parseInt(params.value?.toString() || '0')
+    setRequiredItems(requiredItems.map((requiredItem, index) => {
+      return index === editedIndex ? {
+        ...requiredItem,
+        count: newCount
+      } : requiredItem
+    }))
+  }
+
+  const rows: GridRowsProp = requiredItems.map((requiredItem, index) => ({
+    id: index,
+    ...requiredItem,
+  }))
+  const columns: GridColDef[] = [
+    { field: 'name', headerName: 'アイテム名', width: 150 },
+    { field: 'count', headerName: '必要数', editable: true, width: 150 },
+  ]
+
   return (
-    <Grid container>
-      {requiredItems?.map((requiredItem, index) => {
-        const onChangeForm = (newRequiredItem: RequiredItem) => onChange(newRequiredItem, index)
-        return (
-          <Grid item md={3} key={requiredItem.name}>
-            <RequiredItemForm {...requiredItem} onChange={onChangeForm} />
-          </Grid>
-        )
-      })}
-    </Grid>
+    <div style={{ height: 300 }}>
+      <DataGrid rows={rows} columns={columns} onCellEditCommit={onEditRequiredItemCount} />
+    </div>
   )
 }
 
