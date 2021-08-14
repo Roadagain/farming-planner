@@ -21,8 +21,8 @@
       ]
     },
     {
-      "name": "Aries",
-      "cost": 30,
+      "name": "Gemini",
+      "cost": 20,
       "itemDrops": [
         {
           "name": "alpha",
