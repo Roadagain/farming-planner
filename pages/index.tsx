@@ -2,16 +2,19 @@ import React from 'react'
 import FileLoader from '../components/file-loader'
 import RequiredItemsExplorer from '../components/required-items-explorer'
 import FarmingContext from '../context/farming-context'
-import { FarmingMap, RequiredItem } from '../src/types'
+import { FarmCount, FarmingMap, RequiredItem } from '../src/types'
 
 const index: React.FC = () => {
   const [farmingMaps, setFarmingMaps] = React.useState<FarmingMap[] | null>(null)
   const [requiredItems, setRequiredItems] = React.useState<RequiredItem[] | null>(null)
+  const [farmingPlan, setFarmingPlan] = React.useState<FarmCount[] | null>(null)
   const farmingContextValue = {
     farmingMaps,
     setFarmingMaps,
     requiredItems,
     setRequiredItems,
+    farmingPlan,
+    setFarmingPlan,
   }
 
   return (
