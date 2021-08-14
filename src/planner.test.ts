@@ -100,7 +100,7 @@ describe('周回計画立案', () => {
         {
           name: 'beta',
           count: 0,
-        }
+        },
       ]
 
       const plan = planFarming(maps, requiredItems)
@@ -114,28 +114,27 @@ describe('周回計画立案', () => {
     })
 
     it('最小回数の周回であれば要求数をオーバーしてもよい', () => {
-      const cancerMap: FarmingMap =
-      {
+      const cancerMap: FarmingMap = {
         name: 'Cancer',
         cost: 1000,
         itemDrops: [
           {
             name: 'alpha',
             probability: 100,
-          }
-        ]
+          },
+        ],
       }
       const requiredItems: RequiredItem[] = [
         {
           name: 'alpha',
           count: 1,
-        }
+        },
       ]
       const expected: FarmCount[] = [
         {
           farmingMap: cancerMap,
           count: 1,
-        }
+        },
       ]
 
       const plan = planFarming([cancerMap], requiredItems)

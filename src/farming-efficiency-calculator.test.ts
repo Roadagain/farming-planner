@@ -129,7 +129,7 @@ describe('周回効率計算', () => {
         {
           name: 'beta',
           count: 0,
-        }
+        },
       ]
       const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
       const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [

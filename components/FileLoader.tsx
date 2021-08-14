@@ -17,16 +17,18 @@ const FileLoader: React.FC<Props> = ({ text }) => {
     setFileName(e.target.files[0].name)
     const farmingMaps = await loadFarmingMapsFromJson(await e.target.files[0].text())
     setFarmingMaps(farmingMaps)
-    const dropItemNames = new Set<string>();
+    const dropItemNames = new Set<string>()
     farmingMaps.forEach(({ itemDrops }) => {
       itemDrops.forEach(({ name }) => dropItemNames.add(name))
     })
-    setRequiredItems(Array.from(dropItemNames.keys()).map(itemName => {
-      return {
-        name: itemName,
-        count: 0
-      }
-    }))
+    setRequiredItems(
+      Array.from(dropItemNames.keys()).map((itemName) => {
+        return {
+          name: itemName,
+          count: 0,
+        }
+      }),
+    )
     setFarmingPlan(null)
   }
   return (

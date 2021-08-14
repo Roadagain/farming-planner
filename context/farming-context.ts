@@ -22,7 +22,7 @@ const FarmingContext = createContext<FarmingContextValue>({
   farmingPlan: null,
   setFarmingPlan() {
     return
-  }
+  },
 })
 
 export default FarmingContext

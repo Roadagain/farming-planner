@@ -10,12 +10,14 @@ const RequiredItemsExplorer: React.FC = () => {
     if (!requiredItems) {
       return
     }
-    setRequiredItems(requiredItems.map((requiredItem, index) => {
-      if (index === changedIndex) {
-        return newRequiredItem
-      }
-      return requiredItem
-    }))
+    setRequiredItems(
+      requiredItems.map((requiredItem, index) => {
+        if (index === changedIndex) {
+          return newRequiredItem
+        }
+        return requiredItem
+      }),
+    )
   }
 
   return (

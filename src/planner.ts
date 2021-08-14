@@ -5,7 +5,9 @@ export const planFarming = (farmingMaps: FarmingMap[], requiredItems: RequiredIt
   const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
 
   const farmingPlan: FarmCount[] = []
-  const remainRequiredItems = new Map<string, number>(requiredItems.filter(({ count }) => count).map(({ name, count }) => [name, count]))
+  const remainRequiredItems = new Map<string, number>(
+    requiredItems.filter(({ count }) => count).map(({ name, count }) => [name, count]),
+  )
   while (remainRequiredItems.size > 0) {
     // 現時点での最高効率マップを計算
     const newRequiredItems: RequiredItem[] = Array.from(remainRequiredItems.entries()).map(([name, count]) => ({

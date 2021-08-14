@@ -9,8 +9,12 @@ type Props = {
 const FarmingPlanItem: React.FC<Props> = ({ name, count }) => {
   return (
     <Card>
-      <Typography variant="body1" component="p">{name}</Typography>
-      <Typography variant="body1" component="p">{count}回</Typography>
+      <Typography variant="body1" component="p">
+        {name}
+      </Typography>
+      <Typography variant="body1" component="p">
+        {count}回
+      </Typography>
     </Card>
   )
 }

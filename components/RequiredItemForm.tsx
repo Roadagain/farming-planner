@@ -12,14 +12,16 @@ const RequiredItemForm: React.FC<Props> = ({ name, count, onChange }) => {
   const onCountChange: ChangeEventHandler<HTMLInputElement> = (e) => {
     onChange({
       name,
-      count: e.target.valueAsNumber
+      count: e.target.valueAsNumber,
     })
   }
 
   return (
     <Card>
       <CardContent>
-        <Typography variant="body1" component="p">{name}</Typography>
+        <Typography variant="body1" component="p">
+          {name}
+        </Typography>
         <Input type="number" value={count} onChange={onCountChange} />
       </CardContent>
     </Card>
