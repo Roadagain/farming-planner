@@ -1,3 +1,4 @@
+import { Container } from '@material-ui/core'
 import React from 'react'
 import FarmingPlanExplorer from '../components/FarmingPlanExplorer'
 import FileLoader from '../components/FileLoader'
@@ -21,13 +22,15 @@ const IndexPage: React.FC = () => {
 
   return (
     <main>
-      周回計画計算機
-      <FarmingContext.Provider value={farmingContextValue}>
-        <FileLoader text="Upload file" />
-        <RequiredItemsExplorer />
-        <GenerateFarmingPlanButton />
-        <FarmingPlanExplorer />
-      </FarmingContext.Provider>
+      <Container maxWidth="xl">
+        周回計画計算機
+        <FarmingContext.Provider value={farmingContextValue}>
+          <FileLoader text="Upload file" />
+          <RequiredItemsExplorer />
+          <GenerateFarmingPlanButton />
+          <FarmingPlanExplorer />
+        </FarmingContext.Provider>
+      </Container>
     </main>
   )
 }
