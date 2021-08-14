@@ -11,12 +11,16 @@ const RequiredItemsExplorer: React.FC = () => {
   const onEditRequiredItemCount = (params: GridCellEditCommitParams) => {
     const editedIndex: number = parseInt(params.id.toString())
     const newCount: number = parseInt(params.value?.toString() || '0')
-    setRequiredItems(requiredItems.map((requiredItem, index) => {
-      return index === editedIndex ? {
-        ...requiredItem,
-        count: newCount
-      } : requiredItem
-    }))
+    setRequiredItems(
+      requiredItems.map((requiredItem, index) => {
+        return index === editedIndex
+          ? {
+              ...requiredItem,
+              count: newCount,
+            }
+          : requiredItem
+      }),
+    )
   }
 
   const rows: GridRowsProp = requiredItems.map((requiredItem, index) => ({

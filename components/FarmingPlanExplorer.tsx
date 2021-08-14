@@ -10,10 +10,12 @@ const FarmingPlanExplorer: React.FC = () => {
 
   const rows: GridRowsProp = farmingPlan.map(({ farmingMap, count }, index) => {
     const totalCost = farmingMap.cost * count
-    const itemDropCounts = Object.fromEntries(farmingMap.itemDrops.map(({ name, probability }) => {
-      const dropCount = Math.floor(probability * count)
-      return [name, dropCount]
-    }))
+    const itemDropCounts = Object.fromEntries(
+      farmingMap.itemDrops.map(({ name, probability }) => {
+        const dropCount = Math.floor(probability * count)
+        return [name, dropCount]
+      }),
+    )
 
     return {
       id: index,
@@ -23,7 +25,7 @@ const FarmingPlanExplorer: React.FC = () => {
       ...itemDropCounts,
     }
   })
-  const dropItemNameSet = new Set<string>();
+  const dropItemNameSet = new Set<string>()
   farmingPlan.forEach(({ farmingMap }) => {
     farmingMap.itemDrops.forEach(({ name }) => dropItemNameSet.add(name))
   })
@@ -31,12 +33,12 @@ const FarmingPlanExplorer: React.FC = () => {
     { field: 'name', headerName: '周回場所', width: 150 },
     { field: 'count', headerName: '回数', align: 'right', width: 150 },
     { field: 'totalCost', headerName: '総コスト', align: 'right', width: 150 },
-    ...Array.from(dropItemNameSet).map(itemName => ({
+    ...Array.from(dropItemNameSet).map((itemName) => ({
       field: itemName,
       headerName: itemName,
       align: 'right' as const,
       width: 150,
-    }))
+    })),
   ]
 
   return (
