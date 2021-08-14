@@ -26,8 +26,8 @@ describe('周回候補マップの読み込み', () => {
           ],
         },
         {
-          name: 'Aries',
-          cost: 30,
+          name: 'Gemini',
+          cost: 20,
           itemDrops: [
             {
               name: 'alpha',
