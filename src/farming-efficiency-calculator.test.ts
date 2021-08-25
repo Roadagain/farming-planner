@@ -1,7 +1,7 @@
-import { calcMapFarmingEfficiencies, calcMaxItemFarmingEfficencies } from './farming-efficiency-calculator'
-import { ItemFarmingEfficiency, FarmingMap, MapFarmingEfficiency } from './types'
+import { calcStageFarmingEfficiencies, calcMaxItemFarmingEfficencies } from './farming-efficiency-calculator'
+import { ItemFarmingEfficiency, FarmingStage, StageFarmingEfficiency } from './types'
 
-const ariesMap: FarmingMap = {
+const ariesStage: FarmingStage = {
   name: 'Aries',
   cost: 10,
   itemDrops: [
@@ -11,7 +11,7 @@ const ariesMap: FarmingMap = {
     },
   ],
 }
-const taurusMap: FarmingMap = {
+const taurusStage: FarmingStage = {
   name: 'Taurus',
   cost: 10,
   itemDrops: [
@@ -21,7 +21,7 @@ const taurusMap: FarmingMap = {
     },
   ],
 }
-const geminiMap: FarmingMap = {
+const geminiStage: FarmingStage = {
   name: 'Gemini',
   cost: 8,
   itemDrops: [
@@ -39,20 +39,20 @@ const geminiMap: FarmingMap = {
 describe('周回効率計算', () => {
   describe('アイテムごとの最高効率計算', () => {
     it('各アイテムごとの最高効率マップが返る', () => {
-      const farmingMaps = [ariesMap, taurusMap, geminiMap]
+      const farmingStages = [ariesStage, taurusStage, geminiStage]
       const expectedMaxItemFarmingEfficiencies: ItemFarmingEfficiency[] = [
         {
           name: 'alpha',
-          farmingMap: ariesMap,
+          farmingStage: ariesStage,
           cost: 10,
         },
         {
           name: 'beta',
-          farmingMap: taurusMap,
+          farmingStage: taurusStage,
           cost: 10,
         },
       ]
-      const maxItemFarmingEfficiencies = calcMaxItemFarmingEfficencies(farmingMaps)
+      const maxItemFarmingEfficiencies = calcMaxItemFarmingEfficencies(farmingStages)
       const maxItemFarmingEfficienciesAsArray = Array.from(maxItemFarmingEfficiencies.values()).sort((a, b) =>
         a.name.localeCompare(b.name),
       )
@@ -62,7 +62,7 @@ describe('周回効率計算', () => {
 
   describe('マップごとの効率計算', () => {
     it('各アイテムの最高効率に基づいた各マップごとのスタミナ効率が返る', () => {
-      const farmingMaps = [ariesMap, taurusMap, geminiMap]
+      const farmingStages = [ariesStage, taurusStage, geminiStage]
       const requiredItems = [
         {
           name: 'alpha',
@@ -73,54 +73,62 @@ describe('周回効率計算', () => {
           count: 1,
         },
       ]
-      const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
-      const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
+      const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingStages)
+      const expectedStageFarmingEfficiencies: StageFarmingEfficiency[] = [
         {
-          farmingMap: ariesMap,
+          farmingStage: ariesStage,
           score: 1,
         },
         {
-          farmingMap: taurusMap,
+          farmingStage: taurusStage,
           score: 1,
         },
         {
-          farmingMap: geminiMap,
+          farmingStage: geminiStage,
           score: 1.25,
         },
       ]
-      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems, maxItemFarmingEfficencies)
-      expect(mapFarmingEfficiencies).toMatchObject(expectedMapFarmingEfficiencies)
+      const stageFarmingEfficiencies = calcStageFarmingEfficiencies(
+        farmingStages,
+        requiredItems,
+        maxItemFarmingEfficencies,
+      )
+      expect(stageFarmingEfficiencies).toMatchObject(expectedStageFarmingEfficiencies)
     })
 
     it('要求外のドロップはマップ効率の計算に含まれない', () => {
-      const farmingMaps = [ariesMap, taurusMap, geminiMap]
+      const farmingStages = [ariesStage, taurusStage, geminiStage]
       const requiredItems = [
         {
           name: 'alpha',
           count: 1,
         },
       ]
-      const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
-      const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
+      const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingStages)
+      const expectedStageFarmingEfficiencies: StageFarmingEfficiency[] = [
         {
-          farmingMap: ariesMap,
+          farmingStage: ariesStage,
           score: 1,
         },
         {
-          farmingMap: taurusMap,
+          farmingStage: taurusStage,
           score: 0,
         },
         {
-          farmingMap: geminiMap,
+          farmingStage: geminiStage,
           score: 0.625,
         },
       ]
-      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems, maxItemFarmingEfficencies)
-      expect(mapFarmingEfficiencies).toMatchObject(expectedMapFarmingEfficiencies)
+      const stageFarmingEfficiencies = calcStageFarmingEfficiencies(
+        farmingStages,
+        requiredItems,
+        maxItemFarmingEfficencies,
+      )
+      expect(stageFarmingEfficiencies).toMatchObject(expectedStageFarmingEfficiencies)
     })
 
     it('要求数が0のアイテムはマップ効率の計算に含まれない', () => {
-      const farmingMaps = [ariesMap, taurusMap, geminiMap]
+      const farmingStages = [ariesStage, taurusStage, geminiStage]
       const requiredItems = [
         {
           name: 'alpha',
@@ -131,23 +139,27 @@ describe('周回効率計算', () => {
           count: 0,
         },
       ]
-      const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingMaps)
-      const expectedMapFarmingEfficiencies: MapFarmingEfficiency[] = [
+      const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingStages)
+      const expectedStageFarmingEfficiencies: StageFarmingEfficiency[] = [
         {
-          farmingMap: ariesMap,
+          farmingStage: ariesStage,
           score: 1,
         },
         {
-          farmingMap: taurusMap,
+          farmingStage: taurusStage,
           score: 0,
         },
         {
-          farmingMap: geminiMap,
+          farmingStage: geminiStage,
           score: 0.625,
         },
       ]
-      const mapFarmingEfficiencies = calcMapFarmingEfficiencies(farmingMaps, requiredItems, maxItemFarmingEfficencies)
-      expect(mapFarmingEfficiencies).toMatchObject(expectedMapFarmingEfficiencies)
+      const stageFarmingEfficiencies = calcStageFarmingEfficiencies(
+        farmingStages,
+        requiredItems,
+        maxItemFarmingEfficencies,
+      )
+      expect(stageFarmingEfficiencies).toMatchObject(expectedStageFarmingEfficiencies)
     })
   })
 })

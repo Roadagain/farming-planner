@@ -3,7 +3,7 @@ export type ItemDrop = {
   probability: number
 }
 
-export type FarmingMap = {
+export type FarmingStage = {
   name: string
   cost: number
   itemDrops: ItemDrop[]

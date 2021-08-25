@@ -5,15 +5,15 @@ import FileLoader from '../components/FileLoader'
 import GenerateFarmingPlanButton from '../components/GenerateFarmingPlanButton'
 import RequiredItemsExplorer from '../components/RequiredItemsExplorer'
 import FarmingContext from '../context/farming-context'
-import { FarmCount, FarmingMap, RequiredItem } from '../src/types'
+import { FarmCount, FarmingStage, RequiredItem } from '../src/types'
 
 const IndexPage: React.FC = () => {
-  const [farmingMaps, setFarmingMaps] = React.useState<FarmingMap[] | null>(null)
+  const [farmingStages, setFarmingStages] = React.useState<FarmingStage[] | null>(null)
   const [requiredItems, setRequiredItems] = React.useState<RequiredItem[] | null>(null)
   const [farmingPlan, setFarmingPlan] = React.useState<FarmCount[] | null>(null)
   const farmingContextValue = {
-    farmingMaps,
-    setFarmingMaps,
+    farmingStages,
+    setFarmingStages,
     requiredItems,
     setRequiredItems,
     farmingPlan,

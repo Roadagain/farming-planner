@@ -1,6 +1,6 @@
-import { FarmingMap } from './farming-map'
+import { FarmingStage } from './farming-stage'
 
 export type FarmCount = {
-  farmingMap: FarmingMap
+  farmingStage: FarmingStage
   count: number
 }

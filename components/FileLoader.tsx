@@ -1,7 +1,7 @@
 import { Button, Card } from '@material-ui/core'
 import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
-import { loadFarmingMapsFromJson } from '../src/load-farming-maps'
+import { loadFarmingStagesFromJson } from '../src/load-farming-stages'
 
 type Props = {
   text: string
@@ -9,16 +9,16 @@ type Props = {
 
 const FileLoader: React.FC<Props> = ({ text }) => {
   const [fileName, setFileName] = React.useState<string>('')
-  const { setFarmingMaps, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
+  const { setFarmingStages, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
     if (!e.target.files) {
       return
     }
     setFileName(e.target.files[0].name)
-    const farmingMaps = await loadFarmingMapsFromJson(await e.target.files[0].text())
-    setFarmingMaps(farmingMaps)
+    const farmingStages = await loadFarmingStagesFromJson(await e.target.files[0].text())
+    setFarmingStages(farmingStages)
     const dropItemNames = new Set<string>()
-    farmingMaps.forEach(({ itemDrops }) => {
+    farmingStages.forEach(({ itemDrops }) => {
       itemDrops.forEach(({ name }) => dropItemNames.add(name))
     })
     setRequiredItems(

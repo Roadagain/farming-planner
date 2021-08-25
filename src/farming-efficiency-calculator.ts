@@ -1,16 +1,16 @@
-import { ItemFarmingEfficiency, FarmingMap, RequiredItem, MapFarmingEfficiency } from './types'
+import { ItemFarmingEfficiency, FarmingStage, RequiredItem, StageFarmingEfficiency } from './types'
 
-export const calcMaxItemFarmingEfficencies = (farmingMaps: FarmingMap[]): Map<string, ItemFarmingEfficiency> => {
+export const calcMaxItemFarmingEfficencies = (farmingStages: FarmingStage[]): Map<string, ItemFarmingEfficiency> => {
   const maxEfficencies: Map<string, ItemFarmingEfficiency> = new Map()
-  farmingMaps.forEach((farmingMap) => {
-    const { itemDrops, cost } = farmingMap
+  farmingStages.forEach((farmingStage) => {
+    const { itemDrops, cost } = farmingStage
     itemDrops.forEach(({ name, probability }) => {
-      const mostEfficientMapCost = maxEfficencies.get(name)?.cost || Infinity
+      const mostEfficientStageCost = maxEfficencies.get(name)?.cost || Infinity
       const currentEfficiencyCost = cost / probability
-      if (currentEfficiencyCost < mostEfficientMapCost) {
+      if (currentEfficiencyCost < mostEfficientStageCost) {
         maxEfficencies.set(name, {
           name,
-          farmingMap,
+          farmingStage,
           cost: currentEfficiencyCost,
         })
       }
@@ -20,14 +20,14 @@ export const calcMaxItemFarmingEfficencies = (farmingMaps: FarmingMap[]): Map<st
   return maxEfficencies
 }
 
-export const calcMapFarmingEfficiencies = (
-  farmingMaps: FarmingMap[],
+export const calcStageFarmingEfficiencies = (
+  farmingStages: FarmingStage[],
   requiredItems: RequiredItem[],
   maxItemFarmingEfficiencies: Map<string, ItemFarmingEfficiency>,
-): MapFarmingEfficiency[] => {
+): StageFarmingEfficiency[] => {
   const requiredItemNames = requiredItems.filter(({ count }) => count).map(({ name }) => name)
-  return farmingMaps.map((farmingMap) => {
-    const { cost, itemDrops } = farmingMap
+  return farmingStages.map((farmingStage) => {
+    const { cost, itemDrops } = farmingStage
     const itemEfficiencyCosts = itemDrops.map(({ name, probability }) => {
       if (!requiredItemNames.includes(name)) {
         return 0
@@ -38,7 +38,7 @@ export const calcMapFarmingEfficiencies = (
     const score = itemEfficiencyCosts.reduce((a, b) => a + b) / cost
 
     return {
-      farmingMap,
+      farmingStage,
       score,
     }
   })

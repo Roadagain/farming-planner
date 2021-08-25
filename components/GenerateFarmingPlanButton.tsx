@@ -4,16 +4,16 @@ import FarmingContext from '../context/farming-context'
 import { planFarming } from '../src/planner'
 
 const GenerateFarmingPlanButton: React.FC = () => {
-  const { farmingMaps, requiredItems, setFarmingPlan } = React.useContext(FarmingContext)
+  const { farmingStages, requiredItems, setFarmingPlan } = React.useContext(FarmingContext)
   const generateFarmingPlan = () => {
-    if (!farmingMaps || !requiredItems) {
+    if (!farmingStages || !requiredItems) {
       return
     }
-    setFarmingPlan(planFarming(farmingMaps, requiredItems))
+    setFarmingPlan(planFarming(farmingStages, requiredItems))
   }
 
   return (
-    <Button variant="contained" disabled={!farmingMaps || !requiredItems} onClick={generateFarmingPlan}>
+    <Button variant="contained" disabled={!farmingStages || !requiredItems} onClick={generateFarmingPlan}>
       周回プラン生成
     </Button>
   )

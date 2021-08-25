@@ -1,12 +1,12 @@
-import { FarmingMap } from './farming-map'
+import { FarmingStage } from './farming-stage'
 
 export type ItemFarmingEfficiency = {
   name: string
-  farmingMap: FarmingMap
+  farmingStage: FarmingStage
   cost: number
 }
 
-export type MapFarmingEfficiency = {
-  farmingMap: FarmingMap
+export type StageFarmingEfficiency = {
+  farmingStage: FarmingStage
   score: number
 }

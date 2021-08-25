@@ -1,10 +1,10 @@
 import { readFile } from 'fs/promises'
-import { loadFarmingMapsFromJson } from './load-farming-maps'
+import { loadFarmingStagesFromJson } from './load-farming-stages'
 
 describe('周回候補マップの読み込み', () => {
   describe('JSON文字列を読み込んでDTOに加工', () => {
     it('JSON文字列からマップデータを読み込んでDTOに加工できる', async () => {
-      const expectedFarmingMaps = [
+      const expectedFarmingStages = [
         {
           name: 'Aries',
           cost: 20,
@@ -40,14 +40,14 @@ describe('周回候補マップの読み込み', () => {
           ],
         },
       ]
-      const jsonString = await readFile('sample/farming-maps.json', 'utf-8')
-      const farmingMaps = await loadFarmingMapsFromJson(jsonString)
-      expect(farmingMaps).toMatchObject(expectedFarmingMaps)
+      const jsonString = await readFile('sample/farming-stages.json', 'utf-8')
+      const farmingStages = await loadFarmingStagesFromJson(jsonString)
+      expect(farmingStages).toMatchObject(expectedFarmingStages)
     })
 
     it('不適当なJSON文字列を渡すとErrorをthrowする', () => {
       const invalidJsonString = '{"test": "invalid json"}'
-      expect(loadFarmingMapsFromJson(invalidJsonString)).rejects.toThrowError()
+      expect(loadFarmingStagesFromJson(invalidJsonString)).rejects.toThrowError()
     })
   })
 })

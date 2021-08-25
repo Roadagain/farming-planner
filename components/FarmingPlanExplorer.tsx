@@ -8,10 +8,10 @@ const FarmingPlanExplorer: React.FC = () => {
     return null
   }
 
-  const rows: GridRowsProp = farmingPlan.map(({ farmingMap, count }, index) => {
-    const totalCost = farmingMap.cost * count
+  const rows: GridRowsProp = farmingPlan.map(({ farmingStage, count }, index) => {
+    const totalCost = farmingStage.cost * count
     const itemDropCounts = Object.fromEntries(
-      farmingMap.itemDrops.map(({ name, probability }) => {
+      farmingStage.itemDrops.map(({ name, probability }) => {
         const dropCount = Math.floor(probability * count)
         return [name, dropCount]
       }),
@@ -19,15 +19,15 @@ const FarmingPlanExplorer: React.FC = () => {
 
     return {
       id: index,
-      name: farmingMap.name,
+      name: farmingStage.name,
       count: count,
       totalCost,
       ...itemDropCounts,
     }
   })
   const dropItemNameSet = new Set<string>()
-  farmingPlan.forEach(({ farmingMap }) => {
-    farmingMap.itemDrops.forEach(({ name }) => dropItemNameSet.add(name))
+  farmingPlan.forEach(({ farmingStage }) => {
+    farmingStage.itemDrops.forEach(({ name }) => dropItemNameSet.add(name))
   })
   const columns: GridColDef[] = [
     { field: 'name', headerName: '周回場所', width: 150 },
