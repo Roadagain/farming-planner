@@ -26,9 +26,13 @@ const IndexPage: React.FC = () => {
         周回計画計算機
         <FarmingContext.Provider value={farmingContextValue}>
           <FileLoader text="Upload file" />
-          <RequiredItemsExplorer />
-          <GenerateFarmingPlanButton />
-          <FarmingPlanExplorer />
+          {
+            farmingStages ? <>
+              <RequiredItemsExplorer />
+              <GenerateFarmingPlanButton />
+              <FarmingPlanExplorer />
+            </> : null
+          }
         </FarmingContext.Provider>
       </Container>
     </main>
