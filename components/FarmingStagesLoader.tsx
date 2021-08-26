@@ -1,13 +1,9 @@
-import { Button, Card } from '@material-ui/core'
+import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core'
 import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
 import { loadFarmingStagesFromJson } from '../src/load-farming-stages'
 
-type Props = {
-  text: string
-}
-
-const FileLoader: React.FC<Props> = ({ text }) => {
+const FarmingStagesLoader: React.FC<Props> = () => {
   const [fileName, setFileName] = React.useState<string>('')
   const { setFarmingStages, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
@@ -33,13 +29,21 @@ const FileLoader: React.FC<Props> = ({ text }) => {
   }
   return (
     <Card>
-      <Button variant="contained" component="label">
-        {text}
-        <input type="file" hidden onChange={onLoadFile} />
-      </Button>
-      {fileName}
+      <CardContent>
+        <Grid container alignItems="center" spacing={2}>
+          <Grid item>
+            <Button variant="contained" component="label">
+              Select JSON
+              <input type="file" accept="application/json" hidden onChange={onLoadFile} />
+            </Button>
+          </Grid>
+          <Grid item>
+            <Typography variant="body1">{fileName}</Typography>
+          </Grid>
+        </Grid>
+      </CardContent>
     </Card>
   )
 }
 
-export default FileLoader
+export default FarmingStagesLoader
