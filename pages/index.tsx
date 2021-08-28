@@ -1,3 +1,4 @@
+import { Grid, makeStyles } from '@material-ui/core'
 import React from 'react'
 import FarmingPlanExplorer from '../components/FarmingPlanExplorer'
 import FarmingStagesLoader from '../components/FarmingStagesLoader'
@@ -5,6 +6,12 @@ import GenerateFarmingPlanButton from '../components/GenerateFarmingPlanButton'
 import RequiredItemsExplorer from '../components/RequiredItemsExplorer'
 import FarmingContext from '../context/farming-context'
 import { FarmCount, FarmingStage, RequiredItem } from '../src/types'
+
+const useStyles = makeStyles({
+  container: {
+    padding: 16,
+  }
+})
 
 const IndexPage: React.FC = () => {
   const [farmingStages, setFarmingStages] = React.useState<FarmingStage[] | null>(null)
@@ -18,20 +25,29 @@ const IndexPage: React.FC = () => {
     farmingPlan,
     setFarmingPlan,
   }
+  const classes = useStyles()
 
   return (
-    <main>
-      <FarmingContext.Provider value={farmingContextValue}>
-        <FarmingStagesLoader />
+    <FarmingContext.Provider value={farmingContextValue}>
+      <Grid container spacing={2} direction="column" className={classes.container}>
+        <Grid item>
+          <FarmingStagesLoader />
+        </Grid>
         {farmingStages ? (
           <>
-            <RequiredItemsExplorer />
-            <GenerateFarmingPlanButton />
-            <FarmingPlanExplorer />
+            <Grid item>
+              <RequiredItemsExplorer />
+            </Grid>
+            <Grid item>
+              <GenerateFarmingPlanButton />
+            </Grid>
+            <Grid item>
+              <FarmingPlanExplorer />
+            </Grid>
           </>
         ) : null}
-      </FarmingContext.Provider>
-    </main>
+      </Grid>
+    </FarmingContext.Provider>
   )
 }
 
