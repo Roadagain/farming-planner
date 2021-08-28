@@ -30,7 +30,7 @@ const FarmingPlanExplorer: React.FC = () => {
     farmingStage.itemDrops.forEach(({ name }) => dropItemNameSet.add(name))
   })
   const columns: GridColDef[] = [
-    { field: 'name', headerName: '周回場所', width: 150 },
+    { field: 'name', headerName: '周回ステージ', width: 150 },
     { field: 'count', headerName: '回数', type: 'number', width: 150 },
     { field: 'totalCost', headerName: '総コスト', type: 'number', width: 150 },
     ...Array.from(dropItemNameSet).map((itemName) => ({
