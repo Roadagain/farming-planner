@@ -31,12 +31,12 @@ const FarmingPlanExplorer: React.FC = () => {
   })
   const columns: GridColDef[] = [
     { field: 'name', headerName: '周回場所', width: 150 },
-    { field: 'count', headerName: '回数', align: 'right', width: 150 },
-    { field: 'totalCost', headerName: '総コスト', align: 'right', width: 150 },
+    { field: 'count', headerName: '回数', type: 'number', width: 150 },
+    { field: 'totalCost', headerName: '総コスト', type: 'number', width: 150 },
     ...Array.from(dropItemNameSet).map((itemName) => ({
       field: itemName,
       headerName: itemName,
-      align: 'right' as const,
+      type: 'number',
       width: 150,
     })),
   ]
