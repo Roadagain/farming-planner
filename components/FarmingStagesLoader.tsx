@@ -3,7 +3,7 @@ import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
 import { loadFarmingStagesFromJson } from '../src/load-farming-stages'
 
-const FarmingStagesLoader: React.FC<Props> = () => {
+const FarmingStagesLoader: React.FC = () => {
   const [fileName, setFileName] = React.useState<string>('')
   const { setFarmingStages, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
