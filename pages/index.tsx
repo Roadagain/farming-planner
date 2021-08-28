@@ -10,7 +10,7 @@ import { FarmCount, FarmingStage, RequiredItem } from '../src/types'
 const useStyles = makeStyles({
   container: {
     padding: 16,
-  }
+  },
 })
 
 const IndexPage: React.FC = () => {
