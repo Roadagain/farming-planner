@@ -32,7 +32,7 @@ const FarmingPlanExplorer: React.FC = () => {
   const dropItemNames = farmingData.items.filter(({ name }) => dropItemNameSet.has(name)).map(({ name }) => name)
   const columns: GridColDef[] = [
     { field: 'name', headerName: '周回ステージ', width: 200 },
-    { field: 'count', headerName: '回数', type: 'number', width: 150 },
+    { field: 'count', headerName: '回数', type: 'number', width: 100 },
     { field: 'totalCost', headerName: '総コスト', type: 'number', width: 150 },
     ...dropItemNames.map((itemName) => ({
       field: itemName,
@@ -44,7 +44,7 @@ const FarmingPlanExplorer: React.FC = () => {
 
   return (
     <div style={{ height: 300 }}>
-      <DataGrid rows={rows} columns={columns} />
+      <DataGrid rows={rows} columns={columns} disableColumnMenu />
     </div>
   )
 }
