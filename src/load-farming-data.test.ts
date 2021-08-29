@@ -1,4 +1,4 @@
-import { loadItems, loadFarmingStages, loadFarmingDataFromJson } from './load-farming-stages'
+import { loadItems, loadFarmingStages, loadFarmingDataFromJson } from './load-farming-data'
 import { FarmingData, FarmingStage } from './types'
 import sampleFarmingStages from '../sample/farming-stages.json'
 
