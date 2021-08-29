@@ -1,4 +1,4 @@
-import { loadItems, loadFarmingStages, loadFarmingDataFromJson } from './load-farming-data'
+import { loadItems, loadFarmingStages, loadFarmingDataFromJson, loadFarmingData } from './load-farming-data'
 import { FarmingData, FarmingStage } from './types'
 import sampleFarmingStages from '../sample/farming-stages.json'
 
@@ -64,6 +64,61 @@ describe('周回候補マップの読み込み', () => {
 
       const dropItems = loadItems(dropItemNameData)
       expect(dropItems).toMatchObject(expectedDropItems)
+    })
+  })
+
+  describe('objectから周回用データを作成', () => {
+    it('objectからステージとアイテムの一覧を生成できる', () => {
+      const expectedFarmingData: FarmingData = {
+        farmingStages: [
+          {
+            name: 'Aries',
+            cost: 20,
+            itemDrops: [
+              {
+                name: 'alpha',
+                probability: 1.5,
+              },
+            ],
+          },
+          {
+            name: 'Taurus',
+            cost: 20,
+            itemDrops: [
+              {
+                name: 'beta',
+                probability: 1.2,
+              },
+            ],
+          },
+          {
+            name: 'Gemini',
+            cost: 20,
+            itemDrops: [
+              {
+                name: 'alpha',
+                probability: 0.8,
+              },
+              {
+                name: 'beta',
+                probability: 0.8,
+              },
+            ],
+          },
+        ],
+        items: [
+          {
+            id: 1,
+            name: 'alpha',
+          },
+          {
+            id: 2,
+            name: 'beta',
+          },
+        ],
+      }
+      const farmingData = loadFarmingData(sampleFarmingStages)
+      expect(farmingData).toMatchObject(expectedFarmingData)
     })
   })
 
