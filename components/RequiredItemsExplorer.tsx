@@ -15,9 +15,9 @@ const RequiredItemsExplorer: React.FC = () => {
       requiredItems.map((requiredItem, index) => {
         return index === editedIndex
           ? {
-              ...requiredItem,
-              count: newCount,
-            }
+            ...requiredItem,
+            count: newCount,
+          }
           : requiredItem
       }),
     )
@@ -28,7 +28,7 @@ const RequiredItemsExplorer: React.FC = () => {
     ...requiredItem,
   }))
   const columns: GridColDef[] = [
-    { field: 'name', headerName: 'アイテム名', width: 150 },
+    { field: 'name', headerName: 'アイテム名', width: 200 },
     { field: 'count', headerName: '必要数', type: 'number', editable: true, width: 150 },
   ]
 
