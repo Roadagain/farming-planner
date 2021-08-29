@@ -1,5 +1,5 @@
-import { FarmingStage } from './types'
 import presetFgoJson from '../preset-stages/fgo.json'
+import { FarmingData, FarmingStage, ItemNameDatum } from './types'
 
 export const loadFarmingStages = (loadedFarmingStages: FarmingStage[]): FarmingStage[] => {
   return loadedFarmingStages.map((farmingStage: FarmingStage): FarmingStage => {
@@ -13,17 +13,21 @@ export const loadFarmingStages = (loadedFarmingStages: FarmingStage[]): FarmingS
   })
 }
 
-export const loadFarmingStagesFromJson = (jsonString: string): FarmingStage[] => {
+export const loadItems = (dropItemNameData: ItemNameDatum[]): ItemNameDatum[] => {
+  return dropItemNameData.sort((a, b) => a.id - b.id)
+}
+
+export const loadFarmingDataFromJson = (jsonString: string): FarmingData => {
   const loadedJson = JSON.parse(jsonString)
-  return loadFarmingStages(loadedJson.farmingStages)
+  return {
+    farmingStages: loadFarmingStages(loadedJson.farmingStages),
+    items: loadItems(loadedJson.items),
+  }
 }
 
-export const loadPresetFgoStages = (): FarmingStage[] => {
-  return loadFarmingStages(presetFgoJson.farmingStages)
-}
-
-export const loadDropItemNames = (farmingStages: FarmingStage[]): string[] => {
-  const duplicatableDropItemNames = farmingStages.flatMap(({ itemDrops }) => itemDrops.map(({ name }) => name))
-
-  return Array.from(new Set(duplicatableDropItemNames))
+export const loadPresetFgoData = (): FarmingData => {
+  return {
+    farmingStages: loadFarmingStages(presetFgoJson.farmingStages),
+    items: loadItems(presetFgoJson.items)
+  }
 }

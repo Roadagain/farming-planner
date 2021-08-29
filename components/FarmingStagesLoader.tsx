@@ -1,23 +1,19 @@
 import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core'
 import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
-import { loadDropItemNames, loadFarmingStagesFromJson, loadPresetFgoStages } from '../src/load-farming-stages'
-import { FarmingStage } from '../src/types'
+import { loadFarmingDataFromJson, loadPresetFgoData } from '../src/load-farming-stages'
+import { FarmingData } from '../src/types'
 
 const FarmingStagesLoader: React.FC = () => {
   const [fileName, setFileName] = React.useState<string>('')
-  const { setFarmingStages, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
-  const onLoadFarmingStages = (farmingStages: FarmingStage[]) => {
-    setFarmingStages(farmingStages)
-    const dropItemNames = loadDropItemNames(farmingStages)
-    setRequiredItems(
-      dropItemNames.map((itemName) => {
-        return {
-          name: itemName,
-          count: 0,
-        }
-      }),
-    )
+  const { setFarmingData, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
+
+  const onLoadFarmingData = (farmingData: FarmingData) => {
+    setFarmingData(farmingData)
+    setRequiredItems(farmingData.items.map(({ name }) => ({
+      name,
+      count: 0,
+    })))
     setFarmingPlan(null)
   }
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
@@ -25,10 +21,10 @@ const FarmingStagesLoader: React.FC = () => {
       return
     }
     setFileName(e.target.files[0].name)
-    onLoadFarmingStages(loadFarmingStagesFromJson(await e.target.files[0].text()))
+    onLoadFarmingData(loadFarmingDataFromJson(await e.target.files[0].text()))
   }
   const loadPresetFgo = () => {
-    onLoadFarmingStages(loadPresetFgoStages())
+    onLoadFarmingData(loadPresetFgoData())
   }
 
   return (

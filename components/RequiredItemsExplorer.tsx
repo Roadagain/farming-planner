@@ -28,13 +28,13 @@ const RequiredItemsExplorer: React.FC = () => {
     ...requiredItem,
   }))
   const columns: GridColDef[] = [
-    { field: 'name', headerName: 'アイテム名', width: 150 },
-    { field: 'count', headerName: '必要数', type: 'number', editable: true, width: 150 },
+    { field: 'name', headerName: 'アイテム名', width: 200 },
+    { field: 'count', headerName: '必要数', type: 'number', editable: true, width: 100 },
   ]
 
   return (
     <div style={{ height: 300 }}>
-      <DataGrid rows={rows} columns={columns} onCellEditCommit={onEditRequiredItemCount} />
+      <DataGrid rows={rows} columns={columns} onCellEditCommit={onEditRequiredItemCount} disableColumnMenu />
     </div>
   )
 }

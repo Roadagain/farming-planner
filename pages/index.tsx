@@ -5,7 +5,7 @@ import FarmingStagesLoader from '../components/FarmingStagesLoader'
 import GenerateFarmingPlanButton from '../components/GenerateFarmingPlanButton'
 import RequiredItemsExplorer from '../components/RequiredItemsExplorer'
 import FarmingContext from '../context/farming-context'
-import { FarmCount, FarmingStage, RequiredItem } from '../src/types'
+import { FarmCount, FarmingData, RequiredItem } from '../src/types'
 
 const useStyles = makeStyles({
   container: {
@@ -14,12 +14,12 @@ const useStyles = makeStyles({
 })
 
 const IndexPage: React.FC = () => {
-  const [farmingStages, setFarmingStages] = React.useState<FarmingStage[] | null>(null)
+  const [farmingData, setFarmingData] = React.useState<FarmingData | null>(null)
   const [requiredItems, setRequiredItems] = React.useState<RequiredItem[] | null>(null)
   const [farmingPlan, setFarmingPlan] = React.useState<FarmCount[] | null>(null)
   const farmingContextValue = {
-    farmingStages,
-    setFarmingStages,
+    farmingData,
+    setFarmingData,
     requiredItems,
     setRequiredItems,
     farmingPlan,
@@ -33,7 +33,7 @@ const IndexPage: React.FC = () => {
         <Grid item>
           <FarmingStagesLoader />
         </Grid>
-        {farmingStages ? (
+        {farmingData ? (
           <>
             <Grid item>
               <RequiredItemsExplorer />
