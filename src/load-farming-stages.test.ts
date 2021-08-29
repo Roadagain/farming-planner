@@ -1,5 +1,5 @@
-import { loadDropItemNames, loadFarmingStages, loadFarmingStagesFromJson } from './load-farming-stages'
-import { FarmingStage } from './types'
+import { loadItems, loadFarmingStages, loadFarmingDataFromJson } from './load-farming-stages'
+import { FarmingData, FarmingStage } from './types'
 import sampleFarmingStages from '../sample/farming-stages.json'
 
 describe('周回候補マップの読み込み', () => {
@@ -33,56 +33,92 @@ describe('周回候補マップの読み込み', () => {
     })
   })
 
-  describe('JSON文字列を読み込んでDTOに加工', () => {
-    it('JSON文字列からマップデータを読み込んでDTOに加工できる', () => {
-      const expectedFarmingStages = [
+  describe('objectからアイテムの一覧を生成', () => {
+    it('objectからアイテムを読み込んで重複のない一覧を生成できる', () => {
+      const expectedDropItems = [
         {
-          name: 'Aries',
-          cost: 20,
-          itemDrops: [
-            {
-              name: 'alpha',
-              probability: 1.5,
-            },
-          ],
+          id: 1,
+          name: 'alpha',
         },
         {
-          name: 'Taurus',
-          cost: 20,
-          itemDrops: [
-            {
-              name: 'beta',
-              probability: 1.2,
-            },
-          ],
-        },
-        {
-          name: 'Gemini',
-          cost: 20,
-          itemDrops: [
-            {
-              name: 'alpha',
-              probability: 0.8,
-            },
-            {
-              name: 'beta',
-              probability: 0.8,
-            },
-          ],
-        },
+          id: 2,
+          name: 'beta',
+        }
       ]
-      const farmingStages = loadFarmingStagesFromJson(JSON.stringify(sampleFarmingStages))
-      expect(farmingStages).toMatchObject(expectedFarmingStages)
+
+      const dropItems = loadItems(sampleFarmingStages.items)
+      expect(dropItems).toMatchObject(expectedDropItems)
+    })
+
+    it('ドロップアイテムの一覧はID順にソートされている', () => {
+      const alphaItem = {
+        id: 2,
+        name: 'alpha'
+      }
+      const betaItem = {
+        id: 1,
+        name: 'beta'
+      }
+      const dropItemNameData = [alphaItem, betaItem]
+      const expectedDropItems = [betaItem, alphaItem]
+
+      const dropItems = loadItems(dropItemNameData)
+      expect(dropItems).toMatchObject(expectedDropItems)
     })
   })
 
-  describe('ステージデータからドロップアイテムの一覧を生成', () => {
-    it('ステージデータからドロップアイテムを読み込んで重複のない一覧を生成できる', () => {
-      const farmingStages = loadFarmingStages(sampleFarmingStages.farmingStages)
-      const expectedDropItemNames = ['alpha', 'beta']
-
-      const dropItemNames = loadDropItemNames(farmingStages)
-      expect(dropItemNames).toMatchObject(expectedDropItemNames)
+  describe('JSON文字列を読み込んでDTOに加工', () => {
+    it('JSON文字列からマップデータを読み込んでDTOに加工できる', () => {
+      const expectedFarmingData: FarmingData = {
+        farmingStages: [
+          {
+            name: 'Aries',
+            cost: 20,
+            itemDrops: [
+              {
+                name: 'alpha',
+                probability: 1.5,
+              },
+            ],
+          },
+          {
+            name: 'Taurus',
+            cost: 20,
+            itemDrops: [
+              {
+                name: 'beta',
+                probability: 1.2,
+              },
+            ],
+          },
+          {
+            name: 'Gemini',
+            cost: 20,
+            itemDrops: [
+              {
+                name: 'alpha',
+                probability: 0.8,
+              },
+              {
+                name: 'beta',
+                probability: 0.8,
+              },
+            ],
+          },
+        ],
+        items: [
+          {
+            id: 1,
+            name: 'alpha',
+          },
+          {
+            id: 2,
+            name: 'beta'
+          }
+        ]
+      }
+      const farmingData = loadFarmingDataFromJson(JSON.stringify(sampleFarmingStages))
+      expect(farmingData).toMatchObject(expectedFarmingData)
     })
   })
 })

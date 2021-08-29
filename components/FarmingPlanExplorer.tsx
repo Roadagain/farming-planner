@@ -3,8 +3,8 @@ import React from 'react'
 import FarmingContext from '../context/farming-context'
 
 const FarmingPlanExplorer: React.FC = () => {
-  const { farmingPlan } = React.useContext(FarmingContext)
-  if (!farmingPlan) {
+  const { farmingData, farmingPlan } = React.useContext(FarmingContext)
+  if (!farmingData || !farmingPlan) {
     return null
   }
 
@@ -29,11 +29,12 @@ const FarmingPlanExplorer: React.FC = () => {
   farmingPlan.forEach(({ farmingStage }) => {
     farmingStage.itemDrops.forEach(({ name }) => dropItemNameSet.add(name))
   })
+  const dropItemNames = farmingData.items.filter(({ name }) => dropItemNameSet.has(name)).map(({ name }) => name)
   const columns: GridColDef[] = [
     { field: 'name', headerName: '周回ステージ', width: 150 },
     { field: 'count', headerName: '回数', type: 'number', width: 150 },
     { field: 'totalCost', headerName: '総コスト', type: 'number', width: 150 },
-    ...Array.from(dropItemNameSet).map((itemName) => ({
+    ...dropItemNames.map((itemName) => ({
       field: itemName,
       headerName: itemName,
       type: 'number',

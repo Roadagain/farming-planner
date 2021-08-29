@@ -1,4 +1,4 @@
-import { FarmingStage } from './types'
+import { FarmingData, FarmingStage, ItemNameDatum } from './types'
 
 export const loadFarmingStages = (loadedFarmingStages: FarmingStage[]): FarmingStage[] => {
   return loadedFarmingStages.map((farmingStage: FarmingStage): FarmingStage => {
@@ -12,13 +12,14 @@ export const loadFarmingStages = (loadedFarmingStages: FarmingStage[]): FarmingS
   })
 }
 
-export const loadFarmingStagesFromJson = (jsonString: string): FarmingStage[] => {
-  const loadedJson = JSON.parse(jsonString)
-  return loadFarmingStages(loadedJson.farmingStages)
+export const loadItems = (dropItemNameData: ItemNameDatum[]): ItemNameDatum[] => {
+  return dropItemNameData.sort((a, b) => a.id - b.id)
 }
 
-export const loadDropItemNames = (farmingStages: FarmingStage[]): string[] => {
-  const duplicatableDropItemNames = farmingStages.flatMap(({ itemDrops }) => itemDrops.map(({ name }) => name))
-
-  return Array.from(new Set(duplicatableDropItemNames))
+export const loadFarmingDataFromJson = (jsonString: string): FarmingData => {
+  const loadedJson = JSON.parse(jsonString)
+  return {
+    farmingStages: loadFarmingStages(loadedJson.farmingStages),
+    items: loadItems(loadedJson.items)
+  }
 }

@@ -1,9 +1,9 @@
 import { createContext } from 'react'
-import { FarmCount, FarmingStage, RequiredItem } from '../src/types'
+import { FarmCount, FarmingData, RequiredItem } from '../src/types'
 
 export type FarmingContextValue = {
-  farmingStages: FarmingStage[] | null
-  setFarmingStages: (farmingStages: FarmingStage[]) => void
+  farmingData: FarmingData | null
+  setFarmingData: (farmingData: FarmingData) => void
   requiredItems: RequiredItem[] | null
   setRequiredItems: (requiredItems: RequiredItem[]) => void
   farmingPlan: FarmCount[] | null
@@ -11,8 +11,8 @@ export type FarmingContextValue = {
 }
 
 const FarmingContext = createContext<FarmingContextValue>({
-  farmingStages: null,
-  setFarmingStages() {
+  farmingData: null,
+  setFarmingData() {
     return
   },
   requiredItems: null,
