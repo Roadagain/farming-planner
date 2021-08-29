@@ -1,8 +1,7 @@
 import { FarmingStage } from './types'
 
-export const loadFarmingStagesFromJson = async (jsonString: string): Promise<FarmingStage[]> => {
-  const loadedJson = JSON.parse(jsonString)
-  return loadedJson.farmingStages.map((farmingStage: FarmingStage): FarmingStage => {
+export const loadFarmingStages = (loadedFarmingStages: FarmingStage[]): FarmingStage[] => {
+  return loadedFarmingStages.map((farmingStage: FarmingStage): FarmingStage => {
     const { name, cost } = farmingStage
     const itemDrops = farmingStage.itemDrops.map(({ name, probability }) => ({ name, probability }))
     return {
@@ -11,4 +10,9 @@ export const loadFarmingStagesFromJson = async (jsonString: string): Promise<Far
       itemDrops,
     }
   })
+}
+
+export const loadFarmingStagesFromJson = async (jsonString: string): Promise<FarmingStage[]> => {
+  const loadedJson = JSON.parse(jsonString)
+  return loadFarmingStages(loadedJson.farmingStages)
 }

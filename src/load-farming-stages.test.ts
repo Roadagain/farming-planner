@@ -1,7 +1,38 @@
 import { readFile } from 'fs/promises'
-import { loadFarmingStagesFromJson } from './load-farming-stages'
+import { loadFarmingStages, loadFarmingStagesFromJson } from './load-farming-stages'
+import { FarmingStage } from './types'
 
 describe('周回候補マップの読み込み', () => {
+  describe('objectの配列を受け取ってDTOに加工', () => {
+    it('objectからステージデータに必要な情報だけ抜き出してDTOに加工できる', () => {
+      const ariesStage: FarmingStage = {
+        name: 'Aries',
+        cost: 20,
+        itemDrops: [
+          {
+            name: 'alpha',
+            probability: 1.5,
+          },
+        ],
+      }
+      const loadedFarmingStages = [
+        {
+          ...ariesStage,
+          unnecessaryProperty: 10,
+          itemDrops: [
+            {
+              ...ariesStage.itemDrops[0],
+              unnecessaryProperty: "abcde",
+            }
+          ]
+        },
+      ]
+      const expectedFarmingStages = [ariesStage]
+      const farmingStages = loadFarmingStages(loadedFarmingStages)
+      expect(farmingStages).toMatchObject(expectedFarmingStages)
+    })
+  })
+
   describe('JSON文字列を読み込んでDTOに加工', () => {
     it('JSON文字列からマップデータを読み込んでDTOに加工できる', async () => {
       const expectedFarmingStages = [
