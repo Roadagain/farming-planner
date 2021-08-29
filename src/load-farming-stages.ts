@@ -1,4 +1,5 @@
 import { FarmingStage } from './types'
+import presetFgoJson from '../preset-stages/fgo.json'
 
 export const loadFarmingStages = (loadedFarmingStages: FarmingStage[]): FarmingStage[] => {
   return loadedFarmingStages.map((farmingStage: FarmingStage): FarmingStage => {
@@ -15,6 +16,10 @@ export const loadFarmingStages = (loadedFarmingStages: FarmingStage[]): FarmingS
 export const loadFarmingStagesFromJson = (jsonString: string): FarmingStage[] => {
   const loadedJson = JSON.parse(jsonString)
   return loadFarmingStages(loadedJson.farmingStages)
+}
+
+export const loadPresetFgoStages = (): FarmingStage[] => {
+  return loadFarmingStages(presetFgoJson.farmingStages)
 }
 
 export const loadDropItemNames = (farmingStages: FarmingStage[]): string[] => {
