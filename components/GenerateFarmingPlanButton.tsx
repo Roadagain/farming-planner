@@ -1,7 +1,7 @@
 import { Button } from '@material-ui/core'
 import React from 'react'
 import FarmingContext from '../context/farming-context'
-import { planFarming } from '../src/planner'
+import { planFarming } from '../lib/planner'
 
 const GenerateFarmingPlanButton: React.FC = () => {
   const { farmingData, requiredItems, setFarmingPlan } = React.useContext(FarmingContext)

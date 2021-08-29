@@ -1,5 +1,5 @@
 import { createContext } from 'react'
-import { FarmCount, FarmingData, RequiredItem } from '../src/types'
+import { FarmCount, FarmingData, RequiredItem } from '../lib/types'
 
 export type FarmingContextValue = {
   farmingData: FarmingData | null

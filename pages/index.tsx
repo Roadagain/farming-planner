@@ -5,7 +5,7 @@ import FarmingDataLoader from '../components/FarmingDataLoader'
 import GenerateFarmingPlanButton from '../components/GenerateFarmingPlanButton'
 import RequiredItemsExplorer from '../components/RequiredItemsExplorer'
 import FarmingContext from '../context/farming-context'
-import { FarmCount, FarmingData, RequiredItem } from '../src/types'
+import { FarmCount, FarmingData, RequiredItem } from '../lib/types'
 
 const useStyles = makeStyles({
   container: {
