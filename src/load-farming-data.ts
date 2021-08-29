@@ -17,17 +17,18 @@ export const loadItems = (dropItemNameData: ItemNameDatum[]): ItemNameDatum[] =>
   return dropItemNameData.sort((a, b) => a.id - b.id)
 }
 
-export const loadFarmingDataFromJson = (jsonString: string): FarmingData => {
-  const loadedJson = JSON.parse(jsonString)
+export const loadFarmingData = (farmingData: FarmingData): FarmingData => {
   return {
-    farmingStages: loadFarmingStages(loadedJson.farmingStages),
-    items: loadItems(loadedJson.items),
+    farmingStages: loadFarmingStages(farmingData.farmingStages),
+    items: loadItems(farmingData.items),
   }
 }
 
+export const loadFarmingDataFromJson = (jsonString: string): FarmingData => {
+  const loadedJson = JSON.parse(jsonString)
+  return loadFarmingData(loadedJson)
+}
+
 export const loadPresetFgoData = (): FarmingData => {
-  return {
-    farmingStages: loadFarmingStages(presetFgoJson.farmingStages),
-    items: loadItems(presetFgoJson.items)
-  }
+  return loadFarmingData(presetFgoJson)
 }

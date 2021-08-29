@@ -1,7 +1,7 @@
 import { Grid, makeStyles } from '@material-ui/core'
 import React from 'react'
 import FarmingPlanExplorer from '../components/FarmingPlanExplorer'
-import FarmingStagesLoader from '../components/FarmingStagesLoader'
+import FarmingDataLoader from '../components/FarmingDataLoader'
 import GenerateFarmingPlanButton from '../components/GenerateFarmingPlanButton'
 import RequiredItemsExplorer from '../components/RequiredItemsExplorer'
 import FarmingContext from '../context/farming-context'
@@ -31,7 +31,7 @@ const IndexPage: React.FC = () => {
     <FarmingContext.Provider value={farmingContextValue}>
       <Grid container spacing={2} direction="column" className={classes.container}>
         <Grid item>
-          <FarmingStagesLoader />
+          <FarmingDataLoader />
         </Grid>
         {farmingData ? (
           <>

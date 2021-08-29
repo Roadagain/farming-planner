@@ -1,7 +1,7 @@
 import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core'
 import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
-import { loadFarmingDataFromJson, loadPresetFgoData } from '../src/load-farming-stages'
+import { loadFarmingDataFromJson, loadPresetFgoData } from '../src/load-farming-data'
 import { FarmingData } from '../src/types'
 
 const FarmingStagesLoader: React.FC = () => {
