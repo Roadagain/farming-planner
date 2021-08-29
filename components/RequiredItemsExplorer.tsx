@@ -15,9 +15,9 @@ const RequiredItemsExplorer: React.FC = () => {
       requiredItems.map((requiredItem, index) => {
         return index === editedIndex
           ? {
-            ...requiredItem,
-            count: newCount,
-          }
+              ...requiredItem,
+              count: newCount,
+            }
           : requiredItem
       }),
     )
