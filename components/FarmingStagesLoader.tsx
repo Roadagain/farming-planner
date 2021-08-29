@@ -11,7 +11,7 @@ const FarmingStagesLoader: React.FC = () => {
       return
     }
     setFileName(e.target.files[0].name)
-    const farmingStages = await loadFarmingStagesFromJson(await e.target.files[0].text())
+    const farmingStages = loadFarmingStagesFromJson(await e.target.files[0].text())
     setFarmingStages(farmingStages)
     const dropItemNames = new Set<string>()
     farmingStages.forEach(({ itemDrops }) => {

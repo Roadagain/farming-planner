@@ -12,7 +12,7 @@ export const loadFarmingStages = (loadedFarmingStages: FarmingStage[]): FarmingS
   })
 }
 
-export const loadFarmingStagesFromJson = async (jsonString: string): Promise<FarmingStage[]> => {
+export const loadFarmingStagesFromJson = (jsonString: string): FarmingStage[] => {
   const loadedJson = JSON.parse(jsonString)
   return loadFarmingStages(loadedJson.farmingStages)
 }
