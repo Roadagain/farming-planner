@@ -1,7 +1,7 @@
 import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core'
 import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
-import { loadFarmingStagesFromJson } from '../src/load-farming-stages'
+import { loadDropItemNames, loadFarmingStagesFromJson } from '../src/load-farming-stages'
 
 const FarmingStagesLoader: React.FC = () => {
   const [fileName, setFileName] = React.useState<string>('')
@@ -13,12 +13,9 @@ const FarmingStagesLoader: React.FC = () => {
     setFileName(e.target.files[0].name)
     const farmingStages = loadFarmingStagesFromJson(await e.target.files[0].text())
     setFarmingStages(farmingStages)
-    const dropItemNames = new Set<string>()
-    farmingStages.forEach(({ itemDrops }) => {
-      itemDrops.forEach(({ name }) => dropItemNames.add(name))
-    })
+    const dropItemNames = loadDropItemNames(farmingStages)
     setRequiredItems(
-      Array.from(dropItemNames.keys()).map((itemName) => {
+      dropItemNames.map((itemName) => {
         return {
           name: itemName,
           count: 0,

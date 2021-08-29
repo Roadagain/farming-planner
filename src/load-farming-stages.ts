@@ -16,3 +16,9 @@ export const loadFarmingStagesFromJson = (jsonString: string): FarmingStage[] =>
   const loadedJson = JSON.parse(jsonString)
   return loadFarmingStages(loadedJson.farmingStages)
 }
+
+export const loadDropItemNames = (farmingStages: FarmingStage[]): string[] => {
+  const duplicatableDropItemNames = farmingStages.flatMap(({ itemDrops }) => itemDrops.map(({ name }) => name))
+
+  return Array.from(new Set(duplicatableDropItemNames))
+}

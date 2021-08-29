@@ -1,4 +1,4 @@
-import { loadFarmingStages, loadFarmingStagesFromJson } from './load-farming-stages'
+import { loadDropItemNames, loadFarmingStages, loadFarmingStagesFromJson } from './load-farming-stages'
 import { FarmingStage } from './types'
 import sampleFarmingStages from '../sample/farming-stages.json'
 
@@ -75,5 +75,14 @@ describe('周回候補マップの読み込み', () => {
       expect(farmingStages).toMatchObject(expectedFarmingStages)
     })
   })
+
+  describe('ステージデータからドロップアイテムの一覧を生成', () => {
+    it('ステージデータからドロップアイテムを読み込んで重複のない一覧を生成できる', () => {
+      const farmingStages = loadFarmingStages(sampleFarmingStages.farmingStages)
+      const expectedDropItemNames = ['alpha', 'beta']
+
+      const dropItemNames = loadDropItemNames(farmingStages)
+      expect(dropItemNames).toMatchObject(expectedDropItemNames)
+    })
   })
 })
