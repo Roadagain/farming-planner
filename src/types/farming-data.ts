@@ -1,4 +1,4 @@
-import { FarmingStage } from "./farming-stage";
+import { FarmingStage } from './farming-stage'
 
 export type ItemNameDatum = {
   id: number

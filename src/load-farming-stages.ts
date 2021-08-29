@@ -20,6 +20,6 @@ export const loadFarmingDataFromJson = (jsonString: string): FarmingData => {
   const loadedJson = JSON.parse(jsonString)
   return {
     farmingStages: loadFarmingStages(loadedJson.farmingStages),
-    items: loadItems(loadedJson.items)
+    items: loadItems(loadedJson.items),
   }
 }

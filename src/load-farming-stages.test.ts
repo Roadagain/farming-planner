@@ -22,9 +22,9 @@ describe('周回候補マップの読み込み', () => {
           itemDrops: [
             {
               ...ariesStage.itemDrops[0],
-              unnecessaryProperty: "abcde",
-            }
-          ]
+              unnecessaryProperty: 'abcde',
+            },
+          ],
         },
       ]
       const expectedFarmingStages = [ariesStage]
@@ -43,7 +43,7 @@ describe('周回候補マップの読み込み', () => {
         {
           id: 2,
           name: 'beta',
-        }
+        },
       ]
 
       const dropItems = loadItems(sampleFarmingStages.items)
@@ -53,11 +53,11 @@ describe('周回候補マップの読み込み', () => {
     it('ドロップアイテムの一覧はID順にソートされている', () => {
       const alphaItem = {
         id: 2,
-        name: 'alpha'
+        name: 'alpha',
       }
       const betaItem = {
         id: 1,
-        name: 'beta'
+        name: 'beta',
       }
       const dropItemNameData = [alphaItem, betaItem]
       const expectedDropItems = [betaItem, alphaItem]
@@ -113,9 +113,9 @@ describe('周回候補マップの読み込み', () => {
           },
           {
             id: 2,
-            name: 'beta'
-          }
-        ]
+            name: 'beta',
+          },
+        ],
       }
       const farmingData = loadFarmingDataFromJson(JSON.stringify(sampleFarmingStages))
       expect(farmingData).toMatchObject(expectedFarmingData)
