@@ -1,0 +1,9996 @@
+{
+  "specialThanks": {
+    "name": "FGOアイテム効率劇場",
+    "url": "https://docs.google.com/spreadsheets/d/1TrfSDteVZnjUPz68rKzuZWZdZZBLqw03FlvEToOvqH0/htmlview"
+  },
+  "farmingStages": [
+    {
+      "name": "修練場(月)/弓超級",
+      "cost": 40,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.2
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.259
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.188
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.195
+        },
+        {
+          "name": "隕蹄鉄",
+          "probability": 0.212
+        },
+        {
+          "name": "血の涙石",
+          "probability": 0.11
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.217
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 1.212
+        },
+        {
+          "name": "弓の秘石",
+          "probability": 0.305
+        },
+        {
+          "name": "アーチャーピース",
+          "probability": 0.825
+        },
+        {
+          "name": "アーチャーモニュメント",
+          "probability": 0.6
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.087
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 15690
+        },
+        {
+          "name": "QP",
+          "probability": 6400
+        }
+      ]
+    },
+    {
+      "name": "修練場(月)/弓上級",
+      "cost": 30,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.152
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.227
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.168
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.093
+        },
+        {
+          "name": "隕蹄鉄",
+          "probability": 0.171
+        },
+        {
+          "name": "血の涙石",
+          "probability": 0.049
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.23
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 1.528
+        },
+        {
+          "name": "弓の秘石",
+          "probability": 0.144
+        },
+        {
+          "name": "アーチャーピース",
+          "probability": 1.12
+        },
+        {
+          "name": "アーチャーモニュメント",
+          "probability": 0.347
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.049
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 5690
+        },
+        {
+          "name": "QP",
+          "probability": 4400
+        }
+      ]
+    },
+    {
+      "name": "修練場(月)/弓中級",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.064
+        },
+        {
+          "name": "凶骨",
+          "probability": 0.342
+        },
+        {
+          "name": "竜の牙",
+          "probability": 0.005
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.181
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.133
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.012
+        },
+        {
+          "name": "隕蹄鉄",
+          "probability": 0.113
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 1.402
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.388
+        },
+        {
+          "name": "アーチャーピース",
+          "probability": 0.667
+        },
+        {
+          "name": "アーチャーモニュメント",
+          "probability": 0.078
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.611
+        },
+        {
+          "name": "絆",
+          "probability": 265
+        },
+        {
+          "name": "EXP",
+          "probability": 1385
+        },
+        {
+          "name": "QP",
+          "probability": 2900
+        }
+      ]
+    },
+    {
+      "name": "修練場(月)/弓初級",
+      "cost": 10,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.091
+        },
+        {
+          "name": "凶骨",
+          "probability": 0.251
+        },
+        {
+          "name": "竜の牙",
+          "probability": 0.058
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.079
+        },
+        {
+          "name": "隕蹄鉄",
+          "probability": 0.048
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 1.44
+        },
+        {
+          "name": "アーチャーピース",
+          "probability": 0.228
+        },
+        {
+          "name": "アーチャーモニュメント",
+          "probability": 0.025
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.803
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 275
+        },
+        {
+          "name": "QP",
+          "probability": 1400
+        }
+      ]
+    },
+    {
+      "name": "修練場(火)/槍超級",
+      "cost": 40,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.19
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.269
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.297
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.12
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "probability": 0.208
+        },
+        {
+          "name": "戦馬の幼角",
+          "probability": 0.124
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.209
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 1.147
+        },
+        {
+          "name": "槍の秘石",
+          "probability": 0.274
+        },
+        {
+          "name": "ランサーピース",
+          "probability": 0.777
+        },
+        {
+          "name": "ランサーモニュメント",
+          "probability": 0.551
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 15690
+        },
+        {
+          "name": "QP",
+          "probability": 6400
+        }
+      ]
+    },
+    {
+      "name": "修練場(火)/槍上級",
+      "cost": 30,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.142
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.225
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.206
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.075
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "probability": 0.16
+        },
+        {
+          "name": "戦馬の幼角",
+          "probability": 0.053
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.209
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 1.466
+        },
+        {
+          "name": "槍の秘石",
+          "probability": 0.168
+        },
+        {
+          "name": "ランサーピース",
+          "probability": 1.025
+        },
+        {
+          "name": "ランサーモニュメント",
+          "probability": 0.357
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.091
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 5690
+        },
+        {
+          "name": "QP",
+          "probability": 4400
+        }
+      ]
+    },
+    {
+      "name": "修練場(火)/槍中級",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.064
+        },
+        {
+          "name": "凶骨",
+          "probability": 0.186
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.155
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.119
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "probability": 0.119
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 1.164
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.65
+        },
+        {
+          "name": "ランサーピース",
+          "probability": 0.698
+        },
+        {
+          "name": "ランサーモニュメント",
+          "probability": 0.083
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.584
+        },
+        {
+          "name": "絆",
+          "probability": 265
+        },
+        {
+          "name": "EXP",
+          "probability": 1385
+        },
+        {
+          "name": "QP",
+          "probability": 2900
+        }
+      ]
+    },
+    {
+      "name": "修練場(火)/槍初級",
+      "cost": 10,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.147
+        },
+        {
+          "name": "凶骨",
+          "probability": 0.286
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.062
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "probability": 0.055
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 1.227
+        },
+        {
+          "name": "ランサーピース",
+          "probability": 0.237
+        },
+        {
+          "name": "ランサーモニュメント",
+          "probability": 0.024
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 275
+        },
+        {
+          "name": "QP",
+          "probability": 1400
+        }
+      ]
+    },
+    {
+      "name": "修練場(水)/狂超級",
+      "cost": 40,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.245
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.254
+        },
+        {
+          "name": "八連双晶",
+          "probability": 0.178
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.082
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.173
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 1.188
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.231
+        },
+        {
+          "name": "バーサーカーピース",
+          "probability": 0.884
+        },
+        {
+          "name": "バーサーカーモニュメント",
+          "probability": 0.596
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.091
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 15690
+        },
+        {
+          "name": "QP",
+          "probability": 6400
+        }
+      ]
+    },
+    {
+      "name": "修練場(水)/狂上級",
+      "cost": 30,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.151
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.22
+        },
+        {
+          "name": "八連双晶",
+          "probability": 0.167
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.037
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.239
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 1.383
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.109
+        },
+        {
+          "name": "バーサーカーピース",
+          "probability": 1.039
+        },
+        {
+          "name": "バーサーカーモニュメント",
+          "probability": 0.455
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.092
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 5690
+        },
+        {
+          "name": "QP",
+          "probability": 4400
+        }
+      ]
+    },
+    {
+      "name": "修練場(水)/狂中級",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.07
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.18
+        },
+        {
+          "name": "八連双晶",
+          "probability": 0.14
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.027
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 1.277
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.623
+        },
+        {
+          "name": "バーサーカーピース",
+          "probability": 0.683
+        },
+        {
+          "name": "バーサーカーモニュメント",
+          "probability": 0.107
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.57
+        },
+        {
+          "name": "絆",
+          "probability": 265
+        },
+        {
+          "name": "EXP",
+          "probability": 1385
+        },
+        {
+          "name": "QP",
+          "probability": 2900
+        }
+      ]
+    },
+    {
+      "name": "修練場(水)/狂初級",
+      "cost": 10,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.1
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.04
+        },
+        {
+          "name": "八連双晶",
+          "probability": 0.057
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 1.467
+        },
+        {
+          "name": "バーサーカーピース",
+          "probability": 0.212
+        },
+        {
+          "name": "バーサーカーモニュメント",
+          "probability": 0.024
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.799
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 275
+        },
+        {
+          "name": "QP",
+          "probability": 1400
+        }
+      ]
+    },
+    {
+      "name": "修練場(木)/騎超級",
+      "cost": 40,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.522
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.159
+        },
+        {
+          "name": "隕蹄鉄",
+          "probability": 0.208
+        },
+        {
+          "name": "竜の逆鱗",
+          "probability": 0.082
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.232
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 1.016
+        },
+        {
+          "name": "騎の秘石",
+          "probability": 0.373
+        },
+        {
+          "name": "ライダーピース",
+          "probability": 0.783
+        },
+        {
+          "name": "ライダーモニュメント",
+          "probability": 0.618
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.135
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 15690
+        },
+        {
+          "name": "QP",
+          "probability": 6400
+        }
+      ]
+    },
+    {
+      "name": "修練場(木)/騎上級",
+      "cost": 30,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.53
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.125
+        },
+        {
+          "name": "隕蹄鉄",
+          "probability": 0.154
+        },
+        {
+          "name": "竜の逆鱗",
+          "probability": 0.031
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.242
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 1.21
+        },
+        {
+          "name": "騎の秘石",
+          "probability": 0.233
+        },
+        {
+          "name": "ライダーピース",
+          "probability": 1.039
+        },
+        {
+          "name": "ライダーモニュメント",
+          "probability": 0.455
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 5690
+        },
+        {
+          "name": "QP",
+          "probability": 4400
+        }
+      ]
+    },
+    {
+      "name": "修練場(木)/騎中級",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.303
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.149
+        },
+        {
+          "name": "隕蹄鉄",
+          "probability": 0.12
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.971
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.917
+        },
+        {
+          "name": "ライダーピース",
+          "probability": 0.678
+        },
+        {
+          "name": "ライダーモニュメント",
+          "probability": 0.075
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.622
+        },
+        {
+          "name": "絆",
+          "probability": 265
+        },
+        {
+          "name": "EXP",
+          "probability": 1385
+        },
+        {
+          "name": "QP",
+          "probability": 2900
+        }
+      ]
+    },
+    {
+      "name": "修練場(木)/騎初級",
+      "cost": 10,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.192
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.06
+        },
+        {
+          "name": "隕蹄鉄",
+          "probability": 0.073
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 1.139
+        },
+        {
+          "name": "ライダーピース",
+          "probability": 0.266
+        },
+        {
+          "name": "ライダーモニュメント",
+          "probability": 0.016
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.788
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 275
+        },
+        {
+          "name": "QP",
+          "probability": 1400
+        }
+      ]
+    },
+    {
+      "name": "修練場(金)/術超級",
+      "cost": 40,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.245
+        },
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.288
+        },
+        {
+          "name": "禁断の頁",
+          "probability": 0.251
+        },
+        {
+          "name": "蛮神の心臓",
+          "probability": 0.06
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.096
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.925
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.785
+        },
+        {
+          "name": "キャスターピース",
+          "probability": 0.818
+        },
+        {
+          "name": "キャスターモニュメント",
+          "probability": 0.604
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.016
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 15690
+        },
+        {
+          "name": "QP",
+          "probability": 6400
+        }
+      ]
+    },
+    {
+      "name": "修練場(金)/術上級",
+      "cost": 30,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.278
+        },
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.21
+        },
+        {
+          "name": "禁断の頁",
+          "probability": 0.177
+        },
+        {
+          "name": "蛮神の心臓",
+          "probability": 0.039
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.087
+        },
+        {
+          "name": "術の魔石",
+          "probability": 1.576
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.249
+        },
+        {
+          "name": "キャスターピース",
+          "probability": 0.983
+        },
+        {
+          "name": "キャスターモニュメント",
+          "probability": 0.335
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.145
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 5690
+        },
+        {
+          "name": "QP",
+          "probability": 4400
+        }
+      ]
+    },
+    {
+      "name": "修練場(金)/術中級",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.258
+        },
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.155
+        },
+        {
+          "name": "禁断の頁",
+          "probability": 0.114
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.947
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.779
+        },
+        {
+          "name": "キャスターピース",
+          "probability": 0.858
+        },
+        {
+          "name": "キャスターモニュメント",
+          "probability": 0.078
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.655
+        },
+        {
+          "name": "絆",
+          "probability": 265
+        },
+        {
+          "name": "EXP",
+          "probability": 1385
+        },
+        {
+          "name": "QP",
+          "probability": 2900
+        }
+      ]
+    },
+    {
+      "name": "修練場(金)/術初級",
+      "cost": 10,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.167
+        },
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.09
+        },
+        {
+          "name": "禁断の頁",
+          "probability": 0.057
+        },
+        {
+          "name": "術の輝石",
+          "probability": 1.213
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.11
+        },
+        {
+          "name": "キャスターピース",
+          "probability": 0.342
+        },
+        {
+          "name": "キャスターモニュメント",
+          "probability": 0.015
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.828
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 275
+        },
+        {
+          "name": "QP",
+          "probability": 1400
+        }
+      ]
+    },
+    {
+      "name": "修練場(土)/殺超級",
+      "cost": 40,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.164
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.18
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.333
+        },
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.19
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.004
+        },
+        {
+          "name": "黒獣脂",
+          "probability": 0.128
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.185
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 1.168
+        },
+        {
+          "name": "殺の秘石",
+          "probability": 0.249
+        },
+        {
+          "name": "アサシンピース",
+          "probability": 0.768
+        },
+        {
+          "name": "アサシンモニュメント",
+          "probability": 0.6
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.124
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 15690
+        },
+        {
+          "name": "QP",
+          "probability": 6400
+        }
+      ]
+    },
+    {
+      "name": "修練場(土)/殺上級",
+      "cost": 30,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.127
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.15
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.169
+        },
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.18
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.165
+        },
+        {
+          "name": "黒獣脂",
+          "probability": 0.048
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.176
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 1.455
+        },
+        {
+          "name": "殺の秘石",
+          "probability": 0.133
+        },
+        {
+          "name": "アサシンピース",
+          "probability": 1.045
+        },
+        {
+          "name": "アサシンモニュメント",
+          "probability": 0.385
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.115
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 5690
+        },
+        {
+          "name": "QP",
+          "probability": 4400
+        }
+      ]
+    },
+    {
+      "name": "修練場(土)/殺中級",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.21
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.186
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.096
+        },
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.032
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.096
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.834
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 1.086
+        },
+        {
+          "name": "アサシンピース",
+          "probability": 0.737
+        },
+        {
+          "name": "アサシンモニュメント",
+          "probability": 0.102
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.553
+        },
+        {
+          "name": "絆",
+          "probability": 265
+        },
+        {
+          "name": "EXP",
+          "probability": 1385
+        },
+        {
+          "name": "QP",
+          "probability": 2900
+        }
+      ]
+    },
+    {
+      "name": "修練場(土)/殺初級",
+      "cost": 10,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.134
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.126
+        },
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.043
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.058
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 1.369
+        },
+        {
+          "name": "アサシンピース",
+          "probability": 0.295
+        },
+        {
+          "name": "アサシンモニュメント",
+          "probability": 0.022
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.812
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 275
+        },
+        {
+          "name": "QP",
+          "probability": 1400
+        }
+      ]
+    },
+    {
+      "name": "修練場(日)/剣超級",
+      "cost": 40,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.213
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.217
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.287
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.108
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.195
+        },
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.206
+        },
+        {
+          "name": "精霊根",
+          "probability": 0.095
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.278
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 1.175
+        },
+        {
+          "name": "剣の秘石",
+          "probability": 0.267
+        },
+        {
+          "name": "セイバーピース",
+          "probability": 0.806
+        },
+        {
+          "name": "セイバーモニュメント",
+          "probability": 0.517
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.069
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 15690
+        },
+        {
+          "name": "QP",
+          "probability": 6400
+        }
+      ]
+    },
+    {
+      "name": "修練場(日)/剣上級",
+      "cost": 30,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.156
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.192
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.263
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.17
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.154
+        },
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.15
+        },
+        {
+          "name": "精霊根",
+          "probability": 0.038
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.264
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 1.339
+        },
+        {
+          "name": "剣の秘石",
+          "probability": 0.051
+        },
+        {
+          "name": "セイバーピース",
+          "probability": 1.013
+        },
+        {
+          "name": "セイバーモニュメント",
+          "probability": 0.357
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.096
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 5690
+        },
+        {
+          "name": "QP",
+          "probability": 4400
+        }
+      ]
+    },
+    {
+      "name": "修練場(日)/剣中級",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.137
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.15
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.14
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.094
+        },
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.135
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 1.138
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.737
+        },
+        {
+          "name": "セイバーピース",
+          "probability": 0.698
+        },
+        {
+          "name": "セイバーモニュメント",
+          "probability": 0.083
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.668
+        },
+        {
+          "name": "絆",
+          "probability": 265
+        },
+        {
+          "name": "EXP",
+          "probability": 1385
+        },
+        {
+          "name": "QP",
+          "probability": 2900
+        }
+      ]
+    },
+    {
+      "name": "修練場(日)/剣初級",
+      "cost": 10,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.103
+        },
+        {
+          "name": "凶骨",
+          "probability": 0.262
+        },
+        {
+          "name": "竜の牙",
+          "probability": 0.042
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.057
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.054
+        },
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.055
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 1.319
+        },
+        {
+          "name": "セイバーピース",
+          "probability": 0.237
+        },
+        {
+          "name": "セイバーモニュメント",
+          "probability": 0.027
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.822
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 275
+        },
+        {
+          "name": "QP",
+          "probability": 1400
+        }
+      ]
+    },
+    {
+      "name": "冬木/X-A(屋敷跡)",
+      "cost": 3,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.091
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.168
+        },
+        {
+          "name": "絆",
+          "probability": 25
+        },
+        {
+          "name": "EXP",
+          "probability": 4
+        },
+        {
+          "name": "QP",
+          "probability": 650
+        }
+      ]
+    },
+    {
+      "name": "冬木/X-B(爆心地)",
+      "cost": 4,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.185
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.174
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.104
+        },
+        {
+          "name": "絆",
+          "probability": 35
+        },
+        {
+          "name": "EXP",
+          "probability": 14
+        },
+        {
+          "name": "QP",
+          "probability": 780
+        }
+      ]
+    },
+    {
+      "name": "冬木/X-C(大橋)",
+      "cost": 4,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.211
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.23
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.171
+        },
+        {
+          "name": "絆",
+          "probability": 35
+        },
+        {
+          "name": "EXP",
+          "probability": 14
+        },
+        {
+          "name": "QP",
+          "probability": 780
+        }
+      ]
+    },
+    {
+      "name": "冬木/X-D(港)",
+      "cost": 5,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.225
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.21
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.222
+        },
+        {
+          "name": "絆",
+          "probability": 55
+        },
+        {
+          "name": "EXP",
+          "probability": 24
+        },
+        {
+          "name": "QP",
+          "probability": 1040
+        }
+      ]
+    },
+    {
+      "name": "冬木/X-E(教会)",
+      "cost": 5,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.192
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.056
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.218
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.15
+        },
+        {
+          "name": "ライダーピース",
+          "probability": 0.051
+        },
+        {
+          "name": "絆",
+          "probability": 75
+        },
+        {
+          "name": "EXP",
+          "probability": 64
+        },
+        {
+          "name": "QP",
+          "probability": 1300
+        }
+      ]
+    },
+    {
+      "name": "冬木/X-F(校舎)",
+      "cost": 6,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.146
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.098
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.049
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.195
+        },
+        {
+          "name": "ランサーピース",
+          "probability": 0.073
+        },
+        {
+          "name": "アサシンピース",
+          "probability": 0.024
+        },
+        {
+          "name": "絆",
+          "probability": 95
+        },
+        {
+          "name": "EXP",
+          "probability": 124
+        },
+        {
+          "name": "QP",
+          "probability": 1560
+        }
+      ]
+    },
+    {
+      "name": "冬木/X-G(燃え盛る森)",
+      "cost": 15,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.71
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.11
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.055
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.23
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 4552
+        },
+        {
+          "name": "QP",
+          "probability": 5720
+        }
+      ]
+    },
+    {
+      "name": "冬木/変動座標点0号(大空洞)",
+      "cost": 7,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.053
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.158
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.026
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.053
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.237
+        },
+        {
+          "name": "セイバーピース",
+          "probability": 0.105
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 220
+        },
+        {
+          "name": "QP",
+          "probability": 1820
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/ドンレミ",
+      "cost": 7,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.1
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.1
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.1
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 220
+        },
+        {
+          "name": "QP",
+          "probability": 1820
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/ヴォークルール",
+      "cost": 7,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.25
+        },
+        {
+          "name": "竜の牙",
+          "probability": 0.125
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.125
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.125
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 220
+        },
+        {
+          "name": "QP",
+          "probability": 1820
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/ラ・シャリテ",
+      "cost": 7,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.053
+        },
+        {
+          "name": "竜の牙",
+          "probability": 0.053
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.0
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.421
+        },
+        {
+          "name": "絆",
+          "probability": 115
+        },
+        {
+          "name": "EXP",
+          "probability": 220
+        },
+        {
+          "name": "QP",
+          "probability": 1820
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/ジュラ",
+      "cost": 7,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.08
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.078
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.064
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.162
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.187
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.164
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.093
+        },
+        {
+          "name": "ライダーピース",
+          "probability": 0.126
+        },
+        {
+          "name": "絆",
+          "probability": 135
+        },
+        {
+          "name": "EXP",
+          "probability": 300
+        },
+        {
+          "name": "QP",
+          "probability": 2080
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/リヨン",
+      "cost": 7,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.6
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.0
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.2
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.2
+        },
+        {
+          "name": "アサシンピース",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 135
+        },
+        {
+          "name": "EXP",
+          "probability": 300
+        },
+        {
+          "name": "QP",
+          "probability": 2080
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/マルセイユ",
+      "cost": 7,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.2
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.4
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 135
+        },
+        {
+          "name": "EXP",
+          "probability": 300
+        },
+        {
+          "name": "QP",
+          "probability": 2080
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/ティエール",
+      "cost": 7,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 135
+        },
+        {
+          "name": "EXP",
+          "probability": 300
+        },
+        {
+          "name": "QP",
+          "probability": 2080
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/ボルドー",
+      "cost": 7,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.099
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.084
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.36
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.285
+        },
+        {
+          "name": "絆",
+          "probability": 135
+        },
+        {
+          "name": "EXP",
+          "probability": 300
+        },
+        {
+          "name": "QP",
+          "probability": 2080
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/オルレアン",
+      "cost": 8,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.162
+        },
+        {
+          "name": "竜の牙",
+          "probability": 0.108
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.068
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.074
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.149
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.047
+        },
+        {
+          "name": "キャスターピース",
+          "probability": 0.122
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.047
+        },
+        {
+          "name": "絆",
+          "probability": 155
+        },
+        {
+          "name": "EXP",
+          "probability": 392
+        },
+        {
+          "name": "QP",
+          "probability": 2340
+        }
+      ]
+    },
+    {
+      "name": "オルレアン/パリ",
+      "cost": 13,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.235
+        },
+        {
+          "name": "竜の牙",
+          "probability": 0.088
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.118
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.147
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.059
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.059
+        },
+        {
+          "name": "セイバーピース",
+          "probability": 0.0
+        },
+        {
+          "name": "アーチャーピース",
+          "probability": 0.029
+        },
+        {
+          "name": "ランサーピース",
+          "probability": 0.029
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.118
+        },
+        {
+          "name": "絆",
+          "probability": 315
+        },
+        {
+          "name": "EXP",
+          "probability": 1752
+        },
+        {
+          "name": "QP",
+          "probability": 4420
+        }
+      ]
+    },
+    {
+      "name": "セプテム/アッピア街道",
+      "cost": 9,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 175
+        },
+        {
+          "name": "EXP",
+          "probability": 504
+        },
+        {
+          "name": "QP",
+          "probability": 2600
+        }
+      ]
+    },
+    {
+      "name": "セプテム/ローマ",
+      "cost": 9,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 175
+        },
+        {
+          "name": "EXP",
+          "probability": 504
+        },
+        {
+          "name": "QP",
+          "probability": 2600
+        }
+      ]
+    },
+    {
+      "name": "セプテム/エトナ火山",
+      "cost": 9,
+      "itemDrops": [
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.1
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.3
+        },
+        {
+          "name": "絆",
+          "probability": 175
+        },
+        {
+          "name": "EXP",
+          "probability": 504
+        },
+        {
+          "name": "QP",
+          "probability": 2600
+        }
+      ]
+    },
+    {
+      "name": "セプテム/フロレンティア",
+      "cost": 9,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.435
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.097
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.339
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.129
+        },
+        {
+          "name": "絆",
+          "probability": 175
+        },
+        {
+          "name": "EXP",
+          "probability": 504
+        },
+        {
+          "name": "QP",
+          "probability": 2600
+        }
+      ]
+    },
+    {
+      "name": "セプテム/メディオラヌム",
+      "cost": 9,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 175
+        },
+        {
+          "name": "EXP",
+          "probability": 504
+        },
+        {
+          "name": "QP",
+          "probability": 2600
+        }
+      ]
+    },
+    {
+      "name": "セプテム/ゲルマニア",
+      "cost": 15,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.472
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.033
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.164
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.055
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.118
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.092
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.051
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 4552
+        },
+        {
+          "name": "QP",
+          "probability": 5720
+        }
+      ]
+    },
+    {
+      "name": "セプテム/マッシリア",
+      "cost": 9,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 175
+        },
+        {
+          "name": "EXP",
+          "probability": 504
+        },
+        {
+          "name": "QP",
+          "probability": 2600
+        }
+      ]
+    },
+    {
+      "name": "セプテム/ガリア",
+      "cost": 9,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 195
+        },
+        {
+          "name": "EXP",
+          "probability": 632
+        },
+        {
+          "name": "QP",
+          "probability": 2860
+        }
+      ]
+    },
+    {
+      "name": "セプテム/ブリタニア",
+      "cost": 10,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 215
+        },
+        {
+          "name": "EXP",
+          "probability": 764
+        },
+        {
+          "name": "QP",
+          "probability": 3120
+        }
+      ]
+    },
+    {
+      "name": "セプテム/形ある島",
+      "cost": 9,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 195
+        },
+        {
+          "name": "EXP",
+          "probability": 632
+        },
+        {
+          "name": "QP",
+          "probability": 2860
+        }
+      ]
+    },
+    {
+      "name": "セプテム/連合首都",
+      "cost": 10,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 215
+        },
+        {
+          "name": "EXP",
+          "probability": 764
+        },
+        {
+          "name": "QP",
+          "probability": 3120
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/海賊船",
+      "cost": 12,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.662
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.26
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.277
+        },
+        {
+          "name": "絆",
+          "probability": 295
+        },
+        {
+          "name": "EXP",
+          "probability": 1288
+        },
+        {
+          "name": "QP",
+          "probability": 4160
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/海賊島",
+      "cost": 13,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 315
+        },
+        {
+          "name": "EXP",
+          "probability": 1752
+        },
+        {
+          "name": "QP",
+          "probability": 4420
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/王の住まう島",
+      "cost": 13,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 335
+        },
+        {
+          "name": "EXP",
+          "probability": 2248
+        },
+        {
+          "name": "QP",
+          "probability": 4680
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/地図に記された島",
+      "cost": 13,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 335
+        },
+        {
+          "name": "EXP",
+          "probability": 2248
+        },
+        {
+          "name": "QP",
+          "probability": 4680
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/暗礁海域",
+      "cost": 17,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 515
+        },
+        {
+          "name": "EXP",
+          "probability": 8152
+        },
+        {
+          "name": "QP",
+          "probability": 7020
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/潮目の海",
+      "cost": 14,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 375
+        },
+        {
+          "name": "EXP",
+          "probability": 3336
+        },
+        {
+          "name": "QP",
+          "probability": 5200
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/翼竜の島",
+      "cost": 14,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 395
+        },
+        {
+          "name": "EXP",
+          "probability": 3928
+        },
+        {
+          "name": "QP",
+          "probability": 5460
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/カルデラの島",
+      "cost": 17,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 555
+        },
+        {
+          "name": "EXP",
+          "probability": 9816
+        },
+        {
+          "name": "QP",
+          "probability": 7540
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/嵐の海域",
+      "cost": 15,
+      "itemDrops": [
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.256
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.557
+        },
+        {
+          "name": "絆",
+          "probability": 415
+        },
+        {
+          "name": "EXP",
+          "probability": 4552
+        },
+        {
+          "name": "QP",
+          "probability": 5720
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/群島(静かな入り江)",
+      "cost": 15,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 435
+        },
+        {
+          "name": "EXP",
+          "probability": 5208
+        },
+        {
+          "name": "QP",
+          "probability": 5980
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/群島(隠された島)",
+      "cost": 16,
+      "itemDrops": [
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.3
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.8
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.0
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.1
+        },
+        {
+          "name": "絆",
+          "probability": 475
+        },
+        {
+          "name": "EXP",
+          "probability": 6616
+        },
+        {
+          "name": "QP",
+          "probability": 6500
+        }
+      ]
+    },
+    {
+      "name": "オケアノス/豊かな海",
+      "cost": 18,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.316
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.158
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.316
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.263
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.053
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 12552
+        },
+        {
+          "name": "QP",
+          "probability": 8320
+        }
+      ]
+    },
+    {
+      "name": "ロンドン/オールドストリート",
+      "cost": 15,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 435
+        },
+        {
+          "name": "EXP",
+          "probability": 5208
+        },
+        {
+          "name": "QP",
+          "probability": 5980
+        }
+      ]
+    },
+    {
+      "name": "ロンドン/ホワイトチャペル",
+      "cost": 15,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 435
+        },
+        {
+          "name": "EXP",
+          "probability": 5208
+        },
+        {
+          "name": "QP",
+          "probability": 5980
+        }
+      ]
+    },
+    {
+      "name": "ロンドン/シティ・オブ・ロンドン",
+      "cost": 15,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 435
+        },
+        {
+          "name": "EXP",
+          "probability": 5208
+        },
+        {
+          "name": "QP",
+          "probability": 5980
+        }
+      ]
+    },
+    {
+      "name": "ロンドン/ソーホー",
+      "cost": 16,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 455
+        },
+        {
+          "name": "EXP",
+          "probability": 5896
+        },
+        {
+          "name": "QP",
+          "probability": 6240
+        }
+      ]
+    },
+    {
+      "name": "ロンドン/ウェストミンスター",
+      "cost": 16,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 455
+        },
+        {
+          "name": "EXP",
+          "probability": 5896
+        },
+        {
+          "name": "QP",
+          "probability": 6240
+        }
+      ]
+    },
+    {
+      "name": "ロンドン/リージェントパーク",
+      "cost": 16,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 455
+        },
+        {
+          "name": "EXP",
+          "probability": 5896
+        },
+        {
+          "name": "QP",
+          "probability": 6240
+        }
+      ]
+    },
+    {
+      "name": "ロンドン/クラーケンウェル",
+      "cost": 18,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.4
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.2
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.233
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.067
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.167
+        },
+        {
+          "name": "殺の秘石",
+          "probability": 0.067
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.033
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 12552
+        },
+        {
+          "name": "QP",
+          "probability": 8320
+        }
+      ]
+    },
+    {
+      "name": "ロンドン/サザーク",
+      "cost": 19,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.307
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "probability": 0.346
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.189
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.34
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.106
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.11
+        },
+        {
+          "name": "絆",
+          "probability": 655
+        },
+        {
+          "name": "EXP",
+          "probability": 14536
+        },
+        {
+          "name": "QP",
+          "probability": 8840
+        }
+      ]
+    },
+    {
+      "name": "ロンドン/ハイドパーク",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.362
+        },
+        {
+          "name": "禁断の頁",
+          "probability": 0.267
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.24
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.083
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.164
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.024
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.04
+        },
+        {
+          "name": "絆",
+          "probability": 695
+        },
+        {
+          "name": "EXP",
+          "probability": 16648
+        },
+        {
+          "name": "QP",
+          "probability": 9360
+        }
+      ]
+    },
+    {
+      "name": "北米/ブラックヒルズ",
+      "cost": 17,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 535
+        },
+        {
+          "name": "EXP",
+          "probability": 8968
+        },
+        {
+          "name": "QP",
+          "probability": 7280
+        }
+      ]
+    },
+    {
+      "name": "北米/リバートン",
+      "cost": 17,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 535
+        },
+        {
+          "name": "EXP",
+          "probability": 8968
+        },
+        {
+          "name": "QP",
+          "probability": 7280
+        }
+      ]
+    },
+    {
+      "name": "北米/デンバー",
+      "cost": 17,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 535
+        },
+        {
+          "name": "EXP",
+          "probability": 8968
+        },
+        {
+          "name": "QP",
+          "probability": 7280
+        }
+      ]
+    },
+    {
+      "name": "北米/デミング",
+      "cost": 17,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.651
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.465
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.066
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.064
+        },
+        {
+          "name": "絆",
+          "probability": 555
+        },
+        {
+          "name": "EXP",
+          "probability": 9816
+        },
+        {
+          "name": "QP",
+          "probability": 7540
+        }
+      ]
+    },
+    {
+      "name": "北米/ダラス",
+      "cost": 17,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.748
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.156
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.289
+        },
+        {
+          "name": "絆",
+          "probability": 555
+        },
+        {
+          "name": "EXP",
+          "probability": 9816
+        },
+        {
+          "name": "QP",
+          "probability": 7540
+        }
+      ]
+    },
+    {
+      "name": "北米/アルカトラズ",
+      "cost": 18,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 575
+        },
+        {
+          "name": "EXP",
+          "probability": 10696
+        },
+        {
+          "name": "QP",
+          "probability": 7800
+        }
+      ]
+    },
+    {
+      "name": "北米/デモイン",
+      "cost": 18,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.157
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.196
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.176
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.069
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.078
+        },
+        {
+          "name": "ランサーピース",
+          "probability": 0.108
+        },
+        {
+          "name": "ランサーモニュメント",
+          "probability": 0.039
+        },
+        {
+          "name": "絆",
+          "probability": 575
+        },
+        {
+          "name": "EXP",
+          "probability": 10696
+        },
+        {
+          "name": "QP",
+          "probability": 7800
+        }
+      ]
+    },
+    {
+      "name": "北米/モントゴメリー",
+      "cost": 18,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 595
+        },
+        {
+          "name": "EXP",
+          "probability": 11608
+        },
+        {
+          "name": "QP",
+          "probability": 8060
+        }
+      ]
+    },
+    {
+      "name": "北米/ラボック",
+      "cost": 18,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 12552
+        },
+        {
+          "name": "QP",
+          "probability": 8320
+        }
+      ]
+    },
+    {
+      "name": "北米/アレクサンドリア",
+      "cost": 18,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.6
+        },
+        {
+          "name": "血の涙石",
+          "probability": 0.0
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.2
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.0
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.2
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.067
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.933
+        },
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 12552
+        },
+        {
+          "name": "QP",
+          "probability": 8320
+        }
+      ]
+    },
+    {
+      "name": "北米/カーニー",
+      "cost": 18,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 615
+        },
+        {
+          "name": "EXP",
+          "probability": 12552
+        },
+        {
+          "name": "QP",
+          "probability": 8320
+        }
+      ]
+    },
+    {
+      "name": "北米/シャーロット",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.538
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.675
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.108
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.119
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.06
+        },
+        {
+          "name": "ランサーピース",
+          "probability": 0.115
+        },
+        {
+          "name": "バーサーカーピース",
+          "probability": 0.322
+        },
+        {
+          "name": "ランサーモニュメント",
+          "probability": 0.046
+        },
+        {
+          "name": "バーサーカーモニュメント",
+          "probability": 0.14
+        },
+        {
+          "name": "絆",
+          "probability": 715
+        },
+        {
+          "name": "EXP",
+          "probability": 17752
+        },
+        {
+          "name": "QP",
+          "probability": 9620
+        }
+      ]
+    },
+    {
+      "name": "北米/ワシントン",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.583
+        },
+        {
+          "name": "精霊根",
+          "probability": 0.083
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.167
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.0
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.0
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.083
+        },
+        {
+          "name": "剣の秘石",
+          "probability": 0.0
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.0
+        },
+        {
+          "name": "叡智の業火(セイバー)",
+          "probability": 0.917
+        },
+        {
+          "name": "絆",
+          "probability": 745
+        },
+        {
+          "name": "EXP",
+          "probability": 19468
+        },
+        {
+          "name": "QP",
+          "probability": 10010
+        }
+      ]
+    },
+    {
+      "name": "北米/シカゴ",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/砂嵐の砂漠",
+      "cost": 19,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.69
+        },
+        {
+          "name": "智慧のスカラベ",
+          "probability": 0.089
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.114
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.122
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.108
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.045
+        },
+        {
+          "name": "叡智の業火(キャスター)",
+          "probability": 0.871
+        },
+        {
+          "name": "絆",
+          "probability": 635
+        },
+        {
+          "name": "EXP",
+          "probability": 13528
+        },
+        {
+          "name": "QP",
+          "probability": 8580
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/明けの砂丘",
+      "cost": 19,
+      "itemDrops": [
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.19
+        },
+        {
+          "name": "封魔のランプ",
+          "probability": 0.09
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.18
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.5
+        },
+        {
+          "name": "絆",
+          "probability": 635
+        },
+        {
+          "name": "EXP",
+          "probability": 13528
+        },
+        {
+          "name": "QP",
+          "probability": 8580
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/死の荒野",
+      "cost": 19,
+      "itemDrops": [
+        {
+          "name": "愚者の鎖",
+          "probability": 0.707
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.209
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.173
+        },
+        {
+          "name": "絆",
+          "probability": 655
+        },
+        {
+          "name": "EXP",
+          "probability": 14536
+        },
+        {
+          "name": "QP",
+          "probability": 8840
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/東の村",
+      "cost": 19,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.466
+        },
+        {
+          "name": "戦馬の幼角",
+          "probability": 0.176
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.435
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.092
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.875
+        },
+        {
+          "name": "絆",
+          "probability": 655
+        },
+        {
+          "name": "EXP",
+          "probability": 14536
+        },
+        {
+          "name": "QP",
+          "probability": 8840
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/円卓の砦",
+      "cost": 19,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.46
+        },
+        {
+          "name": "大騎士勲章",
+          "probability": 0.22
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.09
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.12
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.1
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.09
+        },
+        {
+          "name": "絆",
+          "probability": 675
+        },
+        {
+          "name": "EXP",
+          "probability": 15576
+        },
+        {
+          "name": "QP",
+          "probability": 9100
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/晩鐘廟",
+      "cost": 19,
+      "itemDrops": [
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.318
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.536
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.027
+        },
+        {
+          "name": "絆",
+          "probability": 675
+        },
+        {
+          "name": "EXP",
+          "probability": 15576
+        },
+        {
+          "name": "QP",
+          "probability": 9100
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/西の村跡",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.273
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.182
+        },
+        {
+          "name": "アサシンピース",
+          "probability": 0.273
+        },
+        {
+          "name": "アサシンモニュメント",
+          "probability": 0.091
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.091
+        },
+        {
+          "name": "絆",
+          "probability": 675
+        },
+        {
+          "name": "EXP",
+          "probability": 15576
+        },
+        {
+          "name": "QP",
+          "probability": 9100
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/アトラス院",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "無間の歯車",
+          "probability": 0.4
+        },
+        {
+          "name": "禁断の頁",
+          "probability": 0.0
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.4
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.2
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.0
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.2
+        },
+        {
+          "name": "絆",
+          "probability": 695
+        },
+        {
+          "name": "EXP",
+          "probability": 16648
+        },
+        {
+          "name": "QP",
+          "probability": 9360
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/聖都正門",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "大騎士勲章",
+          "probability": 0.32
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.06
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.04
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.16
+        },
+        {
+          "name": "絆",
+          "probability": 715
+        },
+        {
+          "name": "EXP",
+          "probability": 17752
+        },
+        {
+          "name": "QP",
+          "probability": 9620
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/聖都市街",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.412
+        },
+        {
+          "name": "八連双晶",
+          "probability": 0.296
+        },
+        {
+          "name": "精霊根",
+          "probability": 0.128
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.058
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.122
+        },
+        {
+          "name": "剣の秘石",
+          "probability": 0.035
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.1
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.172
+        },
+        {
+          "name": "叡智の業火(セイバー)",
+          "probability": 0.844
+        },
+        {
+          "name": "絆",
+          "probability": 715
+        },
+        {
+          "name": "EXP",
+          "probability": 17752
+        },
+        {
+          "name": "QP",
+          "probability": 9620
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/隠れ村",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "愚者の鎖",
+          "probability": 0.351
+        },
+        {
+          "name": "封魔のランプ",
+          "probability": 0.172
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.11
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.057
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.086
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.889
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/王城",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.18
+        },
+        {
+          "name": "大騎士勲章",
+          "probability": 0.36
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.2
+        },
+        {
+          "name": "セイバーピース",
+          "probability": 0.08
+        },
+        {
+          "name": "セイバーモニュメント",
+          "probability": 0.04
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.16
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/無の大地",
+      "cost": 22,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 835
+        },
+        {
+          "name": "EXP",
+          "probability": 25048
+        },
+        {
+          "name": "QP",
+          "probability": 11180
+        }
+      ]
+    },
+    {
+      "name": "キャメロット/大神殿",
+      "cost": 22,
+      "itemDrops": [
+        {
+          "name": "愚者の鎖",
+          "probability": 0.512
+        },
+        {
+          "name": "智慧のスカラベ",
+          "probability": 0.13
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.065
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.236
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.049
+        },
+        {
+          "name": "叡智の業火(キャスター)",
+          "probability": 1.683
+        },
+        {
+          "name": "絆",
+          "probability": 855
+        },
+        {
+          "name": "EXP",
+          "probability": 26376
+        },
+        {
+          "name": "QP",
+          "probability": 11440
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/廃都バビロン",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.552
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.604
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.538
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/北の高台",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.28
+        },
+        {
+          "name": "黒獣脂",
+          "probability": 0.19
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.26
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.09
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/黒い杉の森",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/高原",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.555
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.309
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.291
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.3
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.11
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.32
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/湿原",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.42
+        },
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.263
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.273
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.167
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.105
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/ウル",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.133
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.2
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.067
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.0
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.133
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/エリドゥ",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.707
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.415
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.198
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.124
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/観測所",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.49
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.434
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.108
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.316
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/葦の原",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.695
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.512
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.179
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/クタ",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.426
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.256
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.206
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.119
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/北壁",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.5
+        },
+        {
+          "name": "原初の産毛",
+          "probability": 0.1
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.2
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.0
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.1
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/ニップル",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.363
+        },
+        {
+          "name": "竜の逆鱗",
+          "probability": 0.133
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.265
+        },
+        {
+          "name": "騎の秘石",
+          "probability": 0.028
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.125
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.04
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/エビフ山",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.298
+        },
+        {
+          "name": "呪獣胆石",
+          "probability": 0.145
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.265
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.025
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.19
+        },
+        {
+          "name": "叡智の業火(バーサーカー)",
+          "probability": 0.01
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "バビロニア/鮮血神殿",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.31
+        },
+        {
+          "name": "原初の産毛",
+          "probability": 0.23
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.16
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.25
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.23
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "新宿/代々木二丁目",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "魔術髄液",
+          "probability": 0.3
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.4
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "新宿/国道20号",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.2
+        },
+        {
+          "name": "魔術髄液",
+          "probability": 0.3
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.1
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "新宿/新宿駅",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "魔術髄液",
+          "probability": 0.75
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.23
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.283
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.28
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "新宿/新宿四丁目",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "魔術髄液",
+          "probability": 0.375
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.195
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.275
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.085
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "新宿/歌舞伎町",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "新宿/バレルタワー",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "新宿/パーティー会場",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.6
+        },
+        {
+          "name": "魔術髄液",
+          "probability": 0.4
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.4
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.1
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.0
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.3
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "新宿/タワー最上階",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "新宿/新宿御苑",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "魔術髄液",
+          "probability": 0.313
+        },
+        {
+          "name": "蛮神の心臓",
+          "probability": 0.148
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.407
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.049
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.065
+        },
+        {
+          "name": "叡智の業火(キャスター)",
+          "probability": 0.037
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "新宿/新宿二丁目",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "禁断の頁",
+          "probability": 0.294
+        },
+        {
+          "name": "血の涙石",
+          "probability": 0.141
+        },
+        {
+          "name": "術の輝石",
+          "probability": 0.106
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.082
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.282
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.035
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.071
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/地底平原",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.417
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.197
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.336
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.055
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.054
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/野営地",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/川辺の町",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/桃源郷",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "八連双晶",
+          "probability": 0.457
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.358
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.109
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.034
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.056
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/イース",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.475
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.325
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.415
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/北の断崖",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "愚者の鎖",
+          "probability": 0.4
+        },
+        {
+          "name": "黒獣脂",
+          "probability": 0.2
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.3
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.4
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/不夜城",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.545
+        },
+        {
+          "name": "愚者の鎖",
+          "probability": 0.545
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.455
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.273
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/山裾の密林",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.597
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.173
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.101
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.129
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.353
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.165
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.065
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/竜宮城",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.6
+        },
+        {
+          "name": "奇奇神酒",
+          "probability": 0.133
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.333
+        },
+        {
+          "name": "弓の秘石",
+          "probability": 0.0
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/地底大河",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.33
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.37
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.49
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.14
+        },
+        {
+          "name": "槍の秘石",
+          "probability": 0.04
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.03
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/エルドラド",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.2
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.325
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.775
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.25
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アガルタ/大地の裂け目",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.38
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.553
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.033
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "下総国/田んぼ",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.441
+        },
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.263
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.281
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.357
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.05
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.215
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "下総国/里",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.33
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.376
+        },
+        {
+          "name": "枯淡勾玉",
+          "probability": 0.248
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.278
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.174
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.162
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.196
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "下総国/庵",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.36
+        },
+        {
+          "name": "枯淡勾玉",
+          "probability": 0.24
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.52
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.2
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.28
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.133
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "下総国/城下町",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "下総国/合戦場",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.48
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.309
+        },
+        {
+          "name": "枯淡勾玉",
+          "probability": 0.309
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.293
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.203
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.382
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "下総国/土気城",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "下総国/裏山(名もなき霊峰)",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "下総国/荒川の原",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.338
+        },
+        {
+          "name": "枯淡勾玉",
+          "probability": 0.254
+        },
+        {
+          "name": "呪獣胆石",
+          "probability": 0.134
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.269
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.05
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.308
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.184
+        },
+        {
+          "name": "叡智の業火(バーサーカー)",
+          "probability": 0.05
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "下総国/裏山(戦戦恐恐)",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "セイレム/静寂な森",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.629
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.403
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "セイレム/カーター家",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "宵哭きの鉄杭",
+          "probability": 0.443
+        },
+        {
+          "name": "蛮神の心臓",
+          "probability": 0.139
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.296
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.047
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.23
+        },
+        {
+          "name": "叡智の業火(アサシン)",
+          "probability": 0.039
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "セイレム/公会堂",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.39
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.38
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.36
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "セイレム/波止場",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "愚者の鎖",
+          "probability": 0.39
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.22
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.3
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.21
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.28
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "セイレム/ウェイトリー家",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "ホムンクルスベビー",
+          "probability": 0.449
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.456
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.213
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.214
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "セイレム/郊外の屋敷",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "愚者の鎖",
+          "probability": 0.408
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "probability": 0.45
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.333
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.25
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.04
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "セイレム/ガローの丘",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "宵哭きの鉄杭",
+          "probability": 0.763
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.4
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.168
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.185
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.068
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "セイレム/牧草地",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "宵哭きの鉄杭",
+          "probability": 0.421
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.393
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.284
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.24
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.053
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "セイレム/空き家",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "宵哭きの鉄杭",
+          "probability": 0.416
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.213
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.294
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.171
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.177
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "セイレム/隠れ家",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "セイレム/留置所",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.421
+        },
+        {
+          "name": "封魔のランプ",
+          "probability": 0.193
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.464
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.079
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/アンカーポイント",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.545
+        },
+        {
+          "name": "戦馬の幼角",
+          "probability": 0.209
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.436
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.091
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.045
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/ヤガ・スモレンスク",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "励振火薬",
+          "probability": 0.742
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.286
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.228
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.048
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/風穴氷窟",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.44
+        },
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.285
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.27
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.226
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.04
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/叛逆軍の砦",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "励振火薬",
+          "probability": 0.49
+        },
+        {
+          "name": "戦馬の幼角",
+          "probability": 0.225
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.471
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.076
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.037
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/ヤガ・スィチョーフカ",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "励振火薬",
+          "probability": 0.469
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.285
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.267
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.248
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.06
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/焼き払われた村",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "励振火薬",
+          "probability": 0.455
+        },
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.276
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.28
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.231
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.052
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/ヤガ・ヴャジマ",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.443
+        },
+        {
+          "name": "励振火薬",
+          "probability": 0.454
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.226
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.286
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.045
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/ヤガ・ジェメンスク",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "永遠結氷",
+          "probability": 0.283
+        },
+        {
+          "name": "戦馬の幼角",
+          "probability": 0.195
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.094
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.461
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.049
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.412
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/ヤガ・トゥーラ",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.3
+        },
+        {
+          "name": "励振火薬",
+          "probability": 0.362
+        },
+        {
+          "name": "永遠結氷",
+          "probability": 0.2
+        },
+        {
+          "name": "弓の輝石",
+          "probability": 0.205
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.31
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.26
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/潰れた村",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.289
+        },
+        {
+          "name": "永遠結氷",
+          "probability": 0.269
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.227
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.29
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/ヤガ・モスクワ",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "永遠結氷",
+          "probability": 0.525
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.509
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/大渓谷の砦",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.353
+        },
+        {
+          "name": "励振火薬",
+          "probability": 0.346
+        },
+        {
+          "name": "奇奇神酒",
+          "probability": 0.103
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.287
+        },
+        {
+          "name": "殺の秘石",
+          "probability": 0.051
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.169
+        },
+        {
+          "name": "叡智の業火(アサシン)",
+          "probability": 0.037
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/大樹の根元",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.2
+        },
+        {
+          "name": "万死の毒針",
+          "probability": 0.1
+        },
+        {
+          "name": "永遠結氷",
+          "probability": 0.1
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.2
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.2
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アナスタシア/ヤガ・リャザン",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "永遠結氷",
+          "probability": 0.2
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.1
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.3
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.1
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/ランディングポイント",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.25
+        },
+        {
+          "name": "世界樹の種",
+          "probability": 0.333
+        },
+        {
+          "name": "原初の産毛",
+          "probability": 0.083
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.5
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.0
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.167
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.25
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/薄氷の丘",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.28
+        },
+        {
+          "name": "巨人の指輪",
+          "probability": 0.26
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.3
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.33
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/巨人の花園",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "巨人の指輪",
+          "probability": 0.491
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.528
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.158
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/第23集落",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.31
+        },
+        {
+          "name": "オーロラ鋼",
+          "probability": 0.29
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.37
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.26
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/英雄の穴倉",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "八連双晶",
+          "probability": 0.276
+        },
+        {
+          "name": "巨人の指輪",
+          "probability": 0.28
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.333
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.051
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.117
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/雪と氷の城",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "オーロラ鋼",
+          "probability": 0.45
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.48
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.48
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/果てへと至る道",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "巨人の指輪",
+          "probability": 0.276
+        },
+        {
+          "name": "原初の産毛",
+          "probability": 0.204
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.096
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.464
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.04
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.25
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/炎の館",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "巨人の指輪",
+          "probability": 0.304
+        },
+        {
+          "name": "オーロラ鋼",
+          "probability": 0.284
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.259
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.231
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.218
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.185
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/第67集落",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "オーロラ鋼",
+          "probability": 0.273
+        },
+        {
+          "name": "原初の産毛",
+          "probability": 0.23
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.383
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.073
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.325
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.02
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/北の境界",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "ゲッテルデメルング/忘れられた神殿",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "オーロラ鋼",
+          "probability": 0.27
+        },
+        {
+          "name": "精霊根",
+          "probability": 0.13
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.46
+        },
+        {
+          "name": "剣の秘石",
+          "probability": 0.05
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "シン/シーディングポイント",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.2
+        },
+        {
+          "name": "無間の歯車",
+          "probability": 0.5
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.2
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.1
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "シン/隣村",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "万死の毒針",
+          "probability": 0.45
+        },
+        {
+          "name": "巨人の指輪",
+          "probability": 0.298
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.288
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.171
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.225
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "シン/氷冷窟",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.4
+        },
+        {
+          "name": "奇奇神酒",
+          "probability": 0.0
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.5
+        },
+        {
+          "name": "殺の秘石",
+          "probability": 0.0
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.5
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "シン/芥の陣幕",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "シン/景陽原",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.3
+        },
+        {
+          "name": "巨人の指輪",
+          "probability": 0.291
+        },
+        {
+          "name": "暁光炉心",
+          "probability": 0.191
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.155
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.209
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.082
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.145
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "シン/山陽丘",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.336
+        },
+        {
+          "name": "万死の毒針",
+          "probability": 0.382
+        },
+        {
+          "name": "暁光炉心",
+          "probability": 0.164
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.209
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.1
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "シン/収容所",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "閑古鈴",
+          "probability": 0.312
+        },
+        {
+          "name": "暁光炉心",
+          "probability": 0.24
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.177
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.238
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.16
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.24
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "シン/石泉峡",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "無間の歯車",
+          "probability": 0.333
+        },
+        {
+          "name": "暁光炉心",
+          "probability": 0.2
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.333
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.193
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "シン/大坪峪",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "シン/咸陽",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.35
+        },
+        {
+          "name": "閑古鈴",
+          "probability": 0.14
+        },
+        {
+          "name": "暁光炉心",
+          "probability": 0.13
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.2
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.21
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.11
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.18
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.25
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "シン/八門洞",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "閑古鈴",
+          "probability": 0.453
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.46
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.46
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/イニシエートポイント",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "禍罪の矢尻",
+          "probability": 0.287
+        },
+        {
+          "name": "戦馬の幼角",
+          "probability": 0.242
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.305
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.178
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.164
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/ビーチュ",
+      "cost": 20,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.345
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.164
+        },
+        {
+          "name": "禍罪の矢尻",
+          "probability": 0.236
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.345
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.155
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.15
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.13
+        },
+        {
+          "name": "絆",
+          "probability": 735
+        },
+        {
+          "name": "EXP",
+          "probability": 18888
+        },
+        {
+          "name": "QP",
+          "probability": 9880
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/隠遁窟",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "禍罪の矢尻",
+          "probability": 0.283
+        },
+        {
+          "name": "黒獣脂",
+          "probability": 0.22
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.278
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.158
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.19
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/北の霊峰",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.335
+        },
+        {
+          "name": "愚者の鎖",
+          "probability": 0.332
+        },
+        {
+          "name": "真理の卵",
+          "probability": 0.095
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.252
+        },
+        {
+          "name": "槍の秘石",
+          "probability": 0.051
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.275
+        },
+        {
+          "name": "叡智の業火(ランサー)",
+          "probability": 0.056
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/西の断層",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "禍罪の矢尻",
+          "probability": 0.298
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.231
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.264
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.266
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.146
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/ディーヴァール",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "禍罪の矢尻",
+          "probability": 0.294
+        },
+        {
+          "name": "真理の卵",
+          "probability": 0.127
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.353
+        },
+        {
+          "name": "槍の秘石",
+          "probability": 0.04
+        },
+        {
+          "name": "叡智の業火(ランサー)",
+          "probability": 0.05
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/神の空岩跡",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "禍罪の矢尻",
+          "probability": 0.464
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.43
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.058
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.054
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/南の町",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.29
+        },
+        {
+          "name": "愚者の鎖",
+          "probability": 0.352
+        },
+        {
+          "name": "禍罪の矢尻",
+          "probability": 0.224
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.39
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.062
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/無窮の地",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.3
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.231
+        },
+        {
+          "name": "真理の卵",
+          "probability": 0.085
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.192
+        },
+        {
+          "name": "槍の秘石",
+          "probability": 0.062
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.269
+        },
+        {
+          "name": "叡智の業火(ランサー)",
+          "probability": 0.062
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "ユガ・クシェートラ/東の花園",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.208
+        },
+        {
+          "name": "封魔のランプ",
+          "probability": 0.242
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.485
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.385
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アトランティス/セーリングポイント",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.297
+        },
+        {
+          "name": "煌星のカケラ",
+          "probability": 0.16
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.433
+        },
+        {
+          "name": "騎の秘石",
+          "probability": 0.04
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.1
+        },
+        {
+          "name": "叡智の業火(ライダー)",
+          "probability": 0.045
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アトランティス/ヘスティア島",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "光銀の冠",
+          "probability": 0.313
+        },
+        {
+          "name": "奇奇神酒",
+          "probability": 0.11
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.2
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.21
+        },
+        {
+          "name": "弓の秘石",
+          "probability": 0.053
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.17
+        },
+        {
+          "name": "叡智の業火(アーチャー)",
+          "probability": 0.03
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アトランティス/ヘカテ島",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "光銀の冠",
+          "probability": 0.315
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.249
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.536
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.108
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アトランティス/デイモス島",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "光銀の冠",
+          "probability": 0.28
+        },
+        {
+          "name": "智慧のスカラベ",
+          "probability": 0.16
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.32
+        },
+        {
+          "name": "術の秘石",
+          "probability": 0.06
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アトランティス/アストライア島",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.318
+        },
+        {
+          "name": "光銀の冠",
+          "probability": 0.22
+        },
+        {
+          "name": "精霊根",
+          "probability": 0.124
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.328
+        },
+        {
+          "name": "剣の秘石",
+          "probability": 0.039
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.325
+        },
+        {
+          "name": "叡智の業火(セイバー)",
+          "probability": 0.065
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アトランティス/テティス島",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.29
+        },
+        {
+          "name": "暁光炉心",
+          "probability": 0.18
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.163
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.55
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アトランティス/エリス島",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.26
+        },
+        {
+          "name": "光銀の冠",
+          "probability": 0.25
+        },
+        {
+          "name": "暁光炉心",
+          "probability": 0.16
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.14
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.3
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.26
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.04
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.02
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "アトランティス/ネメシス島",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "光銀の冠",
+          "probability": 0.284
+        },
+        {
+          "name": "煌星のカケラ",
+          "probability": 0.139
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.399
+        },
+        {
+          "name": "騎の秘石",
+          "probability": 0.041
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.055
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アトランティス/タナトス島",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "光銀の冠",
+          "probability": 0.405
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.165
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.153
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.154
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/グライディングポイント",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.289
+        },
+        {
+          "name": "混沌の爪",
+          "probability": 0.211
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.655
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.096
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.4
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.02
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/星間都市西部",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "暁光炉心",
+          "probability": 0.227
+        },
+        {
+          "name": "悠久の実",
+          "probability": 0.228
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.351
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.196
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/星間都市南部",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "神脈霊子",
+          "probability": 0.29
+        },
+        {
+          "name": "悠久の実",
+          "probability": 0.218
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.172
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.4
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.109
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.316
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/星間都市東部",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "八連双晶",
+          "probability": 0.285
+        },
+        {
+          "name": "悠久の実",
+          "probability": 0.224
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.281
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.174
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.062
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.109
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.105
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/大工房",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.4
+        },
+        {
+          "name": "神脈霊子",
+          "probability": 0.28
+        },
+        {
+          "name": "奇奇神酒",
+          "probability": 0.1
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.38
+        },
+        {
+          "name": "弓の秘石",
+          "probability": 0.04
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.14
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.22
+        },
+        {
+          "name": "叡智の業火(アーチャー)",
+          "probability": 0.04
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/破神同盟基地",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/祭壇街",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.309
+        },
+        {
+          "name": "悠久の実",
+          "probability": 0.238
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.176
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.642
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.112
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.339
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/空中庭園",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "神脈霊子",
+          "probability": 0.296
+        },
+        {
+          "name": "煌星のカケラ",
+          "probability": 0.136
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.336
+        },
+        {
+          "name": "騎の秘石",
+          "probability": 0.008
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.28
+        },
+        {
+          "name": "叡智の業火(ライダー)",
+          "probability": 0.08
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/機神回廊",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.2
+        },
+        {
+          "name": "煌星のカケラ",
+          "probability": 0.3
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.3
+        },
+        {
+          "name": "騎の秘石",
+          "probability": 0.1
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.1
+        },
+        {
+          "name": "叡智の業火(ライダー)",
+          "probability": 0.1
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/大祭壇",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.4
+        },
+        {
+          "name": "蛇の宝玉",
+          "probability": 0.4
+        },
+        {
+          "name": "神脈霊子",
+          "probability": 0.1
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.2
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.4
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.1
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.2
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.2
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "オリュンポス/地下機構帯・外周部",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "平安京/七条四坊",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虹の糸玉",
+          "probability": 0.273
+        },
+        {
+          "name": "九十九鏡",
+          "probability": 0.137
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.351
+        },
+        {
+          "name": "殺の秘石",
+          "probability": 0.039
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.164
+        },
+        {
+          "name": "叡智の業火(アサシン)",
+          "probability": 0.045
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "平安京/七条二坊",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.538
+        },
+        {
+          "name": "虹の糸玉",
+          "probability": 0.154
+        },
+        {
+          "name": "黒獣脂",
+          "probability": 0.077
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.231
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.154
+        },
+        {
+          "name": "絆",
+          "probability": 765
+        },
+        {
+          "name": "EXP",
+          "probability": 20652
+        }
+      ]
+    },
+    {
+      "name": "平安京/六条大路",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "枯淡勾玉",
+          "probability": 0.221
+        },
+        {
+          "name": "虹の糸玉",
+          "probability": 0.283
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.265
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.248
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.252
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.252
+        },
+        {
+          "name": "絆",
+          "probability": 765
+        },
+        {
+          "name": "EXP",
+          "probability": 20652
+        }
+      ]
+    },
+    {
+      "name": "平安京/貴族邸",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "禁断の頁",
+          "probability": 0.269
+        },
+        {
+          "name": "九十九鏡",
+          "probability": 0.135
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.423
+        },
+        {
+          "name": "殺の秘石",
+          "probability": 0.096
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.058
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "平安京/朱雀門",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "枯淡勾玉",
+          "probability": 0.226
+        },
+        {
+          "name": "火炎鬼灯",
+          "probability": 0.032
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.226
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.065
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.323
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "平安京/平安宮",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "枯淡勾玉",
+          "probability": 0.307
+        },
+        {
+          "name": "九十九鏡",
+          "probability": 0.124
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.444
+        },
+        {
+          "name": "殺の秘石",
+          "probability": 0.04
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.382
+        },
+        {
+          "name": "叡智の業火(アサシン)",
+          "probability": 0.058
+        },
+        {
+          "name": "絆",
+          "probability": 785
+        },
+        {
+          "name": "EXP",
+          "probability": 21868
+        }
+      ]
+    },
+    {
+      "name": "平安京/朱雀大路",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "ゴーストランタン",
+          "probability": 0.274
+        },
+        {
+          "name": "虹の糸玉",
+          "probability": 0.279
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.394
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.237
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "平安京/稲荷神社",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "無間の歯車",
+          "probability": 0.301
+        },
+        {
+          "name": "真理の卵",
+          "probability": 0.096
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.229
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.265
+        },
+        {
+          "name": "槍の秘石",
+          "probability": 0.036
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.0
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "平安京/大宮大路",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.366
+        },
+        {
+          "name": "虚影の塵",
+          "probability": 0.314
+        },
+        {
+          "name": "火炎鬼灯",
+          "probability": 0.124
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.144
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.065
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "平安京/頼光の屋敷",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "竜の牙",
+          "probability": 0.453
+        },
+        {
+          "name": "九十九鏡",
+          "probability": 0.187
+        },
+        {
+          "name": "殺の輝石",
+          "probability": 0.44
+        },
+        {
+          "name": "殺の秘石",
+          "probability": 0.033
+        },
+        {
+          "name": "叡智の業火(アサシン)",
+          "probability": 0.06
+        },
+        {
+          "name": "絆",
+          "probability": 805
+        },
+        {
+          "name": "EXP",
+          "probability": 23116
+        }
+      ]
+    },
+    {
+      "name": "平安京/五条の橋",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虹の糸玉",
+          "probability": 0.459
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.529
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.431
+        },
+        {
+          "name": "絆",
+          "probability": 805
+        },
+        {
+          "name": "EXP",
+          "probability": 23116
+        }
+      ]
+    },
+    {
+      "name": "平安京/大江山",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "凶骨",
+          "probability": 0.435
+        },
+        {
+          "name": "火炎鬼灯",
+          "probability": 0.145
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.29
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.0
+        },
+        {
+          "name": "叡智の業火(バーサーカー)",
+          "probability": 0.042
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "平安京/三条三坊",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虹の糸玉",
+          "probability": 0.295
+        },
+        {
+          "name": "火炎鬼灯",
+          "probability": 0.138
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.353
+        },
+        {
+          "name": "狂の秘石",
+          "probability": 0.048
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.233
+        },
+        {
+          "name": "叡智の業火(バーサーカー)",
+          "probability": 0.092
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/霧の海岸",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "赦免の小鐘",
+          "probability": 0.726
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.049
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.047
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.045
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.386
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.026
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.026
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.03
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.315
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/コーンウォールの村",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "世界樹の種",
+          "probability": 0.283
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "probability": 0.281
+        },
+        {
+          "name": "騎の輝石",
+          "probability": 0.299
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.226
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.234
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/ソールズベリー",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "大騎士勲章",
+          "probability": 0.282
+        },
+        {
+          "name": "封魔のランプ",
+          "probability": 0.19
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.182
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.193
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.151
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.145
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.19
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.119
+        },
+        {
+          "name": "絆",
+          "probability": 755
+        },
+        {
+          "name": "EXP",
+          "probability": 20056
+        },
+        {
+          "name": "QP",
+          "probability": 10140
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/グロスター",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.32
+        },
+        {
+          "name": "赦免の小鐘",
+          "probability": 0.329
+        },
+        {
+          "name": "竜の逆鱗",
+          "probability": 0.105
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.143
+        },
+        {
+          "name": "騎の秘石",
+          "probability": 0.047
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.197
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.047
+        },
+        {
+          "name": "叡智の業火(ライダー)",
+          "probability": 0.054
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/涙の河",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "赦免の小鐘",
+          "probability": 0.447
+        },
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.282
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.179
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.343
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.153
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.299
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/ノリッジ",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "夢幻の鱗粉",
+          "probability": 0.293
+        },
+        {
+          "name": "精霊根",
+          "probability": 0.129
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.397
+        },
+        {
+          "name": "剣の秘石",
+          "probability": 0.045
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.339
+        },
+        {
+          "name": "叡智の業火(セイバー)",
+          "probability": 0.053
+        },
+        {
+          "name": "絆",
+          "probability": 775
+        },
+        {
+          "name": "EXP",
+          "probability": 21256
+        },
+        {
+          "name": "QP",
+          "probability": 10400
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/キャメロット",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.342
+        },
+        {
+          "name": "大騎士勲章",
+          "probability": 0.224
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "probability": 0.227
+        },
+        {
+          "name": "槍の魔石",
+          "probability": 0.268
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.151
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.216
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.106
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.206
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/ロンディニウム",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "夢幻の鱗粉",
+          "probability": 0.457
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.402
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.182
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.349
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.099
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/マンチェスター",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.439
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "probability": 0.262
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.18
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.298
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.198
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.088
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.191
+        },
+        {
+          "name": "絆",
+          "probability": 795
+        },
+        {
+          "name": "EXP",
+          "probability": 22488
+        },
+        {
+          "name": "QP",
+          "probability": 10660
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/エディンバラ",
+      "cost": 22,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.459
+        },
+        {
+          "name": "巨人の指輪",
+          "probability": 0.262
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.254
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.231
+        },
+        {
+          "name": "絆",
+          "probability": 835
+        },
+        {
+          "name": "EXP",
+          "probability": 25048
+        },
+        {
+          "name": "QP",
+          "probability": 11180
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/ニュー・ダーリントン",
+      "cost": 22,
+      "itemDrops": [
+        {
+          "name": "赦免の小鐘",
+          "probability": 0.483
+        },
+        {
+          "name": "鳳凰の羽根",
+          "probability": 0.235
+        },
+        {
+          "name": "狂の輝石",
+          "probability": 0.277
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.208
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.17
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.249
+        },
+        {
+          "name": "絆",
+          "probability": 835
+        },
+        {
+          "name": "EXP",
+          "probability": 25048
+        },
+        {
+          "name": "QP",
+          "probability": 11180
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/湖水地方",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "虚影の塵",
+          "probability": 0.421
+        },
+        {
+          "name": "赦免の小鐘",
+          "probability": 0.421
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.042
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.05
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.047
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.319
+        },
+        {
+          "name": "叡智の猛火(ランサー)",
+          "probability": 0.152
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.032
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.035
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.015
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.239
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/果ての海岸",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "英雄の証",
+          "probability": 0.441
+        },
+        {
+          "name": "赦免の小鐘",
+          "probability": 0.405
+        },
+        {
+          "name": "槍の輝石",
+          "probability": 0.351
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.055
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.044
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.062
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.046
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.026
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.028
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.026
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.029
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/オークニー",
+      "cost": 21,
+      "itemDrops": [
+        {
+          "name": "赦免の小鐘",
+          "probability": 0.425
+        },
+        {
+          "name": "大騎士勲章",
+          "probability": 0.302
+        },
+        {
+          "name": "弓の魔石",
+          "probability": 0.332
+        },
+        {
+          "name": "騎の魔石",
+          "probability": 0.038
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.041
+        },
+        {
+          "name": "殺の魔石",
+          "probability": 0.047
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.05
+        },
+        {
+          "name": "叡智の猛火(アーチャー)",
+          "probability": 0.304
+        },
+        {
+          "name": "叡智の猛火(ライダー)",
+          "probability": 0.025
+        },
+        {
+          "name": "叡智の猛火(アサシン)",
+          "probability": 0.022
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.026
+        },
+        {
+          "name": "絆",
+          "probability": 815
+        },
+        {
+          "name": "EXP",
+          "probability": 23752
+        },
+        {
+          "name": "QP",
+          "probability": 10920
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/オックスフォード",
+      "cost": 22,
+      "itemDrops": [
+        {
+          "name": "赦免の小鐘",
+          "probability": 0.447
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "probability": 0.286
+        },
+        {
+          "name": "剣の魔石",
+          "probability": 0.23
+        },
+        {
+          "name": "狂の魔石",
+          "probability": 0.285
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.2
+        },
+        {
+          "name": "叡智の猛火(バーサーカー)",
+          "probability": 0.25
+        },
+        {
+          "name": "絆",
+          "probability": 855
+        },
+        {
+          "name": "EXP",
+          "probability": 26376
+        },
+        {
+          "name": "QP",
+          "probability": 11440
+        }
+      ]
+    },
+    {
+      "name": "アヴァロン/ドーバーハウス",
+      "cost": 22,
+      "itemDrops": [
+        {
+          "name": "追憶の貝殻",
+          "probability": 0.298
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "probability": 0.272
+        },
+        {
+          "name": "剣の輝石",
+          "probability": 0.496
+        },
+        {
+          "name": "術の魔石",
+          "probability": 0.191
+        },
+        {
+          "name": "叡智の猛火(セイバー)",
+          "probability": 0.151
+        },
+        {
+          "name": "叡智の猛火(キャスター)",
+          "probability": 0.106
+        },
+        {
+          "name": "絆",
+          "probability": 855
+        },
+        {
+          "name": "EXP",
+          "probability": 26376
+        },
+        {
+          "name": "QP",
+          "probability": 11440
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "英雄の証"
+    },
+    {
+      "id": 2,
+      "name": "凶骨"
+    },
+    {
+      "id": 3,
+      "name": "竜の牙"
+    },
+    {
+      "id": 4,
+      "name": "虚影の塵"
+    },
+    {
+      "id": 5,
+      "name": "愚者の鎖"
+    },
+    {
+      "id": 6,
+      "name": "万死の毒針"
+    },
+    {
+      "id": 7,
+      "name": "魔術髄液"
+    },
+    {
+      "id": 8,
+      "name": "宵哭きの鉄杭"
+    },
+    {
+      "id": 9,
+      "name": "励振火薬"
+    },
+    {
+      "id": 10,
+      "name": "赦免の小鐘"
+    },
+    {
+      "id": 11,
+      "name": "世界樹の種"
+    },
+    {
+      "id": 12,
+      "name": "ゴーストランタン"
+    },
+    {
+      "id": 13,
+      "name": "八連双晶"
+    },
+    {
+      "id": 14,
+      "name": "蛇の宝玉"
+    },
+    {
+      "id": 15,
+      "name": "鳳凰の羽根"
+    },
+    {
+      "id": 16,
+      "name": "無間の歯車"
+    },
+    {
+      "id": 17,
+      "name": "禁断の頁"
+    },
+    {
+      "id": 18,
+      "name": "ホムンクルスベビー"
+    },
+    {
+      "id": 19,
+      "name": "隕蹄鉄"
+    },
+    {
+      "id": 20,
+      "name": "大騎士勲章"
+    },
+    {
+      "id": 21,
+      "name": "追憶の貝殻"
+    },
+    {
+      "id": 22,
+      "name": "枯淡勾玉"
+    },
+    {
+      "id": 23,
+      "name": "永遠結氷"
+    },
+    {
+      "id": 24,
+      "name": "巨人の指輪"
+    },
+    {
+      "id": 25,
+      "name": "オーロラ鋼"
+    },
+    {
+      "id": 26,
+      "name": "閑古鈴"
+    },
+    {
+      "id": 27,
+      "name": "禍罪の矢尻"
+    },
+    {
+      "id": 28,
+      "name": "光銀の冠"
+    },
+    {
+      "id": 29,
+      "name": "神脈霊子"
+    },
+    {
+      "id": 30,
+      "name": "虹の糸玉"
+    },
+    {
+      "id": 31,
+      "name": "夢幻の鱗粉"
+    },
+    {
+      "id": 32,
+      "name": "混沌の爪"
+    },
+    {
+      "id": 33,
+      "name": "蛮神の心臓"
+    },
+    {
+      "id": 34,
+      "name": "竜の逆鱗"
+    },
+    {
+      "id": 35,
+      "name": "精霊根"
+    },
+    {
+      "id": 36,
+      "name": "戦馬の幼角"
+    },
+    {
+      "id": 37,
+      "name": "血の涙石"
+    },
+    {
+      "id": 38,
+      "name": "黒獣脂"
+    },
+    {
+      "id": 39,
+      "name": "封魔のランプ"
+    },
+    {
+      "id": 40,
+      "name": "智慧のスカラベ"
+    },
+    {
+      "id": 41,
+      "name": "原初の産毛"
+    },
+    {
+      "id": 42,
+      "name": "呪獣胆石"
+    },
+    {
+      "id": 43,
+      "name": "奇奇神酒"
+    },
+    {
+      "id": 44,
+      "name": "暁光炉心"
+    },
+    {
+      "id": 45,
+      "name": "九十九鏡"
+    },
+    {
+      "id": 46,
+      "name": "真理の卵"
+    },
+    {
+      "id": 47,
+      "name": "煌星のカケラ"
+    },
+    {
+      "id": 48,
+      "name": "悠久の実"
+    },
+    {
+      "id": 49,
+      "name": "火炎鬼灯"
+    },
+    {
+      "id": 50,
+      "name": "剣の輝石"
+    },
+    {
+      "id": 51,
+      "name": "弓の輝石"
+    },
+    {
+      "id": 52,
+      "name": "槍の輝石"
+    },
+    {
+      "id": 53,
+      "name": "騎の輝石"
+    },
+    {
+      "id": 54,
+      "name": "術の輝石"
+    },
+    {
+      "id": 55,
+      "name": "殺の輝石"
+    },
+    {
+      "id": 56,
+      "name": "狂の輝石"
+    },
+    {
+      "id": 57,
+      "name": "剣の魔石"
+    },
+    {
+      "id": 58,
+      "name": "弓の魔石"
+    },
+    {
+      "id": 59,
+      "name": "槍の魔石"
+    },
+    {
+      "id": 60,
+      "name": "騎の魔石"
+    },
+    {
+      "id": 61,
+      "name": "術の魔石"
+    },
+    {
+      "id": 62,
+      "name": "殺の魔石"
+    },
+    {
+      "id": 63,
+      "name": "狂の魔石"
+    },
+    {
+      "id": 64,
+      "name": "剣の秘石"
+    },
+    {
+      "id": 65,
+      "name": "弓の秘石"
+    },
+    {
+      "id": 66,
+      "name": "槍の秘石"
+    },
+    {
+      "id": 67,
+      "name": "騎の秘石"
+    },
+    {
+      "id": 68,
+      "name": "術の秘石"
+    },
+    {
+      "id": 69,
+      "name": "殺の秘石"
+    },
+    {
+      "id": 70,
+      "name": "狂の秘石"
+    },
+    {
+      "id": 71,
+      "name": "セイバーピース"
+    },
+    {
+      "id": 72,
+      "name": "アーチャーピース"
+    },
+    {
+      "id": 73,
+      "name": "ランサーピース"
+    },
+    {
+      "id": 74,
+      "name": "ライダーピース"
+    },
+    {
+      "id": 75,
+      "name": "キャスターピース"
+    },
+    {
+      "id": 76,
+      "name": "アサシンピース"
+    },
+    {
+      "id": 77,
+      "name": "バーサーカーピース"
+    },
+    {
+      "id": 78,
+      "name": "セイバーモニュメント"
+    },
+    {
+      "id": 79,
+      "name": "アーチャーモニュメント"
+    },
+    {
+      "id": 80,
+      "name": "ランサーモニュメント"
+    },
+    {
+      "id": 81,
+      "name": "ライダーモニュメント"
+    },
+    {
+      "id": 82,
+      "name": "キャスターモニュメント"
+    },
+    {
+      "id": 83,
+      "name": "アサシンモニュメント"
+    },
+    {
+      "id": 84,
+      "name": "バーサーカーモニュメント"
+    },
+    {
+      "id": 85,
+      "name": "叡智の猛火(セイバー)"
+    },
+    {
+      "id": 86,
+      "name": "叡智の猛火(アーチャー)"
+    },
+    {
+      "id": 87,
+      "name": "叡智の猛火(ランサー)"
+    },
+    {
+      "id": 88,
+      "name": "叡智の猛火(ライダー)"
+    },
+    {
+      "id": 89,
+      "name": "叡智の猛火(キャスター)"
+    },
+    {
+      "id": 90,
+      "name": "叡智の猛火(アサシン)"
+    },
+    {
+      "id": 91,
+      "name": "叡智の猛火(バーサーカー)"
+    },
+    {
+      "id": 92,
+      "name": "叡智の業火(セイバー)"
+    },
+    {
+      "id": 93,
+      "name": "叡智の業火(アーチャー)"
+    },
+    {
+      "id": 94,
+      "name": "叡智の業火(ランサー)"
+    },
+    {
+      "id": 95,
+      "name": "叡智の業火(ライダー)"
+    },
+    {
+      "id": 96,
+      "name": "叡智の業火(キャスター)"
+    },
+    {
+      "id": 97,
+      "name": "叡智の業火(アサシン)"
+    },
+    {
+      "id": 98,
+      "name": "叡智の業火(バーサーカー)"
+    },
+    {
+      "id": 99,
+      "name": "絆"
+    },
+    {
+      "id": 100,
+      "name": "EXP"
+    },
+    {
+      "id": 101,
+      "name": "QP"
+    }
+  ]
+}

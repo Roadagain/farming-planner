@@ -1,34 +1,43 @@
 import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core'
 import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
-import { loadFarmingDataFromJson } from '../lib/load-farming-data'
+import { loadFarmingDataFromJson, loadPresetFgoData } from '../lib/load-farming-data'
+import { FarmingData } from '../lib/types'
 
 const FarmingStagesLoader: React.FC = () => {
   const [fileName, setFileName] = React.useState<string>('')
   const { setFarmingData, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
+
+  const onLoadFarmingData = (farmingData: FarmingData) => {
+    setFarmingData(farmingData)
+    setRequiredItems(
+      farmingData.items.map(({ name }) => ({
+        name,
+        count: 0,
+      })),
+    )
+    setFarmingPlan(null)
+  }
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
     if (!e.target.files) {
       return
     }
     setFileName(e.target.files[0].name)
-    const jsonString = await e.target.files[0].text()
-    const farmingData = loadFarmingDataFromJson(jsonString)
-    setFarmingData(farmingData)
-    setRequiredItems(
-      farmingData.items.map(({ name }) => {
-        return {
-          name,
-          count: 0,
-        }
-      }),
-    )
-    setFarmingPlan(null)
+    onLoadFarmingData(loadFarmingDataFromJson(await e.target.files[0].text()))
+  }
+  const loadPresetFgo = () => {
+    onLoadFarmingData(loadPresetFgoData())
   }
 
   return (
     <Card>
       <CardContent>
         <Grid container alignItems="center" spacing={2}>
+          <Grid item>
+            <Button variant="contained" component="label" color="primary" onClick={loadPresetFgo}>
+              Use Preset / FGO
+            </Button>
+          </Grid>
           <Grid item>
             <Button variant="contained" component="label">
               Select JSON
