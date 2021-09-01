@@ -1,9 +1,17 @@
+import { makeStyles } from '@material-ui/core'
 import { DataGrid, GridColDef, GridRowsProp } from '@material-ui/data-grid'
 import React from 'react'
 import FarmingContext from '../context/farming-context'
 
+const useStyles = makeStyles({
+  root: {
+    height: 300,
+  },
+})
+
 const FarmingPlanExplorer: React.FC = () => {
   const { farmingData, farmingPlan } = React.useContext(FarmingContext)
+  const classes = useStyles()
   if (!farmingData || !farmingPlan) {
     return null
   }
@@ -43,7 +51,7 @@ const FarmingPlanExplorer: React.FC = () => {
   ]
 
   return (
-    <div style={{ height: 300 }}>
+    <div className={classes.root}>
       <DataGrid rows={rows} columns={columns} disableColumnMenu />
     </div>
   )

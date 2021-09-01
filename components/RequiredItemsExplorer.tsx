@@ -1,9 +1,17 @@
+import { makeStyles } from '@material-ui/core'
 import { DataGrid, GridCellEditCommitParams, GridColDef, GridRowsProp } from '@material-ui/data-grid'
 import React from 'react'
 import FarmingContext from '../context/farming-context'
 
+const useStyles = makeStyles({
+  root: {
+    height: 300,
+  },
+})
+
 const RequiredItemsExplorer: React.FC = () => {
   const { requiredItems, setRequiredItems } = React.useContext(FarmingContext)
+  const classes = useStyles()
   if (!requiredItems) {
     return null
   }
@@ -33,7 +41,7 @@ const RequiredItemsExplorer: React.FC = () => {
   ]
 
   return (
-    <div style={{ height: 300 }}>
+    <div className={classes.root}>
       <DataGrid rows={rows} columns={columns} onCellEditCommit={onEditRequiredItemCount} disableColumnMenu />
     </div>
   )
