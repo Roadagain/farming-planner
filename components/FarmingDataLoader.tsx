@@ -10,10 +10,12 @@ const FarmingStagesLoader: React.FC = () => {
 
   const onLoadFarmingData = (farmingData: FarmingData) => {
     setFarmingData(farmingData)
-    setRequiredItems(farmingData.items.map(({ name }) => ({
-      name,
-      count: 0,
-    })))
+    setRequiredItems(
+      farmingData.items.map(({ name }) => ({
+        name,
+        count: 0,
+      })),
+    )
     setFarmingPlan(null)
   }
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
