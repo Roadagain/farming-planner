@@ -6,7 +6,7 @@ import FarmingContext from '../context/farming-context'
 const useStyles = makeStyles({
   root: {
     height: 300,
-  }
+  },
 })
 
 const RequiredItemsExplorer: React.FC = () => {
@@ -23,9 +23,9 @@ const RequiredItemsExplorer: React.FC = () => {
       requiredItems.map((requiredItem, index) => {
         return index === editedIndex
           ? {
-            ...requiredItem,
-            count: newCount,
-          }
+              ...requiredItem,
+              count: newCount,
+            }
           : requiredItem
       }),
     )

@@ -6,7 +6,7 @@ import FarmingContext from '../context/farming-context'
 const useStyles = makeStyles({
   root: {
     height: 300,
-  }
+  },
 })
 
 const FarmingPlanExplorer: React.FC = () => {
