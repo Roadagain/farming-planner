@@ -1,0 +1,32 @@
+name: github pages
+
+# 参考にした記事: https://qiita.com/manten120/items/87e9e822800403904dc8
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'yarn'
+      - name: Install packages
+        run: yarn --frozen-lockfile
+      - name: Build
+        run: yarn build
+      - name: Static export
+        run: yarn export
+      - name: Add nojekyll
+        run: touch ./out/.nojekyll
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
