@@ -2,10 +2,7 @@ name: github pages
 
 # 参考にした記事: https://qiita.com/manten120/items/87e9e822800403904dc8
 
-on:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
   build-and-deploy:
