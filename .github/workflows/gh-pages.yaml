@@ -25,6 +25,8 @@ jobs:
         run: yarn export
       - name: Add nojekyll
         run: touch ./out/.nojekyll
+      - name: Add CNAME
+        run: echo farm.roadagain.dev > ./out/CNAME
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
