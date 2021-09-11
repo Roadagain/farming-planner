@@ -1,4 +1,4 @@
-import presetFgoJson from '../preset-stages/fgo.json'
+import presetFgoJson from '../preset-data/fgo.json'
 import { FarmingData, FarmingStage, ItemNameDatum } from './types'
 
 export const loadFarmingStages = (loadedFarmingStages: FarmingStage[]): FarmingStage[] => {
