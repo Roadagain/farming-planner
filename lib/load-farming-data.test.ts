@@ -29,7 +29,7 @@ describe('周回候補マップの読み込み', () => {
       ]
       const expectedFarmingStages = [ariesStage]
       const farmingStages = loadFarmingStages(loadedFarmingStages)
-      expect(farmingStages).toMatchObject(expectedFarmingStages)
+      expect(farmingStages).toEqual(expectedFarmingStages)
     })
   })
 
@@ -47,7 +47,7 @@ describe('周回候補マップの読み込み', () => {
       ]
 
       const dropItems = loadItems(sampleFarmingStages.items)
-      expect(dropItems).toMatchObject(expectedDropItems)
+      expect(dropItems).toEqual(expectedDropItems)
     })
 
     it('ドロップアイテムの一覧はID順にソートされている', () => {
@@ -63,7 +63,7 @@ describe('周回候補マップの読み込み', () => {
       const expectedDropItems = [betaItem, alphaItem]
 
       const dropItems = loadItems(dropItemNameData)
-      expect(dropItems).toMatchObject(expectedDropItems)
+      expect(dropItems).toEqual(expectedDropItems)
     })
   })
 
@@ -118,7 +118,7 @@ describe('周回候補マップの読み込み', () => {
         ],
       }
       const farmingData = loadFarmingData(sampleFarmingStages)
-      expect(farmingData).toMatchObject(expectedFarmingData)
+      expect(farmingData).toEqual(expectedFarmingData)
     })
   })
 
@@ -173,7 +173,7 @@ describe('周回候補マップの読み込み', () => {
         ],
       }
       const farmingData = loadFarmingDataFromJson(JSON.stringify(sampleFarmingStages))
-      expect(farmingData).toMatchObject(expectedFarmingData)
+      expect(farmingData).toEqual(expectedFarmingData)
     })
   })
 })

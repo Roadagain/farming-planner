@@ -56,7 +56,7 @@ describe('周回効率計算', () => {
       const maxItemFarmingEfficienciesAsArray = Array.from(maxItemFarmingEfficiencies.values()).sort((a, b) =>
         a.name.localeCompare(b.name),
       )
-      expect(maxItemFarmingEfficienciesAsArray).toMatchObject(expectedMaxItemFarmingEfficiencies)
+      expect(maxItemFarmingEfficienciesAsArray).toEqual(expectedMaxItemFarmingEfficiencies)
     })
   })
 
@@ -93,7 +93,7 @@ describe('周回効率計算', () => {
         lackedItems,
         maxItemFarmingEfficencies,
       )
-      expect(stageFarmingEfficiencies).toMatchObject(expectedStageFarmingEfficiencies)
+      expect(stageFarmingEfficiencies).toEqual(expectedStageFarmingEfficiencies)
     })
 
     it('要求外のドロップはマップ効率の計算に含まれない', () => {
@@ -124,7 +124,7 @@ describe('周回効率計算', () => {
         lackedItems,
         maxItemFarmingEfficencies,
       )
-      expect(stageFarmingEfficiencies).toMatchObject(expectedStageFarmingEfficiencies)
+      expect(stageFarmingEfficiencies).toEqual(expectedStageFarmingEfficiencies)
     })
 
     it('要求数が0のアイテムはマップ効率の計算に含まれない', () => {
@@ -159,7 +159,7 @@ describe('周回効率計算', () => {
         lackedItems,
         maxItemFarmingEfficencies,
       )
-      expect(stageFarmingEfficiencies).toMatchObject(expectedStageFarmingEfficiencies)
+      expect(stageFarmingEfficiencies).toEqual(expectedStageFarmingEfficiencies)
     })
   })
 })
