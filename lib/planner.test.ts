@@ -44,7 +44,7 @@ describe('周回計画立案', () => {
       const lackedItems: LackedItem[] = []
       const plan = planFarming(maps, lackedItems)
       const expected: FarmCount[] = []
-      expect(plan).toMatchObject(expected)
+      expect(plan).toEqual(expected)
     })
 
     it('アイテムが1つの場合は最高効率のマップを返す', () => {
@@ -62,7 +62,7 @@ describe('周回計画立案', () => {
           count: 2,
         },
       ]
-      expect(plan).toMatchObject(expected)
+      expect(plan).toEqual(expected)
     })
 
     it('アイテムが2つ以上の場合は累計コストが最小の計画を立てる', () => {
@@ -88,7 +88,7 @@ describe('周回計画立案', () => {
           count: 2,
         },
       ]
-      expect(plan).toMatchObject(expected)
+      expect(plan).toEqual(expected)
     })
 
     it('要求数が0のアイテムは無視する', () => {
@@ -110,7 +110,7 @@ describe('周回計画立案', () => {
           count: 2,
         },
       ]
-      expect(plan).toMatchObject(expected)
+      expect(plan).toEqual(expected)
     })
 
     it('最小回数の周回であれば要求数をオーバーしてもよい', () => {
@@ -138,7 +138,7 @@ describe('周回計画立案', () => {
       ]
 
       const plan = planFarming([cancerStage], lackedItems)
-      expect(plan).toMatchObject(expected)
+      expect(plan).toEqual(expected)
     })
 
     it('周回でドロップしないアイテムが必要な場合Errorをthrowする', () => {
