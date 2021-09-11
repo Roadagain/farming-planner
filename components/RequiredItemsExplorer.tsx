@@ -24,7 +24,7 @@ const RequiredItemsExplorer: React.FC = () => {
         return index === editedIndex
           ? {
               ...requiredItem,
-              count: newCount,
+              [params.field]: newCount,
             }
           : requiredItem
       }),
@@ -34,10 +34,13 @@ const RequiredItemsExplorer: React.FC = () => {
   const rows: GridRowsProp = requiredItems.map((requiredItem, index) => ({
     id: index,
     ...requiredItem,
+    lackedCount: Math.max(requiredItem.requiredCount - requiredItem.storedCount, 0),
   }))
   const columns: GridColDef[] = [
     { field: 'name', headerName: 'アイテム名', width: 200 },
-    { field: 'count', headerName: '必要数', type: 'number', editable: true, width: 100 },
+    { field: 'storedCount', headerName: '所持数', type: 'number', editable: true, width: 100 },
+    { field: 'requiredCount', headerName: '必要数', type: 'number', editable: true, width: 100 },
+    { field: 'lackedCount', headerName: '不足数', type: 'number', editable: false, width: 100 },
   ]
 
   return (

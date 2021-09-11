@@ -1,22 +1,22 @@
 import { calcStageFarmingEfficiencies, calcMaxItemFarmingEfficencies } from './farming-efficiency-calculator'
-import { FarmCount, FarmingStage, RequiredItem } from './types'
+import { FarmCount, FarmingStage, LackedItem } from './types'
 
-export const planFarming = (farmingStages: FarmingStage[], requiredItems: RequiredItem[]): FarmCount[] => {
+export const planFarming = (farmingStages: FarmingStage[], lackedItems: LackedItem[]): FarmCount[] => {
   const maxItemFarmingEfficencies = calcMaxItemFarmingEfficencies(farmingStages)
 
   const farmingPlan: FarmCount[] = []
-  const remainRequiredItems = new Map<string, number>(
-    requiredItems.filter(({ count }) => count).map(({ name, count }) => [name, count]),
+  const remainLackedItems = new Map<string, number>(
+    lackedItems.filter(({ count }) => count).map(({ name, count }) => [name, count]),
   )
-  while (remainRequiredItems.size > 0) {
+  while (remainLackedItems.size > 0) {
     // 現時点での最高効率マップを計算
-    const newRequiredItems: RequiredItem[] = Array.from(remainRequiredItems.entries()).map(([name, count]) => ({
+    const newLackedItems: LackedItem[] = Array.from(remainLackedItems.entries()).map(([name, count]) => ({
       name,
       count,
     }))
     const stageFarmingEfficiencies = calcStageFarmingEfficiencies(
       farmingStages,
-      newRequiredItems,
+      newLackedItems,
       maxItemFarmingEfficencies,
     )
     const maxEfficientFarmingStage = stageFarmingEfficiencies.reduce((a, b) =>
@@ -26,7 +26,7 @@ export const planFarming = (farmingStages: FarmingStage[], requiredItems: Requir
     // どれか1つが要求数0になるまでの周回数を計算
     const farmingCounts = maxEfficientFarmingStage.itemDrops
       .map(({ name, probability }) => {
-        const requiredCount = remainRequiredItems.get(name) || 0
+        const requiredCount = remainLackedItems.get(name) || 0
         return Math.ceil(requiredCount / probability)
       })
       .filter((farmingCount) => farmingCount > 0)
@@ -41,13 +41,13 @@ export const planFarming = (farmingStages: FarmingStage[], requiredItems: Requir
 
     // 計算した周回数で出てくる分だけ必要アイテムを減らす
     maxEfficientFarmingStage.itemDrops.forEach(({ name, probability }) => {
-      const requiredCount = remainRequiredItems.get(name)
+      const requiredCount = remainLackedItems.get(name)
       const remainRequiredCount = requiredCount ? requiredCount - Math.floor(minFarmingCount * probability) : 0
       if (remainRequiredCount <= 0) {
-        remainRequiredItems.delete(name)
+        remainLackedItems.delete(name)
         return
       }
-      remainRequiredItems.set(name, remainRequiredCount)
+      remainLackedItems.set(name, remainRequiredCount)
     })
   }
 

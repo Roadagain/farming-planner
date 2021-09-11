@@ -1,4 +1,4 @@
-import { ItemFarmingEfficiency, FarmingStage, RequiredItem, StageFarmingEfficiency } from './types'
+import { ItemFarmingEfficiency, FarmingStage, LackedItem, StageFarmingEfficiency } from './types'
 
 export const calcMaxItemFarmingEfficencies = (farmingStages: FarmingStage[]): Map<string, ItemFarmingEfficiency> => {
   const maxEfficencies: Map<string, ItemFarmingEfficiency> = new Map()
@@ -22,14 +22,14 @@ export const calcMaxItemFarmingEfficencies = (farmingStages: FarmingStage[]): Ma
 
 export const calcStageFarmingEfficiencies = (
   farmingStages: FarmingStage[],
-  requiredItems: RequiredItem[],
+  lackedItems: LackedItem[],
   maxItemFarmingEfficiencies: Map<string, ItemFarmingEfficiency>,
 ): StageFarmingEfficiency[] => {
-  const requiredItemNames = requiredItems.filter(({ count }) => count).map(({ name }) => name)
+  const lackedItemNames = lackedItems.filter(({ count }) => count).map(({ name }) => name)
   return farmingStages.map((farmingStage) => {
     const { cost, itemDrops } = farmingStage
     const itemEfficiencyCosts = itemDrops.map(({ name, probability }) => {
-      if (!requiredItemNames.includes(name)) {
+      if (!lackedItemNames.includes(name)) {
         return 0
       }
       const maxEfficientCost = maxItemFarmingEfficiencies.get(name)?.cost || 0
