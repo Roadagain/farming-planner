@@ -1,4 +1,4 @@
-export type RequiredItem = {
+export type LackedItem = {
   name: string
   count: number
 }

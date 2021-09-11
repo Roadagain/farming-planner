@@ -1,4 +1,4 @@
-import { FarmCount, FarmingStage, RequiredItem } from './types'
+import { FarmCount, FarmingStage, LackedItem } from './types'
 import { planFarming } from './planner'
 
 const ariesStage: FarmingStage = {
@@ -41,21 +41,21 @@ const maps: FarmingStage[] = [ariesStage, taurusStage, geminiStage]
 describe('周回計画立案', () => {
   describe('計画立案', () => {
     it('必要アイテムがない場合は空の周回計画を返す', () => {
-      const requiredItems: RequiredItem[] = []
-      const plan = planFarming(maps, requiredItems)
+      const lackedItems: LackedItem[] = []
+      const plan = planFarming(maps, lackedItems)
       const expected: FarmCount[] = []
       expect(plan).toMatchObject(expected)
     })
 
     it('アイテムが1つの場合は最高効率のマップを返す', () => {
-      const requiredItems: RequiredItem[] = [
+      const lackedItems: LackedItem[] = [
         {
           name: 'alpha',
           count: 1,
         },
       ]
 
-      const plan = planFarming(maps, requiredItems)
+      const plan = planFarming(maps, lackedItems)
       const expected: FarmCount[] = [
         {
           farmingStage: ariesStage,
@@ -66,7 +66,7 @@ describe('周回計画立案', () => {
     })
 
     it('アイテムが2つ以上の場合は累計コストが最小の計画を立てる', () => {
-      const requiredItems: RequiredItem[] = [
+      const lackedItems: LackedItem[] = [
         {
           name: 'alpha',
           count: 2,
@@ -77,7 +77,7 @@ describe('周回計画立案', () => {
         },
       ]
 
-      const plan = planFarming(maps, requiredItems)
+      const plan = planFarming(maps, lackedItems)
       const expected: FarmCount[] = [
         {
           farmingStage: geminiStage,
@@ -92,7 +92,7 @@ describe('周回計画立案', () => {
     })
 
     it('要求数が0のアイテムは無視する', () => {
-      const requiredItems: RequiredItem[] = [
+      const lackedItems: LackedItem[] = [
         {
           name: 'alpha',
           count: 1,
@@ -103,7 +103,7 @@ describe('周回計画立案', () => {
         },
       ]
 
-      const plan = planFarming(maps, requiredItems)
+      const plan = planFarming(maps, lackedItems)
       const expected: FarmCount[] = [
         {
           farmingStage: ariesStage,
@@ -124,7 +124,7 @@ describe('周回計画立案', () => {
           },
         ],
       }
-      const requiredItems: RequiredItem[] = [
+      const lackedItems: LackedItem[] = [
         {
           name: 'alpha',
           count: 1,
@@ -137,19 +137,19 @@ describe('周回計画立案', () => {
         },
       ]
 
-      const plan = planFarming([cancerStage], requiredItems)
+      const plan = planFarming([cancerStage], lackedItems)
       expect(plan).toMatchObject(expected)
     })
 
     it('周回でドロップしないアイテムが必要な場合Errorをthrowする', () => {
       const farmingStages = [ariesStage, taurusStage, geminiStage]
-      const requiredItems: RequiredItem[] = [
+      const lackedItems: LackedItem[] = [
         {
           name: 'gamma',
           count: 100,
         },
       ]
-      expect(() => planFarming(farmingStages, requiredItems)).toThrowError('周回では収集不可能')
+      expect(() => planFarming(farmingStages, lackedItems)).toThrowError('周回では収集不可能')
     })
   })
 })

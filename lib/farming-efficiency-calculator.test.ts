@@ -1,5 +1,5 @@
 import { calcStageFarmingEfficiencies, calcMaxItemFarmingEfficencies } from './farming-efficiency-calculator'
-import { ItemFarmingEfficiency, FarmingStage, StageFarmingEfficiency } from './types'
+import { ItemFarmingEfficiency, FarmingStage, StageFarmingEfficiency, LackedItem } from './types'
 
 const ariesStage: FarmingStage = {
   name: 'Aries',
@@ -63,7 +63,7 @@ describe('周回効率計算', () => {
   describe('マップごとの効率計算', () => {
     it('各アイテムの最高効率に基づいた各マップごとのスタミナ効率が返る', () => {
       const farmingStages = [ariesStage, taurusStage, geminiStage]
-      const requiredItems = [
+      const lackedItems: LackedItem[] = [
         {
           name: 'alpha',
           count: 1,
@@ -90,7 +90,7 @@ describe('周回効率計算', () => {
       ]
       const stageFarmingEfficiencies = calcStageFarmingEfficiencies(
         farmingStages,
-        requiredItems,
+        lackedItems,
         maxItemFarmingEfficencies,
       )
       expect(stageFarmingEfficiencies).toMatchObject(expectedStageFarmingEfficiencies)
@@ -98,7 +98,7 @@ describe('周回効率計算', () => {
 
     it('要求外のドロップはマップ効率の計算に含まれない', () => {
       const farmingStages = [ariesStage, taurusStage, geminiStage]
-      const requiredItems = [
+      const lackedItems: LackedItem[] = [
         {
           name: 'alpha',
           count: 1,
@@ -121,7 +121,7 @@ describe('周回効率計算', () => {
       ]
       const stageFarmingEfficiencies = calcStageFarmingEfficiencies(
         farmingStages,
-        requiredItems,
+        lackedItems,
         maxItemFarmingEfficencies,
       )
       expect(stageFarmingEfficiencies).toMatchObject(expectedStageFarmingEfficiencies)
@@ -129,7 +129,7 @@ describe('周回効率計算', () => {
 
     it('要求数が0のアイテムはマップ効率の計算に含まれない', () => {
       const farmingStages = [ariesStage, taurusStage, geminiStage]
-      const requiredItems = [
+      const lackedItems: LackedItem[] = [
         {
           name: 'alpha',
           count: 1,
@@ -156,7 +156,7 @@ describe('周回効率計算', () => {
       ]
       const stageFarmingEfficiencies = calcStageFarmingEfficiencies(
         farmingStages,
-        requiredItems,
+        lackedItems,
         maxItemFarmingEfficencies,
       )
       expect(stageFarmingEfficiencies).toMatchObject(expectedStageFarmingEfficiencies)

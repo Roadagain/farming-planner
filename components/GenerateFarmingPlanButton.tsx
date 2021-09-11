@@ -9,7 +9,7 @@ const GenerateFarmingPlanButton: React.FC = () => {
     if (!farmingData || !requiredItems) {
       return
     }
-    setFarmingPlan(planFarming(farmingData?.farmingStages, requiredItems))
+    setFarmingPlan(planFarming(farmingData?.farmingStages, lackedItems))
   }
 
   return (
