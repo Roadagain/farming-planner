@@ -30,7 +30,6 @@ const IndexPage: React.FC = () => {
   React.useEffect(() => {
     const lastLoadedData = loadFarmingDataFromLocalStorage()
     if (lastLoadedData) {
-      console.log('loaded data', lastLoadedData)
       setFarmingData(lastLoadedData)
 
       const savedRequiredItems = loadRequiredItemsFromLocalStorage(lastLoadedData.name)
