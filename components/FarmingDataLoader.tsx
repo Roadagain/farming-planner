@@ -2,6 +2,7 @@ import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core'
 import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
 import { loadFarmingDataFromJson, loadPresetFgoData } from '../lib/load-farming-data'
+import { saveFarmingDataToLocalStorage } from '../lib/local-storage'
 import { FarmingData } from '../lib/types'
 
 const FarmingStagesLoader: React.FC = () => {
@@ -18,6 +19,8 @@ const FarmingStagesLoader: React.FC = () => {
       })),
     )
     setFarmingPlan(null)
+
+    saveFarmingDataToLocalStorage(farmingData)
   }
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
     if (!e.target.files) {
