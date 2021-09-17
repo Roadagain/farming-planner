@@ -6,6 +6,7 @@ import GenerateFarmingPlanButton from '../components/GenerateFarmingPlanButton'
 import RequiredItemsExplorer from '../components/RequiredItemsExplorer'
 import FarmingContext from '../context/farming-context'
 import { FarmCount, FarmingData, RequiredItem } from '../lib/types'
+import { loadFarmingDataFromLocalStorage, loadRequiredItemsFromLocalStorage } from '../lib/local-storage'
 
 const useStyles = makeStyles({
   container: {
@@ -26,6 +27,18 @@ const IndexPage: React.FC = () => {
     setFarmingPlan,
   }
   const classes = useStyles()
+  React.useEffect(() => {
+    const lastLoadedData = loadFarmingDataFromLocalStorage()
+    if (lastLoadedData) {
+      console.log('loaded data', lastLoadedData)
+      setFarmingData(lastLoadedData)
+
+      const savedRequiredItems = loadRequiredItemsFromLocalStorage(lastLoadedData.name)
+      setRequiredItems(savedRequiredItems)
+    } else {
+      console.log('not loaded')
+    }
+  }, [])
 
   return (
     <FarmingContext.Provider value={farmingContextValue}>

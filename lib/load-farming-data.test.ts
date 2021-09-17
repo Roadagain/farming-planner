@@ -70,6 +70,7 @@ describe('周回候補マップの読み込み', () => {
   describe('objectから周回用データを作成', () => {
     it('objectからステージとアイテムの一覧を生成できる', () => {
       const expectedFarmingData: FarmingData = {
+        name: 'sample',
         farmingStages: [
           {
             name: 'Aries',
@@ -125,6 +126,7 @@ describe('周回候補マップの読み込み', () => {
   describe('JSON文字列を読み込んでDTOに加工', () => {
     it('JSON文字列からマップデータを読み込んでDTOに加工できる', () => {
       const expectedFarmingData: FarmingData = {
+        name: 'sample',
         farmingStages: [
           {
             name: 'Aries',

@@ -2,6 +2,7 @@ import { makeStyles } from '@material-ui/core'
 import { DataGrid, GridCellEditCommitParams, GridColDef, GridRowsProp } from '@material-ui/data-grid'
 import React from 'react'
 import FarmingContext from '../context/farming-context'
+import { saveRequiredItemsToLocalStorage } from '../lib/local-storage'
 
 const useStyles = makeStyles({
   root: {
@@ -10,25 +11,26 @@ const useStyles = makeStyles({
 })
 
 const RequiredItemsExplorer: React.FC = () => {
-  const { requiredItems, setRequiredItems } = React.useContext(FarmingContext)
+  const { requiredItems, setRequiredItems, farmingData } = React.useContext(FarmingContext)
   const classes = useStyles()
-  if (!requiredItems) {
+  if (!requiredItems || !farmingData) {
     return null
   }
 
   const onEditRequiredItemCount = (params: GridCellEditCommitParams) => {
     const editedIndex: number = parseInt(params.id.toString())
     const newCount: number = parseInt(params.value?.toString() || '0')
-    setRequiredItems(
-      requiredItems.map((requiredItem, index) => {
-        return index === editedIndex
-          ? {
-              ...requiredItem,
-              [params.field]: newCount,
-            }
-          : requiredItem
-      }),
-    )
+    const newRequiredItems = requiredItems.map((requiredItem, index) => {
+      return index === editedIndex
+        ? {
+            ...requiredItem,
+            [params.field]: newCount,
+          }
+        : requiredItem
+    })
+    setRequiredItems(newRequiredItems)
+
+    saveRequiredItemsToLocalStorage(farmingData.name, newRequiredItems)
   }
 
   const rows: GridRowsProp = requiredItems.map((requiredItem, index) => ({

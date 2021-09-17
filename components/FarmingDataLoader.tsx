@@ -2,28 +2,37 @@ import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core'
 import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
 import { loadFarmingDataFromJson, loadPresetFgoData } from '../lib/load-farming-data'
+import {
+  loadRequiredItemsFromLocalStorage,
+  saveFarmingDataToLocalStorage,
+  saveRequiredItemsToLocalStorage,
+} from '../lib/local-storage'
 import { FarmingData } from '../lib/types'
 
 const FarmingStagesLoader: React.FC = () => {
-  const [fileName, setFileName] = React.useState<string>('')
-  const { setFarmingData, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
+  const { farmingData, setFarmingData, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
+  const [name, setName] = React.useState<string>(farmingData?.name || '')
 
   const onLoadFarmingData = (farmingData: FarmingData) => {
+    setName(farmingData.name)
     setFarmingData(farmingData)
-    setRequiredItems(
+    const newRequiredItems =
+      loadRequiredItemsFromLocalStorage(farmingData.name) ||
       farmingData.items.map(({ name }) => ({
         name,
         storedCount: 0,
         requiredCount: 0,
-      })),
-    )
+      }))
+    setRequiredItems(newRequiredItems)
     setFarmingPlan(null)
+
+    saveFarmingDataToLocalStorage(farmingData)
+    saveRequiredItemsToLocalStorage(farmingData.name, newRequiredItems)
   }
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
     if (!e.target.files) {
       return
     }
-    setFileName(e.target.files[0].name)
     onLoadFarmingData(loadFarmingDataFromJson(await e.target.files[0].text()))
   }
   const loadPresetFgo = () => {
@@ -46,7 +55,7 @@ const FarmingStagesLoader: React.FC = () => {
             </Button>
           </Grid>
           <Grid item>
-            <Typography variant="body1">{fileName}</Typography>
+            <Typography variant="body1">{name ? `読み込んだデータ: ${name}` : 'データを読み込んで下さい'}</Typography>
           </Grid>
         </Grid>
       </CardContent>
