@@ -2,7 +2,11 @@ import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core'
 import React, { ChangeEventHandler } from 'react'
 import FarmingContext from '../context/farming-context'
 import { loadFarmingDataFromJson, loadPresetFgoData } from '../lib/load-farming-data'
-import { saveFarmingDataToLocalStorage, saveRequiredItemsToLocalStorage } from '../lib/local-storage'
+import {
+  loadRequiredItemsFromLocalStorage,
+  saveFarmingDataToLocalStorage,
+  saveRequiredItemsToLocalStorage,
+} from '../lib/local-storage'
 import { FarmingData } from '../lib/types'
 
 const FarmingStagesLoader: React.FC = () => {
@@ -12,11 +16,13 @@ const FarmingStagesLoader: React.FC = () => {
   const onLoadFarmingData = (farmingData: FarmingData) => {
     setName(farmingData.name)
     setFarmingData(farmingData)
-    const newRequiredItems = farmingData.items.map(({ name }) => ({
-      name,
-      storedCount: 0,
-      requiredCount: 0,
-    }))
+    const newRequiredItems =
+      loadRequiredItemsFromLocalStorage(farmingData.name) ||
+      farmingData.items.map(({ name }) => ({
+        name,
+        storedCount: 0,
+        requiredCount: 0,
+      }))
     setRequiredItems(newRequiredItems)
     setFarmingPlan(null)
 
