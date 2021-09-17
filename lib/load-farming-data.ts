@@ -19,6 +19,7 @@ export const loadItems = (dropItemNameData: ItemNameDatum[]): ItemNameDatum[] =>
 
 export const loadFarmingData = (farmingData: FarmingData): FarmingData => {
   return {
+    name: farmingData.name,
     farmingStages: loadFarmingStages(farmingData.farmingStages),
     items: loadItems(farmingData.items),
   }
