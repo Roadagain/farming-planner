@@ -7,15 +7,17 @@ import {
   saveFarmingDataToLocalStorage,
   saveRequiredItemsToLocalStorage,
 } from '../lib/local-storage'
-import { FarmingData } from '../lib/types'
 
 const FarmingStagesLoader: React.FC = () => {
   const { farmingData, setFarmingData, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
-  const [name, setName] = React.useState<string>(farmingData?.name || '')
+  const [name, setName] = React.useState<string>('')
+  React.useEffect(() => {
+    if (!farmingData) {
+      setName('')
+      return
+    }
 
-  const onLoadFarmingData = (farmingData: FarmingData) => {
     setName(farmingData.name)
-    setFarmingData(farmingData)
     const newRequiredItems =
       loadRequiredItemsFromLocalStorage(farmingData.name) ||
       farmingData.items.map(({ name }) => ({
@@ -28,15 +30,16 @@ const FarmingStagesLoader: React.FC = () => {
 
     saveFarmingDataToLocalStorage(farmingData)
     saveRequiredItemsToLocalStorage(farmingData.name, newRequiredItems)
-  }
+  }, [farmingData, setRequiredItems, setFarmingPlan])
+
   const onLoadFile: ChangeEventHandler<HTMLInputElement> = async (e) => {
     if (!e.target.files) {
       return
     }
-    onLoadFarmingData(loadFarmingDataFromJson(await e.target.files[0].text()))
+    setFarmingData(loadFarmingDataFromJson(await e.target.files[0].text()))
   }
   const loadPresetFgo = () => {
-    onLoadFarmingData(loadPresetFgoData())
+    setFarmingData(loadPresetFgoData())
   }
 
   return (
