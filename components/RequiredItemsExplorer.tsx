@@ -20,15 +20,14 @@ const RequiredItemsExplorer: React.FC = () => {
   const onEditRequiredItemCount = (params: GridCellEditCommitParams) => {
     const editedIndex: number = parseInt(params.id.toString())
     const newCount: number = parseInt(params.value?.toString() || '0')
-    const newRequiredItems =
-      requiredItems.map((requiredItem, index) => {
-        return index === editedIndex
-          ? {
+    const newRequiredItems = requiredItems.map((requiredItem, index) => {
+      return index === editedIndex
+        ? {
             ...requiredItem,
             [params.field]: newCount,
           }
-          : requiredItem
-      })
+        : requiredItem
+    })
     setRequiredItems(newRequiredItems)
 
     saveRequiredItemsToLocalStorage(farmingData.name, newRequiredItems)

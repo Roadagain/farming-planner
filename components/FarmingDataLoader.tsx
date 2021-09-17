@@ -11,12 +11,11 @@ const FarmingStagesLoader: React.FC = () => {
 
   const onLoadFarmingData = (farmingData: FarmingData) => {
     setFarmingData(farmingData)
-    const newRequiredItems =
-      farmingData.items.map(({ name }) => ({
-        name,
-        storedCount: 0,
-        requiredCount: 0,
-      }))
+    const newRequiredItems = farmingData.items.map(({ name }) => ({
+      name,
+      storedCount: 0,
+      requiredCount: 0,
+    }))
     setRequiredItems(newRequiredItems)
     setFarmingPlan(null)
 

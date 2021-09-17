@@ -36,7 +36,7 @@ export const loadRequiredItemsFromLocalStorage = (name: string): RequiredItem[] 
     return requiredItemsJson.map(({ name, storedCount, requiredCount }) => ({
       name,
       storedCount,
-      requiredCount
+      requiredCount,
     }))
   } catch (e) {
     console.error(e)
