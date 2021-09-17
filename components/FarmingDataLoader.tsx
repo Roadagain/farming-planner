@@ -6,10 +6,11 @@ import { saveFarmingDataToLocalStorage, saveRequiredItemsToLocalStorage } from '
 import { FarmingData } from '../lib/types'
 
 const FarmingStagesLoader: React.FC = () => {
-  const [fileName, setFileName] = React.useState<string>('')
-  const { setFarmingData, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
+  const { farmingData, setFarmingData, setRequiredItems, setFarmingPlan } = React.useContext(FarmingContext)
+  const [name, setName] = React.useState<string>(farmingData?.name || '')
 
   const onLoadFarmingData = (farmingData: FarmingData) => {
+    setName(farmingData.name)
     setFarmingData(farmingData)
     const newRequiredItems = farmingData.items.map(({ name }) => ({
       name,
@@ -26,7 +27,6 @@ const FarmingStagesLoader: React.FC = () => {
     if (!e.target.files) {
       return
     }
-    setFileName(e.target.files[0].name)
     onLoadFarmingData(loadFarmingDataFromJson(await e.target.files[0].text()))
   }
   const loadPresetFgo = () => {
@@ -49,7 +49,7 @@ const FarmingStagesLoader: React.FC = () => {
             </Button>
           </Grid>
           <Grid item>
-            <Typography variant="body1">{fileName}</Typography>
+            <Typography variant="body1">{name ? `読み込んだデータ: ${name}` : 'データを読み込んで下さい'}</Typography>
           </Grid>
         </Grid>
       </CardContent>
