@@ -60,6 +60,13 @@ const FarmingStagesLoader: React.FC = () => {
           <Grid item>
             <Typography variant="body1">{name ? `読み込んだデータ: ${name}` : 'データを読み込んで下さい'}</Typography>
           </Grid>
+          <Grid item xs={12}>
+            <Typography variant="body2">
+              FGOのプリセットデータは
+              <a href="https://sites.google.com/view/fgo-domus-aurea">FGOアイテム効率劇場</a>
+              のデータをお借りしています
+            </Typography>
+          </Grid>
         </Grid>
       </CardContent>
     </Card>
