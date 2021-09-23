@@ -1,9 +1,9 @@
 {
+  "name": "FGO",
   "specialThanks": {
     "name": "FGOアイテム効率劇場",
-    "url": "https://docs.google.com/spreadsheets/d/1TrfSDteVZnjUPz68rKzuZWZdZZBLqw03FlvEToOvqH0/htmlview"
+    "url": "https://sites.google.com/view/fgo-domus-aurea"
   },
-  "name": "FGO",
   "farmingStages": [
     {
       "name": "修練場(月)/弓超級",
@@ -58,7 +58,7 @@
           "probability": 0.087
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -124,7 +124,7 @@
           "probability": 0.049
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -190,7 +190,7 @@
           "probability": 0.611
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 265
         },
         {
@@ -244,7 +244,7 @@
           "probability": 0.803
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -310,7 +310,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -376,7 +376,7 @@
           "probability": 0.091
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -434,7 +434,7 @@
           "probability": 0.584
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 265
         },
         {
@@ -484,7 +484,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -542,7 +542,7 @@
           "probability": 0.091
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -600,7 +600,7 @@
           "probability": 0.092
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -654,7 +654,7 @@
           "probability": 0.57
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 265
         },
         {
@@ -700,7 +700,7 @@
           "probability": 0.799
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -758,7 +758,7 @@
           "probability": 0.135
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -816,7 +816,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -866,7 +866,7 @@
           "probability": 0.622
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 265
         },
         {
@@ -912,7 +912,7 @@
           "probability": 0.788
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -970,7 +970,7 @@
           "probability": 0.016
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -1028,7 +1028,7 @@
           "probability": 0.145
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -1078,7 +1078,7 @@
           "probability": 0.655
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 265
         },
         {
@@ -1128,7 +1128,7 @@
           "probability": 0.828
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -1194,7 +1194,7 @@
           "probability": 0.124
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -1260,7 +1260,7 @@
           "probability": 0.115
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -1318,7 +1318,7 @@
           "probability": 0.553
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 265
         },
         {
@@ -1368,7 +1368,7 @@
           "probability": 0.812
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -1438,7 +1438,7 @@
           "probability": 0.069
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -1508,7 +1508,7 @@
           "probability": 0.096
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -1566,7 +1566,7 @@
           "probability": 0.668
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 265
         },
         {
@@ -1624,7 +1624,7 @@
           "probability": 0.822
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -1650,7 +1650,7 @@
           "probability": 0.168
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 25
         },
         {
@@ -1680,7 +1680,7 @@
           "probability": 0.104
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 35
         },
         {
@@ -1710,7 +1710,7 @@
           "probability": 0.171
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 35
         },
         {
@@ -1740,7 +1740,7 @@
           "probability": 0.222
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 55
         },
         {
@@ -1778,7 +1778,7 @@
           "probability": 0.051
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 75
         },
         {
@@ -1820,7 +1820,7 @@
           "probability": 0.024
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 95
         },
         {
@@ -1854,7 +1854,7 @@
           "probability": 0.23
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -1896,7 +1896,7 @@
           "probability": 0.105
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -1926,7 +1926,7 @@
           "probability": 0.1
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -1960,7 +1960,7 @@
           "probability": 0.125
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -1994,7 +1994,7 @@
           "probability": 0.421
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 115
         },
         {
@@ -2044,7 +2044,7 @@
           "probability": 0.126
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 135
         },
         {
@@ -2082,7 +2082,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 135
         },
         {
@@ -2112,7 +2112,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 135
         },
         {
@@ -2130,7 +2130,7 @@
       "cost": 7,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 135
         },
         {
@@ -2164,7 +2164,7 @@
           "probability": 0.285
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 135
         },
         {
@@ -2214,7 +2214,7 @@
           "probability": 0.047
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 155
         },
         {
@@ -2272,7 +2272,7 @@
           "probability": 0.118
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 315
         },
         {
@@ -2290,7 +2290,7 @@
       "cost": 9,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 175
         },
         {
@@ -2308,7 +2308,7 @@
       "cost": 9,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 175
         },
         {
@@ -2334,7 +2334,7 @@
           "probability": 0.3
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 175
         },
         {
@@ -2368,7 +2368,7 @@
           "probability": 0.129
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 175
         },
         {
@@ -2386,7 +2386,7 @@
       "cost": 9,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 175
         },
         {
@@ -2432,7 +2432,7 @@
           "probability": 0.051
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -2450,7 +2450,7 @@
       "cost": 9,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 175
         },
         {
@@ -2468,7 +2468,7 @@
       "cost": 9,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 195
         },
         {
@@ -2486,7 +2486,7 @@
       "cost": 10,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 215
         },
         {
@@ -2504,7 +2504,7 @@
       "cost": 9,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 195
         },
         {
@@ -2522,7 +2522,7 @@
       "cost": 10,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 215
         },
         {
@@ -2552,7 +2552,7 @@
           "probability": 0.277
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 295
         },
         {
@@ -2570,7 +2570,7 @@
       "cost": 13,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 315
         },
         {
@@ -2588,7 +2588,7 @@
       "cost": 13,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 335
         },
         {
@@ -2606,7 +2606,7 @@
       "cost": 13,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 335
         },
         {
@@ -2624,7 +2624,7 @@
       "cost": 17,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 515
         },
         {
@@ -2642,7 +2642,7 @@
       "cost": 14,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 375
         },
         {
@@ -2660,7 +2660,7 @@
       "cost": 14,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 395
         },
         {
@@ -2678,7 +2678,7 @@
       "cost": 17,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 555
         },
         {
@@ -2704,7 +2704,7 @@
           "probability": 0.557
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 415
         },
         {
@@ -2722,7 +2722,7 @@
       "cost": 15,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 435
         },
         {
@@ -2756,7 +2756,7 @@
           "probability": 0.1
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 475
         },
         {
@@ -2798,7 +2798,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -2816,7 +2816,7 @@
       "cost": 15,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 435
         },
         {
@@ -2834,7 +2834,7 @@
       "cost": 15,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 435
         },
         {
@@ -2852,7 +2852,7 @@
       "cost": 15,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 435
         },
         {
@@ -2870,7 +2870,7 @@
       "cost": 16,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 455
         },
         {
@@ -2888,7 +2888,7 @@
       "cost": 16,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 455
         },
         {
@@ -2906,7 +2906,7 @@
       "cost": 16,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 455
         },
         {
@@ -2952,7 +2952,7 @@
           "probability": 0.033
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -2994,7 +2994,7 @@
           "probability": 0.11
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 655
         },
         {
@@ -3040,7 +3040,7 @@
           "probability": 0.04
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 695
         },
         {
@@ -3058,7 +3058,7 @@
       "cost": 17,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 535
         },
         {
@@ -3076,7 +3076,7 @@
       "cost": 17,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 535
         },
         {
@@ -3094,7 +3094,7 @@
       "cost": 17,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 535
         },
         {
@@ -3128,7 +3128,7 @@
           "probability": 0.064
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 555
         },
         {
@@ -3158,7 +3158,7 @@
           "probability": 0.289
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 555
         },
         {
@@ -3176,7 +3176,7 @@
       "cost": 18,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 575
         },
         {
@@ -3222,7 +3222,7 @@
           "probability": 0.039
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 575
         },
         {
@@ -3240,7 +3240,7 @@
       "cost": 18,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 595
         },
         {
@@ -3258,7 +3258,7 @@
       "cost": 18,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -3304,7 +3304,7 @@
           "probability": 0.933
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -3322,7 +3322,7 @@
       "cost": 18,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 615
         },
         {
@@ -3376,7 +3376,7 @@
           "probability": 0.14
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 715
         },
         {
@@ -3430,7 +3430,7 @@
           "probability": 0.917
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 745
         },
         {
@@ -3448,7 +3448,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -3494,7 +3494,7 @@
           "probability": 0.871
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 635
         },
         {
@@ -3528,7 +3528,7 @@
           "probability": 0.5
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 635
         },
         {
@@ -3558,7 +3558,7 @@
           "probability": 0.173
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 655
         },
         {
@@ -3596,7 +3596,7 @@
           "probability": 0.875
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 655
         },
         {
@@ -3638,7 +3638,7 @@
           "probability": 0.09
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 675
         },
         {
@@ -3668,7 +3668,7 @@
           "probability": 0.027
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 675
         },
         {
@@ -3706,7 +3706,7 @@
           "probability": 0.091
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 675
         },
         {
@@ -3748,7 +3748,7 @@
           "probability": 0.2
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 695
         },
         {
@@ -3782,7 +3782,7 @@
           "probability": 0.16
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 715
         },
         {
@@ -3836,7 +3836,7 @@
           "probability": 0.844
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 715
         },
         {
@@ -3878,7 +3878,7 @@
           "probability": 0.889
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -3920,7 +3920,7 @@
           "probability": 0.16
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -3938,7 +3938,7 @@
       "cost": 22,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 835
         },
         {
@@ -3980,7 +3980,7 @@
           "probability": 1.683
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 855
         },
         {
@@ -4010,7 +4010,7 @@
           "probability": 0.538
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -4044,7 +4044,7 @@
           "probability": 0.09
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -4062,7 +4062,7 @@
       "cost": 20,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -4104,7 +4104,7 @@
           "probability": 0.32
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -4142,7 +4142,7 @@
           "probability": 0.105
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -4180,7 +4180,7 @@
           "probability": 0.133
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -4214,7 +4214,7 @@
           "probability": 0.124
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -4248,7 +4248,7 @@
           "probability": 0.316
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -4278,7 +4278,7 @@
           "probability": 0.179
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -4312,7 +4312,7 @@
           "probability": 0.119
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -4350,7 +4350,7 @@
           "probability": 0.1
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -4392,7 +4392,7 @@
           "probability": 0.04
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -4434,7 +4434,7 @@
           "probability": 0.01
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -4472,7 +4472,7 @@
           "probability": 0.23
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -4498,7 +4498,7 @@
           "probability": 0.4
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -4532,7 +4532,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -4566,7 +4566,7 @@
           "probability": 0.28
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -4600,7 +4600,7 @@
           "probability": 0.085
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -4618,7 +4618,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -4636,7 +4636,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -4678,7 +4678,7 @@
           "probability": 0.3
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -4696,7 +4696,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -4738,7 +4738,7 @@
           "probability": 0.037
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -4784,7 +4784,7 @@
           "probability": 0.071
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -4822,7 +4822,7 @@
           "probability": 0.054
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -4840,7 +4840,7 @@
       "cost": 20,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -4858,7 +4858,7 @@
       "cost": 20,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -4896,7 +4896,7 @@
           "probability": 0.056
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -4926,7 +4926,7 @@
           "probability": 0.415
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -4960,7 +4960,7 @@
           "probability": 0.4
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -4994,7 +4994,7 @@
           "probability": 0.273
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -5040,7 +5040,7 @@
           "probability": 0.065
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -5078,7 +5078,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -5120,7 +5120,7 @@
           "probability": 0.03
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -5154,7 +5154,7 @@
           "probability": 0.25
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -5184,7 +5184,7 @@
           "probability": 0.033
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -5226,7 +5226,7 @@
           "probability": 0.215
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -5272,7 +5272,7 @@
           "probability": 0.196
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -5314,7 +5314,7 @@
           "probability": 0.133
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -5332,7 +5332,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -5374,7 +5374,7 @@
           "probability": 0.382
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -5392,7 +5392,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -5410,7 +5410,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -5460,7 +5460,7 @@
           "probability": 0.05
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -5478,7 +5478,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -5504,7 +5504,7 @@
           "probability": 0.403
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -5546,7 +5546,7 @@
           "probability": 0.039
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -5576,7 +5576,7 @@
           "probability": 0.36
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -5614,7 +5614,7 @@
           "probability": 0.28
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -5648,7 +5648,7 @@
           "probability": 0.214
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -5686,7 +5686,7 @@
           "probability": 0.04
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -5724,7 +5724,7 @@
           "probability": 0.068
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -5762,7 +5762,7 @@
           "probability": 0.053
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -5800,7 +5800,7 @@
           "probability": 0.177
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -5818,7 +5818,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -5852,7 +5852,7 @@
           "probability": 0.079
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -5890,7 +5890,7 @@
           "probability": 0.045
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -5924,7 +5924,7 @@
           "probability": 0.048
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -5962,7 +5962,7 @@
           "probability": 0.04
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -6000,7 +6000,7 @@
           "probability": 0.037
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -6038,7 +6038,7 @@
           "probability": 0.06
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -6076,7 +6076,7 @@
           "probability": 0.052
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -6114,7 +6114,7 @@
           "probability": 0.045
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -6156,7 +6156,7 @@
           "probability": 0.412
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -6198,7 +6198,7 @@
           "probability": 0.26
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -6232,7 +6232,7 @@
           "probability": 0.29
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -6258,7 +6258,7 @@
           "probability": 0.509
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -6304,7 +6304,7 @@
           "probability": 0.037
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -6342,7 +6342,7 @@
           "probability": 0.2
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -6376,7 +6376,7 @@
           "probability": 0.1
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -6422,7 +6422,7 @@
           "probability": 0.25
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -6456,7 +6456,7 @@
           "probability": 0.33
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -6486,7 +6486,7 @@
           "probability": 0.158
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -6520,7 +6520,7 @@
           "probability": 0.26
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -6558,7 +6558,7 @@
           "probability": 0.117
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -6588,7 +6588,7 @@
           "probability": 0.48
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -6630,7 +6630,7 @@
           "probability": 0.25
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -6672,7 +6672,7 @@
           "probability": 0.185
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -6714,7 +6714,7 @@
           "probability": 0.02
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -6732,7 +6732,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -6766,7 +6766,7 @@
           "probability": 0.05
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -6800,7 +6800,7 @@
           "probability": 0.1
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -6838,7 +6838,7 @@
           "probability": 0.225
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -6876,7 +6876,7 @@
           "probability": 0.5
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -6894,7 +6894,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -6940,7 +6940,7 @@
           "probability": 0.145
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -6978,7 +6978,7 @@
           "probability": 0.1
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -7020,7 +7020,7 @@
           "probability": 0.24
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -7054,7 +7054,7 @@
           "probability": 0.193
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -7072,7 +7072,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -7122,7 +7122,7 @@
           "probability": 0.25
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -7152,7 +7152,7 @@
           "probability": 0.46
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -7190,7 +7190,7 @@
           "probability": 0.164
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -7236,7 +7236,7 @@
           "probability": 0.13
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 735
         },
         {
@@ -7274,7 +7274,7 @@
           "probability": 0.19
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -7320,7 +7320,7 @@
           "probability": 0.056
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -7358,7 +7358,7 @@
           "probability": 0.146
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -7396,7 +7396,7 @@
           "probability": 0.05
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -7430,7 +7430,7 @@
           "probability": 0.054
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -7468,7 +7468,7 @@
           "probability": 0.062
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -7514,7 +7514,7 @@
           "probability": 0.062
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -7548,7 +7548,7 @@
           "probability": 0.385
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -7590,7 +7590,7 @@
           "probability": 0.045
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -7636,7 +7636,7 @@
           "probability": 0.03
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -7670,7 +7670,7 @@
           "probability": 0.108
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -7704,7 +7704,7 @@
           "probability": 0.06
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -7750,7 +7750,7 @@
           "probability": 0.065
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -7784,7 +7784,7 @@
           "probability": 0.55
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -7834,7 +7834,7 @@
           "probability": 0.02
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -7872,7 +7872,7 @@
           "probability": 0.055
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -7906,7 +7906,7 @@
           "probability": 0.154
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -7948,7 +7948,7 @@
           "probability": 0.02
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -7982,7 +7982,7 @@
           "probability": 0.196
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -8024,7 +8024,7 @@
           "probability": 0.316
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -8070,7 +8070,7 @@
           "probability": 0.105
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -8120,7 +8120,7 @@
           "probability": 0.04
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -8138,7 +8138,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -8180,7 +8180,7 @@
           "probability": 0.339
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -8222,7 +8222,7 @@
           "probability": 0.08
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -8264,7 +8264,7 @@
           "probability": 0.1
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -8314,7 +8314,7 @@
           "probability": 0.2
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -8332,7 +8332,7 @@
       "cost": 21,
       "itemDrops": [
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -8374,7 +8374,7 @@
           "probability": 0.045
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -8412,7 +8412,7 @@
           "probability": 0.154
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 765
         },
         {
@@ -8450,7 +8450,7 @@
           "probability": 0.252
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 765
         },
         {
@@ -8484,7 +8484,7 @@
           "probability": 0.058
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -8506,7 +8506,7 @@
           "probability": 0.226
         },
         {
-          "name": "火炎鬼灯",
+          "name": "鬼炎鬼灯",
           "probability": 0.032
         },
         {
@@ -8526,7 +8526,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -8568,7 +8568,7 @@
           "probability": 0.058
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 785
         },
         {
@@ -8598,7 +8598,7 @@
           "probability": 0.237
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -8640,7 +8640,7 @@
           "probability": 0.0
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -8666,7 +8666,7 @@
           "probability": 0.314
         },
         {
-          "name": "火炎鬼灯",
+          "name": "鬼炎鬼灯",
           "probability": 0.124
         },
         {
@@ -8678,7 +8678,7 @@
           "probability": 0.065
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -8716,7 +8716,7 @@
           "probability": 0.06
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 805
         },
         {
@@ -8742,7 +8742,7 @@
           "probability": 0.431
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 805
         },
         {
@@ -8760,7 +8760,7 @@
           "probability": 0.435
         },
         {
-          "name": "火炎鬼灯",
+          "name": "鬼炎鬼灯",
           "probability": 0.145
         },
         {
@@ -8776,7 +8776,7 @@
           "probability": 0.042
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -8798,7 +8798,7 @@
           "probability": 0.295
         },
         {
-          "name": "火炎鬼灯",
+          "name": "鬼炎鬼灯",
           "probability": 0.138
         },
         {
@@ -8818,7 +8818,7 @@
           "probability": 0.092
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -8872,7 +8872,7 @@
           "probability": 0.315
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -8910,7 +8910,7 @@
           "probability": 0.234
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -8960,7 +8960,7 @@
           "probability": 0.119
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 755
         },
         {
@@ -9010,7 +9010,7 @@
           "probability": 0.054
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -9052,7 +9052,7 @@
           "probability": 0.299
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -9094,7 +9094,7 @@
           "probability": 0.053
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 775
         },
         {
@@ -9144,7 +9144,7 @@
           "probability": 0.206
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -9182,7 +9182,7 @@
           "probability": 0.099
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -9228,7 +9228,7 @@
           "probability": 0.191
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 795
         },
         {
@@ -9262,7 +9262,7 @@
           "probability": 0.231
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 835
         },
         {
@@ -9304,7 +9304,7 @@
           "probability": 0.249
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 835
         },
         {
@@ -9366,7 +9366,7 @@
           "probability": 0.239
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -9428,7 +9428,7 @@
           "probability": 0.029
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -9490,7 +9490,7 @@
           "probability": 0.026
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 815
         },
         {
@@ -9532,7 +9532,7 @@
           "probability": 0.25
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 855
         },
         {
@@ -9574,7 +9574,7 @@
           "probability": 0.106
         },
         {
-          "name": "絆",
+          "name": "絆ポイント",
           "probability": 855
         },
         {
@@ -9783,7 +9783,7 @@
     },
     {
       "id": 49,
-      "name": "火炎鬼灯"
+      "name": "鬼炎鬼灯"
     },
     {
       "id": 50,
@@ -9983,7 +9983,7 @@
     },
     {
       "id": 99,
-      "name": "絆"
+      "name": "絆ポイント"
     },
     {
       "id": 100,
